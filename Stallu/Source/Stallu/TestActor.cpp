@@ -30,6 +30,10 @@ void ATestActor::Tick( float DeltaTime )
 
 void ATestActor::Tullfunskjon()
 {
+<<<<<<< HEAD
 	//Snow
+=======
+	//Is
+>>>>>>> master
 }
 
