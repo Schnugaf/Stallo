@@ -30,6 +30,6 @@ void ATestActor::Tick( float DeltaTime )
 
 void ATestActor::Tullfunskjon()
 {
-
+	//Snow
 }
 
