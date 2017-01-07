@@ -24,5 +24,7 @@ void ATestActor::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
 
+	//TODO Stuff
+
 }
 
