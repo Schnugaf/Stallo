@@ -3,12 +3,15 @@
 #include "Stallo.h"
 #include "Interator.h"
 
+#define OUT
+
 
 // Sets default values for this component's properties
 UInterator::UInterator()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
+	bWantsBeginPlay = true;
 	PrimaryComponentTick.bCanEverTick = true;
 
 	// ...
@@ -35,8 +38,8 @@ void  UInterator::FindInputComponment()
 	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
 	if (InputComponent)
 	{
-		InputComponent->BindAction("Grab", IE_Pressed, this, &UInterator::Grab);
-		InputComponent->BindAction("Grab", IE_Released, this, &UInterator::Release);
+		InputComponent->BindAction("Interact", IE_Pressed, this, &UInterator::Grab);
+		InputComponent->BindAction("Interact", IE_Released, this, &UInterator::Release);
 	}
 	else
 	{
