@@ -21,7 +21,7 @@ UInterator::UInterator()
 void UInterator::BeginPlay()
 {
 	Super::BeginPlay();
-	FindPhysicsComponment();
+	//FindPhysicsComponment();
 	FindInputComponment();
 }
 void UInterator::FindPhysicsComponment()
@@ -39,7 +39,7 @@ void  UInterator::FindInputComponment()
 	if (InputComponent)
 	{
 		InputComponent->BindAction("Interact", IE_Pressed, this, &UInterator::Grab);
-		InputComponent->BindAction("Interact", IE_Released, this, &UInterator::Release);
+		//InputComponent->BindAction("Interact", IE_Released, this, &UInterator::Release);
 	}
 	else
 	{
@@ -69,9 +69,9 @@ void UInterator::Grab()
 
 	if (ActorHit)
 	{
-		if (!PhysicsHandle) { return; }
-		PhysicsHandle->GrabComponent(ComponentToGrab, NAME_None, ComponentToGrab->GetOwner()->GetActorLocation(), true);
-		UE_LOG(LogTemp, Warning, TEXT("Grab"));
+		//if (!PhysicsHandle) { return; }
+		//PhysicsHandle->GrabComponent(ComponentToGrab, NAME_None, ComponentToGrab->GetOwner()->GetActorLocation(), true);
+		UE_LOG(LogTemp, Warning, TEXT("Grab %s"), *ComponentToGrab->GetOwner()->GetName());
 	}
 }
 void UInterator::Release()
@@ -82,7 +82,7 @@ void UInterator::Release()
 
 const FHitResult UInterator::GetFirstPhysicsBodyInReach()
 {
-	//DrawDebugLine(GetWorld(), GetReachLineStart(), GetReachLineEnd(), FColor(255, 0, 0), false, 0.f, 0, 10.f);
+	DrawDebugLine(GetWorld(), GetReachLineStart(), GetReachLineEnd(), FColor(255, 0, 0), false, 0.f, 0, 10.f);
 
 	FHitResult HitResult;
 	FCollisionQueryParams TraceParameters(FName(TEXT("")), false, GetOwner());
