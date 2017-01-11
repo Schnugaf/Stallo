@@ -5,7 +5,9 @@
 #include "GameFramework/Actor.h"
 #include "QuestGiverStone.generated.h"
 
-UCLASS()
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDoorEvent);
+
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class STALLO_API AQuestGiverStone : public AActor
 {
 	GENERATED_BODY()
@@ -21,5 +23,12 @@ public:
 	virtual void Tick( float DeltaSeconds ) override;
 
 	
-	
+
+
+	UPROPERTY(BlueprintAssignable)
+	FDoorEvent StoneActivatet;
+
+	UPROPERTY(BlueprintAssignable)
+	FDoorEvent OpClose;
+
 };

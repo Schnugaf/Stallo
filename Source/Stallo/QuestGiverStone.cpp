@@ -25,7 +25,10 @@ void AQuestGiverStone::Tick( float DeltaTime )
 	Super::Tick( DeltaTime );
 
 
-	
+	//if ()
+	//{
+	StoneActivatet.Broadcast();
+	//}
 
 }
 
