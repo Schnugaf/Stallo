@@ -5,7 +5,7 @@
 #include "GameFramework/Actor.h"
 #include "QuestGiverStone.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDoorEvent);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FStoneEvent);
 
 UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class STALLO_API AQuestGiverStone : public AActor
@@ -26,9 +26,9 @@ public:
 
 
 	UPROPERTY(BlueprintAssignable)
-	FDoorEvent StoneActivatet;
+	FStoneEvent StoneActivatet;
 
 	UPROPERTY(BlueprintAssignable)
-	FDoorEvent OpClose;
+	FStoneEvent OpClose;
 
 };
