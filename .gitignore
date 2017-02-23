@@ -64,3 +64,6 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Stallo.xcworkspace/contents.xcworkspacedata
+Stallo.xcworkspace/xcuserdata/onarheim.xcuserdatad/UserInterfaceState.xcuserstate
+Stallo.xcworkspace/xcuserdata/onarheim.xcuserdatad/WorkspaceSettings.xcsettings
