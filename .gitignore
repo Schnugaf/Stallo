@@ -50,6 +50,9 @@ Binaries/*
 # Builds
 Build/*
 
+#WWise plugin
+Plugins/WWise/*
+
 # Don't ignore icon files in Build
 !Build/**/*.ico
 
