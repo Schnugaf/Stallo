@@ -3,7 +3,15 @@
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}" PersistMode="Standalone">
 			<ChildrenList>
-				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<Bus Name="Unreal Project" ID="{CAB24F32-210C-46B2-9E59-BD9423899516}">
+							<ChildrenList>
+								<Bus Name="SFX" ID="{AF299EE6-B2FC-43A3-BCA8-F129720DE3C6}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
 			</ChildrenList>

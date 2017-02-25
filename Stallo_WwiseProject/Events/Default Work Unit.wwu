@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2B36080B-3EFD-4E93-BA55-639DF57AD34F}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{2B36080B-3EFD-4E93-BA55-639DF57AD34F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2B36080B-3EFD-4E93-BA55-639DF57AD34F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Open_Door" ID="{2621BA1A-42F9-447F-829F-ECD11B1FB039}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2C681990-C1B8-4AE6-90A3-EFF67F53CE16}" ShortID="125854997" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{21F29324-424F-4F1B-910D-D2D7DF8418B6}" Global="false">
+									<ObjectRef Name="381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2" ID="{3843EEE1-CAA6-4538-9120-6273093B6E95}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Ambience" ID="{EA210DFF-BCCF-43AD-ABEB-4625BB4DDB66}" ShortID="280817042">
+					<ChildrenList>
+						<Event Name="WindStart" ID="{D5DBDAED-00FB-4C1E-97F5-2A7035D0ADDA}">
+							<ChildrenList>
+								<Action Name="Play" ID="{EDFFC608-07A2-4EA9-9270-016217497819}" ShortID="854034707" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{265A2F36-92DE-4CB7-A424-8154C04B238D}" Global="false">
+											<ObjectRef Name="Wind_Loc" ID="{4C5315C2-2B38-42F1-A9B2-427A531D1586}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

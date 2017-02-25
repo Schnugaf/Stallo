@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2934549620	Open_Door			\Default Work Unit\Open_Door	
+	3414304297	WindStart			\Default Work Unit\Ambience\WindStart	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	673320787	windLoc			\Default Work Unit\windLoc	
+
+State	ID	Name	State Group			Notes
+	748895195	None	windLoc			
+	2730119150	Outdoors	windLoc			
+	4103860031	Indoors	windLoc			
+
+Effect plug-ins	ID	Name	Type				Notes
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	49387479	wind_Outdoors	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\wind_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\Wind_Loc\wind_Outdoors		5760064
+	259537959	381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\Door\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2		486320
+

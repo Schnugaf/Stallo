@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>D:\Stallo\Stallo_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Stallo\Stallo_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Stallo\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="297513980" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\WorldSFX</ObjectPath>
+			<ShortName>WorldSFX</ShortName>
+			<Path>WorldSFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Open_Door"/>
+				<Event Id="3414304297" Name="WindStart" ObjectPath="\Events\Default Work Unit\Ambience\WindStart"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="49387479" Language="SFX">
+					<ShortName>wind.wav</ShortName>
+					<Path>SFX\wind_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="259537959" Language="SFX">
+					<ShortName>381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2.wav</ShortName>
+					<Path>SFX\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

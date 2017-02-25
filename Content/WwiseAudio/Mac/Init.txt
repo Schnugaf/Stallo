@@ -1,0 +1,14 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	673320787	windLoc			\Default Work Unit\windLoc	
+
+State	ID	Name	State Group			Notes
+	748895195	None	windLoc			
+	2730119150	Outdoors	windLoc			
+	4103860031	Indoors	windLoc			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\Unreal Project\SFX	
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	3362109267	Unreal Project			\Default Work Unit\Master Audio Bus\Unreal Project	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+

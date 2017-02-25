@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{82CEA0EA-EA80-4D73-BC8C-7217A96E4218}" SchemaVersion="75">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{82CEA0EA-EA80-4D73-BC8C-7217A96E4218}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{82CEA0EA-EA80-4D73-BC8C-7217A96E4218}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="windLoc" ID="{3468BCCA-3249-4F2C-986C-5FFA206ED326}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{B3BFDB4A-880D-458F-8414-094A354863AD}"/>
+						<State Name="Indoors" ID="{89F9ED20-3B1A-4DBA-BD5C-2B51189D3B76}"/>
+						<State Name="Outdoors" ID="{87567F08-35B2-4BAA-B8F1-33E8B273BA44}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
