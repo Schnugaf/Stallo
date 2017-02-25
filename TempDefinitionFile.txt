@@ -1,2 +1,3 @@
 WorldSFX	"Open_Door"
 WorldSFX	"WindStart"
+WorldSFX	"DoorHowl"

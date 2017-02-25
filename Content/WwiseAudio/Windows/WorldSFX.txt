@@ -1,19 +1,26 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1338510799	DoorHowl			\Default Work Unit\Ambience\DoorHowl	
 	2934549620	Open_Door			\Default Work Unit\Open_Door	
 	3414304297	WindStart			\Default Work Unit\Ambience\WindStart	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	673320787	windLoc			\Default Work Unit\windLoc	
+	2756041832	DoorState			\Default Work Unit\DoorState	
 
 State	ID	Name	State Group			Notes
 	748895195	None	windLoc			
 	2730119150	Outdoors	windLoc			
 	4103860031	Indoors	windLoc			
+	748895195	None	DoorState			
+	3012222945	Closed	DoorState			
+	3072142513	Open	DoorState			
 
 Effect plug-ins	ID	Name	Type				Notes
 	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	15391426	Open_DoorHowl	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\217186__bosk1__wind-at-door-howling-4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\FrontDoorHowl\DoorState\Open_DoorHowl		20329276
 	49387479	wind_Outdoors	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\wind_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\Wind_Loc\wind_Outdoors		5760064
-	259537959	381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\Door\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2		486320
+	259537959	Open_Door	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\FrontDoor\Open_Door		486320
+	355182275	Closed_DoorHowl	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\331892__squashy555__wind-whistling-spooky-haunted-howling_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\FrontDoorHowl\DoorState\Closed_DoorHowl		8390368
 

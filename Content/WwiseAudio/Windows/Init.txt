@@ -1,10 +1,14 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	673320787	windLoc			\Default Work Unit\windLoc	
+	2756041832	DoorState			\Default Work Unit\DoorState	
 
 State	ID	Name	State Group			Notes
 	748895195	None	windLoc			
 	2730119150	Outdoors	windLoc			
 	4103860031	Indoors	windLoc			
+	748895195	None	DoorState			
+	3012222945	Closed	DoorState			
+	3072142513	Open	DoorState			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\Unreal Project\SFX	

@@ -8,7 +8,7 @@
 						<Action Name="Play" ID="{2C681990-C1B8-4AE6-90A3-EFF67F53CE16}" ShortID="125854997" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{21F29324-424F-4F1B-910D-D2D7DF8418B6}" Global="false">
-									<ObjectRef Name="381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2" ID="{3843EEE1-CAA6-4538-9120-6273093B6E95}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+									<ObjectRef Name="Open_Door" ID="{3843EEE1-CAA6-4538-9120-6273093B6E95}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -22,6 +22,17 @@
 									<ElementList>
 										<Element ID="{265A2F36-92DE-4CB7-A424-8154C04B238D}" Global="false">
 											<ObjectRef Name="Wind_Loc" ID="{4C5315C2-2B38-42F1-A9B2-427A531D1586}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DoorHowl" ID="{DFB74076-5FF1-4538-A08B-ABBD61B616F3}">
+							<ChildrenList>
+								<Action Name="Play" ID="{6E1B7C77-3438-4B97-9F76-3B3D4467F5F8}" ShortID="798439158" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{405CFB9B-4051-499C-BCA4-9EC805BC7FB7}" Global="false">
+											<ObjectRef Name="DoorState" ID="{8B904813-0BEA-4918-91A2-BB8178C682B1}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>

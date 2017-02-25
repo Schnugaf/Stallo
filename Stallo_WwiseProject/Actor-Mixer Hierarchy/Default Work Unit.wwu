@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Folder Name="WorldSFX" ID="{A55AE654-92CF-4B3C-8F62-159B3548EC51}" ShortID="252162907">
 					<ChildrenList>
-						<ActorMixer Name="Door" ID="{F7401BC1-9EC5-431F-AF71-5EF1AC410956}" ShortID="457248792">
+						<ActorMixer Name="FrontDoor" ID="{F7401BC1-9EC5-431F-AF71-5EF1AC410956}" ShortID="457248792">
 							<PropertyList>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
@@ -21,7 +21,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2" ID="{3843EEE1-CAA6-4538-9120-6273093B6E95}" ShortID="546065975" Type="SoundFX">
+								<Sound Name="Open_Door" ID="{3843EEE1-CAA6-4538-9120-6273093B6E95}" ShortID="546065975" Type="SoundFX">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
@@ -40,6 +40,140 @@
 										<ActiveSource Name="381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2" ID="{87699DC9-694A-43A7-A405-C67345B1B19D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="FrontDoorHowl" ID="{04DDB685-0517-4964-BCDE-87269DF026E6}" ShortID="801266490">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DoorTest" ID="{3792E32D-A683-46FC-896D-02BE2FB67222}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="DoorState" ID="{8B904813-0BEA-4918-91A2-BB8178C682B1}" ShortID="775190131">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="DoorTest" ID="{3792E32D-A683-46FC-896D-02BE2FB67222}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{AF299EE6-B2FC-43A3-BCA8-F129720DE3C6}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Closed_DoorHowl" ID="{1DE1FCB5-62E4-4F09-8AEF-77B30EFF5AA9}" ShortID="258208233" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="331892__squashy555__wind-whistling-spooky-haunted-howling" ID="{6BB8F5A3-E9C1-4D93-8AE5-BD8FBE0E79D2}" ShortID="355182275">
+													<Language>SFX</Language>
+													<AudioFile>331892__squashy555__wind-whistling-spooky-haunted-howling.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="331892__squashy555__wind-whistling-spooky-haunted-howling" ID="{6BB8F5A3-E9C1-4D93-8AE5-BD8FBE0E79D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Open_DoorHowl" ID="{4BB737C1-3779-4EEC-9B22-6275B6635F3B}" ShortID="416596509" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="217186__bosk1__wind-at-door-howling-4" ID="{9398C928-C4B4-4853-8FDA-06C36015ABA9}" ShortID="15391426">
+													<Language>SFX</Language>
+													<AudioFile>217186__bosk1__wind-at-door-howling-4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="217186__bosk1__wind-at-door-howling-4" ID="{9398C928-C4B4-4853-8FDA-06C36015ABA9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="DoorState" ID="{D99B5600-019C-47E9-AAC2-B2C8610822E0}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+									</StateInfo>
+									<GroupingInfo>
+										<GroupRef Name="DoorState" ID="{D99B5600-019C-47E9-AAC2-B2C8610822E0}"/>
+										<DefaultSwitchRef Name="Closed" ID="{C4564635-FCCF-4755-A794-56390937BB87}"/>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Closed_DoorHowl" ID="{1DE1FCB5-62E4-4F09-8AEF-77B30EFF5AA9}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>2</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>2</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Open_DoorHowl" ID="{4BB737C1-3779-4EEC-9B22-6275B6635F3B}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>2</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>2</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Closed" ID="{C4564635-FCCF-4755-A794-56390937BB87}"/>
+												<ItemList>
+													<ItemRef Name="Closed_DoorHowl" ID="{1DE1FCB5-62E4-4F09-8AEF-77B30EFF5AA9}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Open" ID="{80392642-B75F-4BB2-AEE6-27A78434328D}"/>
+												<ItemList>
+													<ItemRef Name="Open_DoorHowl" ID="{4BB737C1-3779-4EEC-9B22-6275B6635F3B}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

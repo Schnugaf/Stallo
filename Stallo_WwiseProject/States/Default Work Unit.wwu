@@ -13,6 +13,13 @@
 						<State Name="Outdoors" ID="{87567F08-35B2-4BAA-B8F1-33E8B273BA44}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="DoorState" ID="{D99B5600-019C-47E9-AAC2-B2C8610822E0}">
+					<ChildrenList>
+						<State Name="None" ID="{F33AE317-97DF-4FD7-B836-65C400677B9F}"/>
+						<State Name="Open" ID="{80392642-B75F-4BB2-AEE6-27A78434328D}"/>
+						<State Name="Closed" ID="{C4564635-FCCF-4755-A794-56390937BB87}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
