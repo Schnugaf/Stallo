@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2B36080B-3EFD-4E93-BA55-639DF57AD34F}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{2B36080B-3EFD-4E93-BA55-639DF57AD34F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2B36080B-3EFD-4E93-BA55-639DF57AD34F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="DoorOpen" ID="{0A267B15-7D79-476A-B17A-6983EEA64451}">
+					<ChildrenList>
+						<Action Name="Play" ID="{26E660E6-9EDD-4EA0-96C0-FB425FFB6652}" ShortID="40579160" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{912F3253-DDF3-41B3-AD1E-C0677C7D429C}" Global="false">
+									<ObjectRef Name="Door squeak" ID="{B2FADB61-CE03-4C08-A237-0B5F645B1DBF}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{15174707-01D1-4428-AEAD-624502BBF931}" SchemaVersion="75">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{15174707-01D1-4428-AEAD-624502BBF931}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{15174707-01D1-4428-AEAD-624502BBF931}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Door" ID="{E49CD627-EECC-4BEE-B5D7-9ACA20189DDA}" ShortID="455722355">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="RangeOfDoors" ID="{115EA8B9-8C2A-41A5-80E1-BE386CD6C065}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Door squeak" ID="{B2FADB61-CE03-4C08-A237-0B5F645B1DBF}" ShortID="370461483" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door squeak" ID="{6C45B787-F584-4177-9E7A-B05CFE111C7D}" ShortID="554264812">
+									<Language>SFX</Language>
+									<AudioFile>Door squeak.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Door squeak" ID="{6C45B787-F584-4177-9E7A-B05CFE111C7D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
