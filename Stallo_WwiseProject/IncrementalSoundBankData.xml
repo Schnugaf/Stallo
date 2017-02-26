@@ -3,28 +3,28 @@
 	<Platform GUID="{B52C0803-D22F-4703-B312-8EE080D9EE53}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Init" Hash="554595943" Timestamp="131325057484130577"/>
+				<File Name="Init" Hash="1487199413" Timestamp="131325956812684439"/>
 				<File Name="TEst2" Hash="3712047672" Timestamp="131324993676447473"/>
-				<File Name="WorldSFX" Hash="3889560776" Timestamp="131325064264956983"/>
+				<File Name="WorldSFX" Hash="2677106730" Timestamp="131325956812659424"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3934551923" Timestamp="131325064265026910"/>
+				<File Name="" Hash="2145904862" Timestamp="131325956812694480"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{D99C0536-A762-493B-A753-44E84FFA1F20}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Init" Hash="2042246177" Timestamp="131325057485102259"/>
+				<File Name="Init" Hash="2738487247" Timestamp="131325956813962969"/>
 				<File Name="TEst2" Hash="3712047672" Timestamp="131324993676990860"/>
-				<File Name="WorldSFX" Hash="3889560776" Timestamp="131325064266094093"/>
+				<File Name="WorldSFX" Hash="2677106730" Timestamp="131325956813931827"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="760964129" Timestamp="131325064266164216"/>
+				<File Name="" Hash="1628327080" Timestamp="131325956813972978"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

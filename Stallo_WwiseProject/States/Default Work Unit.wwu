@@ -20,6 +20,24 @@
 						<State Name="Closed" ID="{C4564635-FCCF-4755-A794-56390937BB87}"/>
 					</ChildrenList>
 				</StateGroup>
+				<Folder Name="Character" ID="{CC29D5B7-6A9B-4739-A3D9-045F68A5C859}" ShortID="651673806">
+					<ChildrenList>
+						<StateGroup Name="FootMat" ID="{A53E0395-E5AE-41F5-94D1-45E79D8EAEE3}">
+							<ChildrenList>
+								<State Name="None" ID="{68391CC4-323A-4356-8636-DE3968F8C896}"/>
+								<State Name="Wood" ID="{EE8B1A84-FF4B-4B74-A427-F203150CAFE3}"/>
+								<State Name="Snow" ID="{0218A78A-7FBA-43FC-AC3B-5A7E8EFBCD76}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Breathing" ID="{83D6160F-8148-41D6-BE8C-58E8C9EA3C06}">
+							<ChildrenList>
+								<State Name="None" ID="{6A84EAA2-C657-43B7-BC02-EF953430B469}"/>
+								<State Name="Outside" ID="{7DFA279A-6F25-4094-B146-8577A7F7C287}"/>
+								<State Name="Inside" ID="{B2B3AD39-DA45-4D07-B8F1-FB388E459722}"/>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
