@@ -3,23 +3,662 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{15174707-01D1-4428-AEAD-624502BBF931}" PersistMode="Standalone">
 			<ChildrenList>
-				<ActorMixer Name="Door" ID="{E49CD627-EECC-4BEE-B5D7-9ACA20189DDA}" ShortID="455722355">
-					<PropertyList>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="RangeOfDoors" ID="{115EA8B9-8C2A-41A5-80E1-BE386CD6C065}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="WorldSFX" ID="{A55AE654-92CF-4B3C-8F62-159B3548EC51}" ShortID="252162907">
 					<ChildrenList>
-						<Sound Name="Door squeak" ID="{B2FADB61-CE03-4C08-A237-0B5F645B1DBF}" ShortID="370461483" Type="SoundFX">
+						<ActorMixer Name="FrontDoor" ID="{F7401BC1-9EC5-431F-AF71-5EF1AC410956}" ShortID="457248792">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DoorTest" ID="{3792E32D-A683-46FC-896D-02BE2FB67222}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{AF299EE6-B2FC-43A3-BCA8-F129720DE3C6}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Open_Door" ID="{3843EEE1-CAA6-4538-9120-6273093B6E95}" ShortID="546065975" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2" ID="{87699DC9-694A-43A7-A405-C67345B1B19D}" ShortID="259537959">
+											<Language>SFX</Language>
+											<AudioFile>381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2" ID="{87699DC9-694A-43A7-A405-C67345B1B19D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="FrontDoorHowl" ID="{04DDB685-0517-4964-BCDE-87269DF026E6}" ShortID="801266490">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DoorTest" ID="{3792E32D-A683-46FC-896D-02BE2FB67222}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="DoorState" ID="{8B904813-0BEA-4918-91A2-BB8178C682B1}" ShortID="775190131">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="DoorTest" ID="{3792E32D-A683-46FC-896D-02BE2FB67222}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{AF299EE6-B2FC-43A3-BCA8-F129720DE3C6}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Closed_DoorHowl" ID="{1DE1FCB5-62E4-4F09-8AEF-77B30EFF5AA9}" ShortID="258208233" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="331892__squashy555__wind-whistling-spooky-haunted-howling" ID="{6BB8F5A3-E9C1-4D93-8AE5-BD8FBE0E79D2}" ShortID="355182275">
+													<Language>SFX</Language>
+													<AudioFile>331892__squashy555__wind-whistling-spooky-haunted-howling.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="331892__squashy555__wind-whistling-spooky-haunted-howling" ID="{6BB8F5A3-E9C1-4D93-8AE5-BD8FBE0E79D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Open_DoorHowl" ID="{4BB737C1-3779-4EEC-9B22-6275B6635F3B}" ShortID="416596509" Type="SoundFX">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="217186__bosk1__wind-at-door-howling-4" ID="{9398C928-C4B4-4853-8FDA-06C36015ABA9}" ShortID="15391426">
+													<Language>SFX</Language>
+													<AudioFile>217186__bosk1__wind-at-door-howling-4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="217186__bosk1__wind-at-door-howling-4" ID="{9398C928-C4B4-4853-8FDA-06C36015ABA9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="DoorState" ID="{D99B5600-019C-47E9-AAC2-B2C8610822E0}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+									</StateInfo>
+									<GroupingInfo>
+										<GroupRef Name="DoorState" ID="{D99B5600-019C-47E9-AAC2-B2C8610822E0}"/>
+										<DefaultSwitchRef Name="Closed" ID="{C4564635-FCCF-4755-A794-56390937BB87}"/>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Closed_DoorHowl" ID="{1DE1FCB5-62E4-4F09-8AEF-77B30EFF5AA9}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>2</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>2</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Open_DoorHowl" ID="{4BB737C1-3779-4EEC-9B22-6275B6635F3B}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>2</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>2</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Closed" ID="{C4564635-FCCF-4755-A794-56390937BB87}"/>
+												<ItemList>
+													<ItemRef Name="Closed_DoorHowl" ID="{1DE1FCB5-62E4-4F09-8AEF-77B30EFF5AA9}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Open" ID="{80392642-B75F-4BB2-AEE6-27A78434328D}"/>
+												<ItemList>
+													<ItemRef Name="Open_DoorHowl" ID="{4BB737C1-3779-4EEC-9B22-6275B6635F3B}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="MirrorFrame" ID="{6EC4266C-2490-4838-945D-7B2F36FD119F}" ShortID="59042314">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DoorTest" ID="{3792E32D-A683-46FC-896D-02BE2FB67222}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
+										<Effect Name="Low_Pass_20KHz (Custom)" ID="{C69158D3-9675-49B9-B087-53E1EC96E5DF}" ShortID="160640200" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+												<Property Name="FilterTypeBand2" Type="int32" Value="2"/>
+												<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+												<Property Name="FrequencyBand1" Type="Real32" Value="600"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="600"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="500"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Foley Movement Wood Slide On Wood Short 01" ID="{69F198DC-8156-4A80-A8E6-4A396CF6E9CD}" ShortID="360304578" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
+												<Effect Name="Low_Pass_20KHz (Custom)" ID="{666A0C87-34B9-43DA-8901-FAB6A9532DC8}" ShortID="787994648" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+														<Property Name="FilterTypeBand2" Type="int32" Value="2"/>
+														<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+														<Property Name="FrequencyBand1" Type="Real32" Value="892"/>
+														<Property Name="FrequencyBand2" Type="Real32" Value="907"/>
+														<Property Name="FrequencyBand3" Type="Real32" Value="404"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Foley Movement Wood Slide On Wood Short 01" ID="{DE1600C7-B40E-4268-AA32-44C9EBC33D15}" ShortID="341799809">
+											<Language>SFX</Language>
+											<AudioFile>Foley Movement Wood Slide On Wood Short 01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Foley Movement Wood Slide On Wood Short 01" ID="{DE1600C7-B40E-4268-AA32-44C9EBC33D15}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambience" ID="{A0D65A8A-C618-4DBC-8510-E1AA92B8096F}" ShortID="252920625">
+					<ChildrenList>
+						<ActorMixer Name="Wind" ID="{D9742F87-C023-4827-800C-616F8D72107D}" ShortID="335235550">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{AF299EE6-B2FC-43A3-BCA8-F129720DE3C6}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="Wind_Loc" ID="{4C5315C2-2B38-42F1-A9B2-427A531D1586}" ShortID="1018228942">
+									<PropertyList>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{AF299EE6-B2FC-43A3-BCA8-F129720DE3C6}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="wind_Outdoors" ID="{3E16C9DB-E936-44AD-A5A4-3398403A6210}" ShortID="968761070" Type="SoundFX">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="wind" ID="{A4C2361F-7BA4-43B7-B7BD-CAACCDC25CDA}" ShortID="49387479">
+													<Language>SFX</Language>
+													<AudioFile>wind.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="wind" ID="{A4C2361F-7BA4-43B7-B7BD-CAACCDC25CDA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="wind_indoors" ID="{C28DB835-9FE9-49AB-8280-FA3AF2873EFD}" ShortID="147751213" Type="SoundFX">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
+														<Effect Name="Low_Pass_20KHz (Custom)" ID="{310B13D4-AF9C-4403-B87E-2173A6BCCA96}" ShortID="659840901" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+															<PropertyList>
+																<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+																<Property Name="FilterTypeBand2" Type="int32" Value="2"/>
+																<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+																<Property Name="FrequencyBand1" Type="Real32" Value="548"/>
+																<Property Name="FrequencyBand2" Type="Real32" Value="333"/>
+																<Property Name="FrequencyBand3" Type="Real32" Value="476"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="wind" ID="{AF88AF59-538F-4A3F-B16A-9112F17F8881}" ShortID="630260196">
+													<Language>SFX</Language>
+													<AudioFile>wind.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="49387479"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="wind" ID="{AF88AF59-538F-4A3F-B16A-9112F17F8881}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="windLoc" ID="{3468BCCA-3249-4F2C-986C-5FFA206ED326}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+									</StateInfo>
+									<GroupingInfo>
+										<GroupRef Name="windLoc" ID="{3468BCCA-3249-4F2C-986C-5FFA206ED326}"/>
+										<DefaultSwitchRef Name="Indoors" ID="{89F9ED20-3B1A-4DBA-BD5C-2B51189D3B76}"/>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="wind_indoors" ID="{C28DB835-9FE9-49AB-8280-FA3AF2873EFD}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="wind_Outdoors" ID="{3E16C9DB-E936-44AD-A5A4-3398403A6210}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Outdoors" ID="{87567F08-35B2-4BAA-B8F1-33E8B273BA44}"/>
+												<ItemList>
+													<ItemRef Name="wind_Outdoors" ID="{3E16C9DB-E936-44AD-A5A4-3398403A6210}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Indoors" ID="{89F9ED20-3B1A-4DBA-BD5C-2B51189D3B76}"/>
+												<ItemList>
+													<ItemRef Name="wind_indoors" ID="{C28DB835-9FE9-49AB-8280-FA3AF2873EFD}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Character" ID="{32446660-40A1-4766-8420-1D4DADBB7391}" ShortID="527874416">
+					<ChildrenList>
+						<SwitchContainer Name="Footsteps" ID="{87E45D36-BFD8-4849-8542-82D3078A3796}" ShortID="966499073">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DoorTest" ID="{3792E32D-A683-46FC-896D-02BE2FB67222}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Snow" ID="{644CB767-8748-4FA9-90FC-0C34129B512E}" ShortID="22601607">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CF0781A9-7BA4-4911-ADA9-E0872593C50A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="snow1" ID="{CBF09B04-3429-4389-9B19-510F71BCDDF6}" ShortID="164797453" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="snow1" ID="{09265920-4AA1-453B-AA81-7C09A884ABFF}" ShortID="564635908">
+													<Language>SFX</Language>
+													<AudioFile>snow1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="snow1" ID="{09265920-4AA1-453B-AA81-7C09A884ABFF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="snow2" ID="{D27EA199-DBEA-472F-9720-79F9557C4BCE}" ShortID="848556380" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="snow2" ID="{84F597E2-DD70-441A-8941-860A51F236D4}" ShortID="775870315">
+													<Language>SFX</Language>
+													<AudioFile>snow2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="snow2" ID="{84F597E2-DD70-441A-8941-860A51F236D4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Wood" ID="{2B6C095B-2118-473F-9566-4FA30F9E82F6}" ShortID="726898807">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9244B283-951B-4D9E-8801-902E63A930F4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="woodsteps1" ID="{407DF819-D98B-4365-B618-92ADDB96D28D}" ShortID="373485994" Type="SoundFX">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F82575F8-EB76-49A4-B463-F8FE744E7FB6}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="300"/>
+																	<Property Name="Min" Type="Real64" Value="-300"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="woodsteps1" ID="{08FE00D8-494F-4912-8207-9E0D5CC0D13F}" ShortID="739213325">
+													<Language>SFX</Language>
+													<AudioFile>woodsteps1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="woodsteps1" ID="{08FE00D8-494F-4912-8207-9E0D5CC0D13F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="woodsteps2" ID="{50F1089B-32D8-464F-A5A7-814472F86086}" ShortID="206223783" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="woodsteps2" ID="{D0802732-A1ED-4908-97C9-2158C7FDF365}" ShortID="907007178">
+													<Language>SFX</Language>
+													<AudioFile>woodsteps2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="woodsteps2" ID="{D0802732-A1ED-4908-97C9-2158C7FDF365}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="woodsteps3" ID="{EDF023BF-7A5B-494D-8784-3256D85382F6}" ShortID="135140336" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="woodsteps3" ID="{7EA52070-7836-4E59-BC9F-E7EEF4DB45F0}" ShortID="837046008">
+													<Language>SFX</Language>
+													<AudioFile>woodsteps3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="woodsteps3" ID="{7EA52070-7836-4E59-BC9F-E7EEF4DB45F0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="woodsteps4" ID="{FDA74E84-23FD-42A6-B3C4-2059C97A8CB9}" ShortID="556286831" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="woodsteps4" ID="{C85A5868-3BCB-4A86-94F9-5008F75037E4}" ShortID="550729221">
+													<Language>SFX</Language>
+													<AudioFile>woodsteps4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="woodsteps4" ID="{C85A5868-3BCB-4A86-94F9-5008F75037E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="FootMat" ID="{A53E0395-E5AE-41F5-94D1-45E79D8EAEE3}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+							</StateInfo>
+							<GroupingInfo>
+								<GroupRef Name="FootMat" ID="{A53E0395-E5AE-41F5-94D1-45E79D8EAEE3}"/>
+								<DefaultSwitchRef Name="Wood" ID="{EE8B1A84-FF4B-4B74-A427-F203150CAFE3}"/>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Wood" ID="{2B6C095B-2118-473F-9566-4FA30F9E82F6}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Snow" ID="{644CB767-8748-4FA9-90FC-0C34129B512E}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{EE8B1A84-FF4B-4B74-A427-F203150CAFE3}"/>
+										<ItemList>
+											<ItemRef Name="Wood" ID="{2B6C095B-2118-473F-9566-4FA30F9E82F6}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Snow" ID="{0218A78A-7FBA-43FC-AC3B-5A7E8EFBCD76}"/>
+										<ItemList>
+											<ItemRef Name="Snow" ID="{644CB767-8748-4FA9-90FC-0C34129B512E}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Breathing" ID="{233FBB8A-3E93-4597-9C79-6F745DE98A25}" ShortID="662778122">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
@@ -29,17 +668,119 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Door squeak" ID="{6C45B787-F584-4177-9E7A-B05CFE111C7D}" ShortID="554264812">
-									<Language>SFX</Language>
-									<AudioFile>Door squeak.wav</AudioFile>
-								</AudioFileSource>
+								<Sound Name="outside breathing" ID="{3F37B47F-AEC3-433C-89AC-DEE1BD58ACBF}" ShortID="34218908" Type="SoundFX">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="outside breathing" ID="{C9FF441A-C097-4DEF-9EA9-04C211D7E223}" ShortID="242060973">
+											<Language>SFX</Language>
+											<AudioFile>outside breathing.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="outside breathing" ID="{C9FF441A-C097-4DEF-9EA9-04C211D7E223}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Door squeak" ID="{6C45B787-F584-4177-9E7A-B05CFE111C7D}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+							<GroupingInfo>
+								<GroupRef Name="Breathing" ID="{83D6160F-8148-41D6-BE8C-58E8C9EA3C06}"/>
+								<DefaultSwitchRef Name="Outside" ID="{7DFA279A-6F25-4094-B146-8577A7F7C287}"/>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="outside breathing" ID="{3F37B47F-AEC3-433C-89AC-DEE1BD58ACBF}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Outside" ID="{7DFA279A-6F25-4094-B146-8577A7F7C287}"/>
+										<ItemList>
+											<ItemRef Name="outside breathing" ID="{3F37B47F-AEC3-433C-89AC-DEE1BD58ACBF}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<Folder Name="Voice" ID="{7D02FC9A-659F-437E-BDFA-05ACD9403842}" ShortID="751196597">
+							<ChildrenList>
+								<ActorMixer Name="Dying" ID="{ECE9AE68-7D65-4854-AF6E-CD9513BD7A08}" ShortID="656247944">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="326890__11linda__dying-gasps" ID="{90CAF7F1-FC48-45A0-AB5C-7D2B85F4C4F0}" ShortID="213055966" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="326890__11linda__dying-gasps" ID="{F299C0D5-5326-4756-9A8E-7B175948A56D}" ShortID="804504558">
+													<Language>SFX</Language>
+													<AudioFile>326890__11linda__dying-gasps.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="326890__11linda__dying-gasps" ID="{F299C0D5-5326-4756-9A8E-7B175948A56D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{AD4526E7-9F95-41B8-999B-89BE7DB0D210}"/>
+									</PositioningInfo>
+								</ActorMixer>
+								<ActorMixer Name="Screaming" ID="{C06EA33D-FBBA-4F90-95F9-5A5FAA7D0387}" ShortID="820306678">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="261419__archeos__womanscream" ID="{B23C945C-D19D-45CA-94AD-E78166DDBCCC}" ShortID="290309323" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="261419__archeos__womanscream" ID="{DE3CF14C-DEC0-4052-9C20-65302C517D7F}" ShortID="114601963">
+													<Language>SFX</Language>
+													<AudioFile>261419__archeos__womanscream.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="261419__archeos__womanscream" ID="{DE3CF14C-DEC0-4052-9C20-65302C517D7F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
-				</ActorMixer>
+				</Folder>
+				<Folder Name="Stallo" ID="{F4F5D340-1534-46B5-B428-FE862946D74B}" ShortID="392987282"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

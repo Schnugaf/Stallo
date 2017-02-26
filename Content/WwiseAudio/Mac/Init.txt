@@ -1,0 +1,26 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	238653005	Breathing			\Default Work Unit\Character\Breathing	
+	673320787	windLoc			\Default Work Unit\windLoc	
+	2756041832	DoorState			\Default Work Unit\DoorState	
+	3553155257	FootMat			\Default Work Unit\Character\FootMat	
+
+State	ID	Name	State Group			Notes
+	438105790	Outside	Breathing			
+	748895195	None	Breathing			
+	3553349781	Inside	Breathing			
+	748895195	None	windLoc			
+	2730119150	Outdoors	windLoc			
+	4103860031	Indoors	windLoc			
+	748895195	None	DoorState			
+	3012222945	Closed	DoorState			
+	3072142513	Open	DoorState			
+	748895195	None	FootMat			
+	787898836	Snow	FootMat			
+	2058049674	Wood	FootMat			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\Unreal Project\SFX	
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	3362109267	Unreal Project			\Default Work Unit\Master Audio Bus\Unreal Project	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
