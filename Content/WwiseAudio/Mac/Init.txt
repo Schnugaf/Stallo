@@ -18,6 +18,9 @@ State	ID	Name	State Group			Notes
 	787898836	Snow	FootMat			
 	2058049674	Wood	FootMat			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1881682307	DyingTime			\Default Work Unit\DyingTime	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\Unreal Project\SFX	
 	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	

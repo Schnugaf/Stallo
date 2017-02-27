@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>D:\Github\Stallo\Stallo_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Github\Stallo\Stallo_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Github\Stallo\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Skole\Pilot\Stallo\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Github\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -23,6 +23,7 @@
 				<Event Id="477783203" Name="MirrorFrame" ObjectPath="\Events\Default Work Unit\MirrorFrame"/>
 				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Open_Door"/>
 				<Event Id="2036047442" Name="Screaming" ObjectPath="\Events\Default Work Unit\Character\Voice\Screaming"/>
+				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\StopAll"/>
 				<Event Id="3414304297" Name="WindStart" ObjectPath="\Events\Default Work Unit\Ambience\WindStart"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
