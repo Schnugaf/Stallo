@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="Project" SchemaVersion="75" WwiseVersion="v2016.2.1" WwiseBuild="5995">
+<WwiseDocument Type="Project" SchemaVersion="75" WwiseVersion="v2016.2.2" WwiseBuild="6022">
 	<ProjectInfo>
 		<Project Name="Stallo_WwiseProject" ID="{FC688DD3-52F6-4AFF-B32E-67EF8120409C}">
 			<Platforms>
@@ -18,6 +18,12 @@
 					<ValueList>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
+					<ValueList>
+						<Value Platform="Mac">256</Value>
+						<Value Platform="Windows">256</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
@@ -51,8 +57,18 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="VolumeThreshold" Type="Real64">
+					<ValueList>
+						<Value Platform="Mac">-80</Value>
+						<Value Platform="Windows">-80</Value>
+					</ValueList>
+				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2016.2|Build=5995|VersionName=v2016.2.1|Config=Release"/>
 			</PropertyList>
+			<MiscSettings>
+				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Originals"><![CDATA[Originals]]></MiscSettingEntry>
+			</MiscSettings>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioSource" PluginType="0" CompanyID="1" PluginID="0">
 					<PropertyList>
@@ -8474,7 +8490,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="127">
 					<PropertyList>
 						<Property Name="AlgoTypeSelect" Type="int32">
 							<ValueList>
@@ -9214,7 +9230,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Microsoft HRTF" PluginType="3" CompanyID="0" PluginID="170">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="170">
 					<PropertyList>
 						<Property Name="Inclusion" Type="bool">
 							<ValueList>
@@ -9400,7 +9416,7 @@
 					</PropertyList>
 				</SharedPropertyList>
 				<SharedPropertyList ClassName="Controller" PluginType="4" CompanyID="0" PluginID="406"/>
-				<SharedPropertyList ClassName="CrankcaseAudio REV" PluginType="2" CompanyID="261" PluginID="416">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="261" PluginID="416">
 					<PropertyList>
 						<Property Name="EnableShifting" Type="int32">
 							<ValueList>
@@ -9439,7 +9455,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="EngineSimulationControlData" PluginType="0" CompanyID="261" PluginID="417">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="417">
 					<PropertyList>
 						<Property Name="ClutchRPMMergeTime" Type="Real32">
 							<ValueList>
@@ -9523,7 +9539,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="AccelDecelModelControlData" PluginType="0" CompanyID="261" PluginID="418">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="418">
 					<PropertyList>
 						<Property Name="AccelVolume_Off" Type="Real32">
 							<ValueList>
@@ -9960,10 +9976,11 @@
 										<XPos>0</XPos>
 										<YPos>0</YPos>
 										<Flags>5</Flags>
+										<SegmentShape>Exp3</SegmentShape>
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-200</YPos>
+										<YPos>-18.26945</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -9981,10 +9998,11 @@
 										<XPos>0</XPos>
 										<YPos>0</YPos>
 										<Flags>5</Flags>
+										<SegmentShape>Exp3</SegmentShape>
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>100</YPos>
+										<YPos>59.84252</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -10023,10 +10041,11 @@
 										<XPos>0</XPos>
 										<YPos>0</YPos>
 										<Flags>5</Flags>
+										<SegmentShape>Exp3</SegmentShape>
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-200</YPos>
+										<YPos>-8.63411</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -10044,10 +10063,11 @@
 										<XPos>0</XPos>
 										<YPos>0</YPos>
 										<Flags>5</Flags>
+										<SegmentShape>Exp3</SegmentShape>
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>100</YPos>
+										<YPos>39.76378</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
