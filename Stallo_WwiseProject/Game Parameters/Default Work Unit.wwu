@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<GameParameter Name="Location" ID="{104D7249-5F55-4ED6-824C-DED553EFE597}"/>
 				<GameParameter Name="DyingTime" ID="{B9341FAB-0E5E-45BE-8558-4CDAC0A1AC3D}"/>
+				<GameParameter Name="playerRot" ID="{68184EAC-1F5C-45FA-9508-A27B7CD32CC0}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
