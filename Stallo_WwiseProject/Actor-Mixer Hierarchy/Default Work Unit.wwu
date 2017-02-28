@@ -77,6 +77,13 @@
 									<ChildrenList>
 										<Sound Name="Closed_DoorHowl" ID="{1DE1FCB5-62E4-4F09-8AEF-77B30EFF5AA9}" ShortID="258208233" Type="SoundFX">
 											<PropertyList>
+												<Property Name="HdrEnableEnvelope" Type="bool" Value="True"/>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>45</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideHdrEnvelope" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>6</Value>
@@ -714,7 +721,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

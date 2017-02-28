@@ -90,6 +90,22 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="StopBreathing" ID="{C3AFACFA-035B-42DC-8F8A-94C61CEC7D69}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{C5E71A89-73BB-4CCD-A2A0-5647C7592543}" ShortID="300232588" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+										<Property Name="FadeCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{638D9BD8-2E47-45AA-97DF-BE3715BDF82B}" Global="false">
+											<ObjectRef Name="Breathing" ID="{233FBB8A-3E93-4597-9C79-6F745DE98A25}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="MirrorFrame" ID="{73F1CF41-E36B-41F5-9AEB-23498DE94E79}">
