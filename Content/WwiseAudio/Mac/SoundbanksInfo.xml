@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Skole\Pilot\Stallo\Content\WwiseAudio\Mac\</SoundBanksRoot>
+		<ProjectRoot>D:\Github\Stallo\Stallo_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Github\Stallo\Content\WwiseAudio\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Github\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,7 +21,6 @@
 				<Event Id="3328495488" Name="Dying" ObjectPath="\Events\Default Work Unit\Character\Voice\Dying"/>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Character\Footstep"/>
 				<Event Id="477783203" Name="MirrorFrame" ObjectPath="\Events\Default Work Unit\MirrorFrame"/>
-				<Event Id="1205645828" Name="MusicPlay" ObjectPath="\Events\Default Work Unit\MusicPlay"/>
 				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Open_Door"/>
 				<Event Id="2036047442" Name="Screaming" ObjectPath="\Events\Default Work Unit\Character\Voice\Screaming"/>
 				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\StopAll"/>
@@ -87,10 +86,6 @@
 				<File Id="907007178" Language="SFX">
 					<ShortName>woodsteps2.wav</ShortName>
 					<Path>SFX\woodsteps2_9E69E797.wem</Path>
-				</File>
-				<File Id="967517430" Language="SFX">
-					<ShortName>partyl__t1.wav</ShortName>
-					<Path>SFX\partyl__t1_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
