@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{82CEA0EA-EA80-4D73-BC8C-7217A96E4218}" SchemaVersion="75">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{82CEA0EA-EA80-4D73-BC8C-7217A96E4218}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="windLoc" ID="{3468BCCA-3249-4F2C-986C-5FFA206ED326}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{B3BFDB4A-880D-458F-8414-094A354863AD}"/>
+						<State Name="Indoors" ID="{89F9ED20-3B1A-4DBA-BD5C-2B51189D3B76}"/>
+						<State Name="Outdoors" ID="{87567F08-35B2-4BAA-B8F1-33E8B273BA44}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="DoorState" ID="{D99B5600-019C-47E9-AAC2-B2C8610822E0}">
+					<ChildrenList>
+						<State Name="None" ID="{F33AE317-97DF-4FD7-B836-65C400677B9F}"/>
+						<State Name="Open" ID="{80392642-B75F-4BB2-AEE6-27A78434328D}"/>
+						<State Name="Closed" ID="{C4564635-FCCF-4755-A794-56390937BB87}"/>
+					</ChildrenList>
+				</StateGroup>
+				<Folder Name="Character" ID="{CC29D5B7-6A9B-4739-A3D9-045F68A5C859}" ShortID="651673806">
+					<ChildrenList>
+						<StateGroup Name="FootMat" ID="{A53E0395-E5AE-41F5-94D1-45E79D8EAEE3}">
+							<ChildrenList>
+								<State Name="None" ID="{68391CC4-323A-4356-8636-DE3968F8C896}"/>
+								<State Name="Wood" ID="{EE8B1A84-FF4B-4B74-A427-F203150CAFE3}"/>
+								<State Name="Snow" ID="{0218A78A-7FBA-43FC-AC3B-5A7E8EFBCD76}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Breathing" ID="{83D6160F-8148-41D6-BE8C-58E8C9EA3C06}">
+							<ChildrenList>
+								<State Name="None" ID="{6A84EAA2-C657-43B7-BC02-EF953430B469}"/>
+								<State Name="Outside" ID="{7DFA279A-6F25-4094-B146-8577A7F7C287}"/>
+								<State Name="Inside" ID="{B2B3AD39-DA45-4D07-B8F1-FB388E459722}"/>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

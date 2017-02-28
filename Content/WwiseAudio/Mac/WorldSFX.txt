@@ -1,0 +1,57 @@
+Event	ID	Name			Wwise Object Path	Notes
+	238653005	Breathing			\Default Work Unit\Character\Breathing	
+	477783203	MirrorFrame			\Default Work Unit\MirrorFrame	
+	1205645828	MusicPlay			\Default Work Unit\MusicPlay	
+	1338510799	DoorHowl			\Default Work Unit\Ambience\DoorHowl	
+	1866025847	Footstep			\Default Work Unit\Character\Footstep	
+	2036047442	Screaming			\Default Work Unit\Character\Voice\Screaming	
+	2934549620	Open_Door			\Default Work Unit\Open_Door	
+	3086540886	StopAll			\Default Work Unit\StopAll	
+	3328495488	Dying			\Default Work Unit\Character\Voice\Dying	
+	3414304297	WindStart			\Default Work Unit\Ambience\WindStart	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	238653005	Breathing			\Default Work Unit\Character\Breathing	
+	673320787	windLoc			\Default Work Unit\windLoc	
+	2756041832	DoorState			\Default Work Unit\DoorState	
+	3553155257	FootMat			\Default Work Unit\Character\FootMat	
+
+State	ID	Name	State Group			Notes
+	438105790	Outside	Breathing			
+	748895195	None	Breathing			
+	3553349781	Inside	Breathing			
+	748895195	None	windLoc			
+	2730119150	Outdoors	windLoc			
+	4103860031	Indoors	windLoc			
+	748895195	None	DoorState			
+	3012222945	Closed	DoorState			
+	3072142513	Open	DoorState			
+	748895195	None	FootMat			
+	787898836	Snow	FootMat			
+	2058049674	Wood	FootMat			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3863669765	playerRot			\Default Work Unit\playerRot	
+
+Effect plug-ins	ID	Name	Type				Notes
+	160640200	Low_Pass_20KHz (Custom)	Wwise Parametric EQ			
+	659840901	Low_Pass_20KHz (Custom)	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	15391426	Open_DoorHowl	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\217186__bosk1__wind-at-door-howling-4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\FrontDoorHowl\DoorState\Open_DoorHowl		20329276
+	49387479	wind_indoors	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\wind_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\Wind_Loc\wind_indoors		5760064
+	114601963	261419__archeos__womanscream	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\261419__archeos__womanscream_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Screaming\261419__archeos__womanscream		323784
+	242060973	outside breathing	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\outside breathing_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\outside breathing		9212464
+	259537959	Open_Door	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\FrontDoor\Open_Door		486320
+	341799809	Foley Movement Wood Slide On Wood Short 01	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Foley Movement Wood Slide On Wood Short 01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\MirrorFrame\Foley Movement Wood Slide On Wood Short 01		393280
+	355182275	Closed_DoorHowl	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\331892__squashy555__wind-whistling-spooky-haunted-howling_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\FrontDoorHowl\DoorState\Closed_DoorHowl		8390368
+	536119734	wind_Outdoors	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\OutsideWind_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\Wind_Loc\wind_Outdoors		20625296
+	550729221	woodsteps4	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps4		70256
+	564635908	snow1	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\snow1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Snow\snow1		68664
+	739213325	woodsteps1	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps1		101844
+	775870315	snow2	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\snow2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Snow\snow2		65652
+	804504558	326890__11linda__dying-gasps	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\326890__11linda__dying-gasps_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Dying\326890__11linda__dying-gasps		1921288
+	837046008	woodsteps3	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps3		70256
+	907007178	woodsteps2	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps2		77276
+	967517430	partyl__t1	D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\partyl__t1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\partyl__t1		20903528
+
