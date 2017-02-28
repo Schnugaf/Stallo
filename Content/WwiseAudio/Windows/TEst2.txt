@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2934549620	Open_Door			\Default Work Unit\Open_Door	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	259537959	381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\Door\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2		486320
-
