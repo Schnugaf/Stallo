@@ -124,6 +124,36 @@
 						<Action Name="Stop All" ID="{24535125-C454-4836-A74D-F7767E4D17B4}" ShortID="337666958" Type="Stop" Scope="All" Global="true"/>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Stallo" ID="{39C58000-F1E7-4EEC-80C0-8614FAE6CECD}" ShortID="960760569">
+					<ChildrenList>
+						<Event Name="Stallo_Croak" ID="{7B5DD4BC-EBD5-4848-BB94-1CEE1F2CFF14}">
+							<ChildrenList>
+								<Action Name="Play" ID="{E40FF972-66E3-4D33-9125-F47504986D30}" ShortID="898867666" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{8518F060-DBD6-43C6-835D-6A84E47739DD}" Global="false">
+											<ObjectRef Name="Stallo Croak" ID="{96D3B8EC-3344-4490-BABF-2E3627438E43}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Menu" ID="{15CDD9A9-809A-42FD-9472-40509FDBDEE0}" ShortID="285378293">
+					<ChildrenList>
+						<Event Name="Music" ID="{260224E0-543C-4CD2-8A80-246E508511F5}">
+							<ChildrenList>
+								<Action Name="Play" ID="{9B51137C-CEF5-4251-BC4F-8EFBA3633878}" ShortID="85880372" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{6A05BC39-5ECE-4545-B110-8BF1049A9692}" Global="false">
+											<ObjectRef Name="Giant_Wyrm" ID="{70C887B8-A684-42D1-B6BB-E15054BB4088}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
