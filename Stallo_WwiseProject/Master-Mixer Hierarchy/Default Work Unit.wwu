@@ -104,6 +104,7 @@
 						<Bus Name="Unreal Project" ID="{CAB24F32-210C-46B2-9E59-BD9423899516}">
 							<ChildrenList>
 								<Bus Name="SFX" ID="{AF299EE6-B2FC-43A3-BCA8-F129720DE3C6}"/>
+								<Bus Name="Movable Sounds" ID="{322ED997-5C8D-4738-BE6B-F3B8E19C2ECC}"/>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>

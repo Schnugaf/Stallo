@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2973713313" DateHigh="30577299"/>
-	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="2885127685" DateHigh="30577299"/>
+	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3794368071" DateHigh="30577322"/>
+	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="643836709" DateHigh="30577300"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="389419143" DateHigh="30576071"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="389419143" DateHigh="30576071"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="389429150" DateHigh="30576071"/>
@@ -9,10 +9,10 @@
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="389429150" DateHigh="30576071"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Effects\Default Work Unit.wwu" DateLow="389429150" DateHigh="30576071"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Effects\Factory Effects.wwu" DateLow="574973289" DateHigh="30576712"/>
-	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Events\Default Work Unit.wwu" DateLow="2885132693" DateHigh="30577299"/>
-	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="401160295" DateHigh="30576884"/>
+	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Events\Default Work Unit.wwu" DateLow="3794333047" DateHigh="30577322"/>
+	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1533471842" DateHigh="30577313"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="389449164" DateHigh="30576071"/>
-	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="574992959" DateHigh="30576712"/>
+	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1886944899" DateHigh="30577320"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="389459296" DateHigh="30576071"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="389459296" DateHigh="30576071"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Presets\Default Work Unit.wwu" DateLow="389469281" DateHigh="30576071"/>
@@ -20,7 +20,7 @@
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Queries\Factory Queries.wwu" DateLow="389469281" DateHigh="30576071"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="389479189" DateHigh="30576071"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="389479189" DateHigh="30576071"/>
-	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Stallo_WwiseProject.Comandzap.wsettings" DateLow="3930736140" DateHigh="30577299"/>
+	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Stallo_WwiseProject.Comandzap.wsettings" DateLow="1135011066" DateHigh="30577300"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Stallo_WwiseProject.wproj" DateLow="410892090" DateHigh="30576884"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\States\Default Work Unit.wwu" DateLow="594109380" DateHigh="30576712"/>
 	<ValidationCacheItem File="D:\Skole\Pilot\Stallo\Stallo_WwiseProject\Switches\Default Work Unit.wwu" DateLow="389644951" DateHigh="30576071"/>
