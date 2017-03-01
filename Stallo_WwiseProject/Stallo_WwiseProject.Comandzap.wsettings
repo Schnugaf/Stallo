@@ -16,7 +16,7 @@
 					</ValueList>
 				</Property>
 				<Property Name="General\LatestLanguage" Type="int32" Value="12"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
@@ -43,14 +43,15 @@
 				<Property Name="ProjectExplorer\x64_Expanded_19_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="m8jbGNf7H0SYz3FlfboUEw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="B0cXFdEBKESurWJFArv5MWBmRDKhQGZHhCAdTa27c5GKWtagGMa8TYUQ4aqSuAlv"/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="Cwg2K/0+k066VWOd9XrTTw=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="whVTTDgr8UKpskJ6Ux0VhgdHFxXRAShErq1iRQK7+TGKuz8jkz6XRZx5b3Rd6YolYGZEMqFAZkeEIB1NrbtzkYcvdNkjwCdIgAxhb41yEH02XeSH2L9JSIVCgtMHijeWilrWoBjGvE2FEOGqkrgJbw=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="W9wVLR4CR0OvD8TmcRv5P/8NIerPvK1Dq+tGJbtN22aglBOt5iGTTYhq2jcqPic1Cwg2K/0+k066VWOd9XrTTw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
 				<Property Name="RTPC\GameParameterSimValue\{104D7249-5F55-4ED6-824C-DED553EFE597}" Type="Real64" Value="50"/>
+				<Property Name="RTPC\GameParameterSimValue\{68184EAC-1F5C-45FA-9508-A27B7CD32CC0}" Type="Real64" Value="50"/>
 				<Property Name="RTPC\GameParameterSimValue\{B9341FAB-0E5E-45BE-8558-4CDAC0A1AC3D}" Type="Real64" Value="50"/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value=""/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>

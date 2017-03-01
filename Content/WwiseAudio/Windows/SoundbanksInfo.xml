@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>D:\Github\Stallo\Stallo_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Github\Stallo\Stallo_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Github\Stallo\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Skole\Pilot\Stallo\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Github\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -53,7 +53,7 @@
 				</File>
 				<File Id="355182275" Language="SFX">
 					<ShortName>331892__squashy555__wind-whistling-spooky-haunted-howling.wav</ShortName>
-					<Path>SFX\331892__squashy555__wind-whistling-spooky-haunted-howling_9E69E797.wem</Path>
+					<Path>SFX\331892__squashy555__wind-whistling-spooky-haunted-howling_20738036.wem</Path>
 				</File>
 				<File Id="536119734" Language="SFX">
 					<ShortName>OutsideWind.wav</ShortName>

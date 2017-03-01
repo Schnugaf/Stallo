@@ -707,6 +707,13 @@
 							</GroupingInfo>
 						</SwitchContainer>
 						<SwitchContainer Name="Breathing" ID="{233FBB8A-3E93-4597-9C79-6F745DE98A25}" ShortID="662778122">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
