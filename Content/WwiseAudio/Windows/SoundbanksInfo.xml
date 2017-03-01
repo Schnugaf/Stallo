@@ -23,6 +23,7 @@
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Character\Footstep"/>
 				<Event Id="477783203" Name="MirrorFrame" ObjectPath="\Events\Default Work Unit\MirrorFrame"/>
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Menu\Music"/>
+				<Event Id="291717360" Name="MusicStartPos" ObjectPath="\Events\Default Work Unit\Menu\MusicStartPos"/>
 				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Open_Door"/>
 				<Event Id="2036047442" Name="Screaming" ObjectPath="\Events\Default Work Unit\Character\Voice\Screaming"/>
 				<Event Id="1231189491" Name="Stallo_Croak" ObjectPath="\Events\Default Work Unit\Stallo\Stallo_Croak"/>
@@ -33,6 +34,10 @@
 				<File Id="15391426" Language="SFX">
 					<ShortName>217186__bosk1__wind-at-door-howling-4.wav</ShortName>
 					<Path>SFX\217186__bosk1__wind-at-door-howling-4_9E69E797.wem</Path>
+				</File>
+				<File Id="28070616" Language="SFX">
+					<ShortName>Who Likes to Party.wav</ShortName>
+					<Path>SFX\Who Likes to Party_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="49387479" Language="SFX">
 					<ShortName>wind.wav</ShortName>
@@ -78,9 +83,9 @@
 					<ShortName>snow1.wav</ShortName>
 					<Path>SFX\snow1_9E69E797.wem</Path>
 				</File>
-				<File Id="708826383" Language="SFX">
-					<ShortName>Giant_Wyrm.wav</ShortName>
-					<Path>SFX\Giant_Wyrm_4B8CC0C5.wem</Path>
+				<File Id="593073333" Language="SFX">
+					<ShortName>Macho Man Randy Savage Theme song.wav</ShortName>
+					<Path>SFX\Macho Man Randy Savage Theme song_9E69E797.wem</Path>
 				</File>
 				<File Id="739213325" Language="SFX">
 					<ShortName>woodsteps1.wav</ShortName>

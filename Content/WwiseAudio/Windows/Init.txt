@@ -22,6 +22,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1881682307	DyingTime			\Default Work Unit\DyingTime	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	153876451	Movable Sounds			\Default Work Unit\Master Audio Bus\Unreal Project\Movable Sounds	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\Unreal Project\SFX	
 	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
 	3362109267	Unreal Project			\Default Work Unit\Master Audio Bus\Unreal Project	

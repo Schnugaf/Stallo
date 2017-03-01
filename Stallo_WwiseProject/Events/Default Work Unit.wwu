@@ -146,7 +146,7 @@
 								<Action Name="Play" ID="{9B51137C-CEF5-4251-BC4F-8EFBA3633878}" ShortID="85880372" Type="Play" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{6A05BC39-5ECE-4545-B110-8BF1049A9692}" Global="false">
-											<ObjectRef Name="Giant_Wyrm" ID="{70C887B8-A684-42D1-B6BB-E15054BB4088}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+											<ObjectRef Name="Who Likes to Party" ID="{BF724576-8A28-4C04-B744-DE9B9F6E4A4E}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -158,6 +158,17 @@
 									<ElementList>
 										<Element ID="{FA922DEE-AA85-4535-B9E5-351A830E540D}" Global="false">
 											<ObjectRef Name="Click" ID="{6551395C-3470-4399-9B54-62EFC3A65B1B}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MusicStartPos" ID="{372234DB-BE5F-42BA-A543-27E4634EBC75}">
+							<ChildrenList>
+								<Action Name="Play" ID="{E61A22C8-953C-4234-9F87-4B940AACBEB3}" ShortID="1051718902" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{C7EF7189-E7DB-4029-8E9E-01A94B7A47CA}" Global="false">
+											<ObjectRef Name="Macho Man Randy Savage Theme song" ID="{4AF4949A-381B-4683-9D6D-E8EDF96460DB}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>
