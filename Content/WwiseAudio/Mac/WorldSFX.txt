@@ -1,13 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
 	238653005	Breathing			\Default Work Unit\Character\Breathing	
 	477783203	MirrorFrame			\Default Work Unit\MirrorFrame	
+	1231189491	Stallo_Croak			\Default Work Unit\Stallo\Stallo_Croak	
 	1338510799	DoorHowl			\Default Work Unit\Ambience\DoorHowl	
+	1584507803	Click			\Default Work Unit\Menu\Click	
 	1866025847	Footstep			\Default Work Unit\Character\Footstep	
 	2036047442	Screaming			\Default Work Unit\Character\Voice\Screaming	
 	2934549620	Open_Door			\Default Work Unit\Open_Door	
 	3086540886	StopAll			\Default Work Unit\StopAll	
 	3328495488	Dying			\Default Work Unit\Character\Voice\Dying	
 	3414304297	WindStart			\Default Work Unit\Ambience\WindStart	
+	3991942870	Music			\Default Work Unit\Menu\Music	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	238653005	Breathing			\Default Work Unit\Character\Breathing	
@@ -42,11 +45,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	114601963	261419__archeos__womanscream	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\261419__archeos__womanscream_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Screaming\261419__archeos__womanscream		323784
 	242060973	outside breathing	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\outside breathing_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\outside breathing		9212464
 	259537959	Open_Door	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\FrontDoor\Open_Door		486320
+	308711752	Click	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Button-SoundBible.com-1420500901_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Button\Click		44880
 	341799809	Foley Movement Wood Slide On Wood Short 01	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Foley Movement Wood Slide On Wood Short 01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\MirrorFrame\Foley Movement Wood Slide On Wood Short 01		393280
 	355182275	Closed_DoorHowl	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\331892__squashy555__wind-whistling-spooky-haunted-howling_20738036.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\FrontDoorHowl\DoorState\Closed_DoorHowl		8390480
+	444827419	Stallo Croak	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Monster Snarling-SoundBible.com-401809359_20738036.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stallo\Voice\Stallo Croak		673828
 	536119734	wind_Outdoors	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\OutsideWind_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\Wind_Loc\wind_Outdoors		20625296
 	550729221	woodsteps4	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps4		70256
 	564635908	snow1	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\snow1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Snow\snow1		68664
+	708826383	Giant_Wyrm	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Giant_Wyrm_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Music\Giant_Wyrm		45697600
 	739213325	woodsteps1	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps1		101844
 	775870315	snow2	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\snow2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Snow\snow2		65652
 	804504558	326890__11linda__dying-gasps	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\326890__11linda__dying-gasps_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Dying\326890__11linda__dying-gasps		1921288

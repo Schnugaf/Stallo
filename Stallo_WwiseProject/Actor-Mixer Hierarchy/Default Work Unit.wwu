@@ -897,6 +897,9 @@
 						<Folder Name="Music" ID="{3DB3540B-E74A-42DB-B559-61DB07DCE8BE}" ShortID="919130371">
 							<ChildrenList>
 								<Sound Name="Giant_Wyrm" ID="{70C887B8-A684-42D1-B6BB-E15054BB4088}" ShortID="803332537" Type="SoundFX">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
@@ -913,6 +916,29 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Giant_Wyrm" ID="{67F12DCD-D8F8-47AB-810A-7E2F0B64851B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Button" ID="{EF9FF815-A85F-4DDE-AC6E-0CA4E2D2878F}" ShortID="779953520">
+							<ChildrenList>
+								<Sound Name="Click" ID="{6551395C-3470-4399-9B54-62EFC3A65B1B}" ShortID="163446818" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Button-SoundBible_com-1420500901" ID="{000804EB-1628-4CAF-8549-1583C8BF3DB1}" ShortID="308711752">
+											<Language>SFX</Language>
+											<AudioFile>Button-SoundBible.com-1420500901.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Button-SoundBible_com-1420500901" ID="{000804EB-1628-4CAF-8549-1583C8BF3DB1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

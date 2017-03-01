@@ -152,6 +152,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Click" ID="{CCB8479E-AAC4-42D1-A489-C0501A47D455}">
+							<ChildrenList>
+								<Action Name="Play" ID="{3A41053A-4FE8-48F2-8859-DC476D72F608}" ShortID="141113983" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{FA922DEE-AA85-4535-B9E5-351A830E540D}" Global="false">
+											<ObjectRef Name="Click" ID="{6551395C-3470-4399-9B54-62EFC3A65B1B}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
