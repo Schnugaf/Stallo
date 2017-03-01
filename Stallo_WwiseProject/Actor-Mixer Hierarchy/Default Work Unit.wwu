@@ -840,7 +840,85 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Stallo" ID="{F4F5D340-1534-46B5-B428-FE862946D74B}" ShortID="392987282"/>
+				<Folder Name="Stallo" ID="{F4F5D340-1534-46B5-B428-FE862946D74B}" ShortID="392987282">
+					<ChildrenList>
+						<Folder Name="Voice" ID="{186471CC-B623-4FB6-BBC0-72E2FE874492}" ShortID="980555634">
+							<ChildrenList>
+								<Sound Name="Stallo Croak" ID="{96D3B8EC-3344-4490-BABF-2E3627438E43}" ShortID="679015897" Type="SoundFX">
+									<PropertyList>
+										<Property Name="HdrEnableEnvelope" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{306F6394-83EE-4745-B00A-9E1681604373}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Stallo" ID="{42D485C3-38FD-482A-919F-C763888AAF93}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Monster Snarling-SoundBible_com-401809359" ID="{CF2F47A4-60BA-41F4-9CA1-1824E1D84DF4}" ShortID="444827419">
+											<Language>SFX</Language>
+											<AudioFile>Monster Snarling-SoundBible.com-401809359.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Monster Snarling-SoundBible_com-401809359" ID="{CF2F47A4-60BA-41F4-9CA1-1824E1D84DF4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Menu" ID="{5B07C076-FB0A-4B12-8004-A8305BC7AF9A}" ShortID="598133333">
+					<ChildrenList>
+						<Folder Name="Music" ID="{3DB3540B-E74A-42DB-B559-61DB07DCE8BE}" ShortID="919130371">
+							<ChildrenList>
+								<Sound Name="Giant_Wyrm" ID="{70C887B8-A684-42D1-B6BB-E15054BB4088}" ShortID="803332537" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Giant_Wyrm" ID="{67F12DCD-D8F8-47AB-810A-7E2F0B64851B}" ShortID="708826383">
+											<Language>SFX</Language>
+											<AudioFile>Giant_Wyrm.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Giant_Wyrm" ID="{67F12DCD-D8F8-47AB-810A-7E2F0B64851B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
