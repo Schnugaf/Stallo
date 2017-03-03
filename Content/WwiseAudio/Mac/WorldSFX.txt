@@ -43,7 +43,6 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	15391426	Open_DoorHowl	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\217186__bosk1__wind-at-door-howling-4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\FrontDoorHowl\DoorState\Open_DoorHowl		20329276
-	28070616	Who Likes to Party	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Who Likes to Party_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\MovableSounds\Who Likes to Party		45416512
 	49387479	wind_indoors	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\wind_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\Wind_Loc\wind_indoors		5760064
 	114601963	261419__archeos__womanscream	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\261419__archeos__womanscream_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Screaming\261419__archeos__womanscream		323784
 	242060973	outside breathing	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\outside breathing_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\outside breathing		9212464
@@ -56,6 +55,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	550729221	woodsteps4	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps4		70256
 	564635908	snow1	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\snow1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Snow\snow1		68664
 	593073333	Macho Man Randy Savage Theme song	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Macho Man Randy Savage Theme song_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\MovableSounds\Macho Man Randy Savage Theme song		17957440
+	708826383	Giant_Wyrm	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Giant_Wyrm_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\MovableSounds\Giant_Wyrm		45697600
 	739213325	woodsteps1	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps1		101844
 	775870315	snow2	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\snow2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Snow\snow2		65652
 	804504558	326890__11linda__dying-gasps	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\326890__11linda__dying-gasps_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Dying\326890__11linda__dying-gasps		1921288
