@@ -35,10 +35,6 @@
 					<ShortName>217186__bosk1__wind-at-door-howling-4.wav</ShortName>
 					<Path>SFX\217186__bosk1__wind-at-door-howling-4_9E69E797.wem</Path>
 				</File>
-				<File Id="28070616" Language="SFX">
-					<ShortName>Who Likes to Party.wav</ShortName>
-					<Path>SFX\Who Likes to Party_4B8CC0C5.wem</Path>
-				</File>
 				<File Id="49387479" Language="SFX">
 					<ShortName>wind.wav</ShortName>
 					<Path>SFX\wind_4B8CC0C5.wem</Path>
@@ -86,6 +82,10 @@
 				<File Id="593073333" Language="SFX">
 					<ShortName>Macho Man Randy Savage Theme song.wav</ShortName>
 					<Path>SFX\Macho Man Randy Savage Theme song_9E69E797.wem</Path>
+				</File>
+				<File Id="708826383" Language="SFX">
+					<ShortName>Giant_Wyrm.wav</ShortName>
+					<Path>SFX\Giant_Wyrm_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="739213325" Language="SFX">
 					<ShortName>woodsteps1.wav</ShortName>

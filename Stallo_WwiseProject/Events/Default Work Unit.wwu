@@ -146,7 +146,7 @@
 								<Action Name="Play" ID="{9B51137C-CEF5-4251-BC4F-8EFBA3633878}" ShortID="85880372" Type="Play" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{6A05BC39-5ECE-4545-B110-8BF1049A9692}" Global="false">
-											<ObjectRef Name="Who Likes to Party" ID="{BF724576-8A28-4C04-B744-DE9B9F6E4A4E}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+											<ObjectRef Name="Giant_Wyrm" ID="{76D51BD2-4B50-4BE7-9BC5-BB9B642D59DD}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>
