@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Skole\Pilot\Stallo\Content\WwiseAudio\Mac\</SoundBanksRoot>
+		<ProjectRoot>d:\Github\Stallo\Stallo_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>d:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>d:\Github\Stallo\Content\WwiseAudio\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>d:\Github\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -113,6 +113,11 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3291379323" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
+			<ShortName>TestBank</ShortName>
+			<Path>TestBank.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

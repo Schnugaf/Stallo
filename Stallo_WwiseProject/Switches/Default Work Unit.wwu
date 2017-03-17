@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3BAD4FE8-6FE4-4565-B5F8-589FCE98FB08}" SchemaVersion="75">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{3BAD4FE8-6FE4-4565-B5F8-589FCE98FB08}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3BAD4FE8-6FE4-4565-B5F8-589FCE98FB08}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="DoorState" ID="{0187187F-B451-45A7-80F7-8AAA7B8C0933}">
+					<ChildrenList>
+						<Switch Name="Closed" ID="{00B1C80C-B74D-440F-8B81-DA399E66A509}"/>
+						<Switch Name="Open" ID="{D4FB98E7-31FB-4182-9768-BB4335FCDC95}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}"/>
+						<Curve Name="" ID="{6AEDA13B-EEBC-43B8-921F-8AA88EB2360A}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

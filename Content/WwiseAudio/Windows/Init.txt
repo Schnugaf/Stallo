@@ -1,3 +1,10 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2756041832	DoorState			\Default Work Unit\DoorState	
+
+Switch	ID	Name	Switch Group			Notes
+	3012222945	Closed	DoorState			
+	3072142513	Open	DoorState			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	238653005	Breathing			\Default Work Unit\Character\Breathing	
 	673320787	windLoc			\Default Work Unit\windLoc	
@@ -20,6 +27,7 @@ State	ID	Name	State Group			Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1881682307	DyingTime			\Default Work Unit\DyingTime	
+	2255331094	playerDist			\Default Work Unit\playerDist	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	153876451	Movable Sounds			\Default Work Unit\Master Audio Bus\Unreal Project\Movable Sounds	
