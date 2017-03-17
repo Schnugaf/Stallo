@@ -103,8 +103,48 @@
 					<ChildrenList>
 						<Bus Name="Unreal Project" ID="{CAB24F32-210C-46B2-9E59-BD9423899516}">
 							<ChildrenList>
-								<Bus Name="SFX" ID="{AF299EE6-B2FC-43A3-BCA8-F129720DE3C6}"/>
-								<Bus Name="Movable Sounds" ID="{322ED997-5C8D-4738-BE6B-F3B8E19C2ECC}"/>
+								<Bus Name="SFX" ID="{AF299EE6-B2FC-43A3-BCA8-F129720DE3C6}">
+									<PropertyList>
+										<Property Name="HdrEnable" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Movable Sounds" ID="{322ED997-5C8D-4738-BE6B-F3B8E19C2ECC}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{B1AB2CA3-78A1-46D1-B74A-7358C04566AF}" ShortID="973715619">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7AF197FB-5697-4E69-9578-91824C0488A7}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0.0641</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Bus>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>
