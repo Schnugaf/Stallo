@@ -44,6 +44,7 @@
 						</ActorMixer>
 						<ActorMixer Name="FrontDoorHowl" ID="{04DDB685-0517-4964-BCDE-87269DF026E6}" ShortID="801266490">
 							<PropertyList>
+								<Property Name="HdrEnableEnvelope" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -54,7 +55,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+									<ObjectRef Name="Movable Sounds" ID="{322ED997-5C8D-4738-BE6B-F3B8E19C2ECC}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -80,14 +81,106 @@
 												<Property Name="HdrEnableEnvelope" Type="bool" Value="True"/>
 												<Property Name="Highpass" Type="int16">
 													<ValueList>
-														<Value>45</Value>
+														<Value>40</Value>
 													</ValueList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OutputBusHighpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{863FB5EF-C4D9-4041-BBDB-DAB422C37B47}" ShortID="898115587">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{66BFF2D5-128C-4C2F-B531-968FB8BD2EAE}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>49</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="OutputBusLowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{85FA2C0A-BC53-4C33-A0FD-C5DDA73B9F9A}" ShortID="35405121">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{DF3F3CE6-9422-4E02-A87D-2A91961803E1}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>30.17456</XPos>
+																		<YPos>48</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>80</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
 												</Property>
 												<Property Name="OverrideHdrEnvelope" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>6</Value>
 													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{CCC1F483-EE5E-437C-B514-C74B47F995CE}" ShortID="61855377">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{781827FB-6A1B-42FD-A83B-AF1DC47317B9}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-0.19375</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -110,6 +203,7 @@
 										</Sound>
 										<Sound Name="Open_DoorHowl" ID="{4BB737C1-3779-4EEC-9B22-6275B6635F3B}" ShortID="416596509" Type="SoundFX">
 											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-5</Value>
@@ -130,6 +224,13 @@
 													<AudioFile>217186__bosk1__wind-at-door-howling-4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="DoorState" ID="{D99B5600-019C-47E9-AAC2-B2C8610822E0}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+											</StateInfo>
 											<ActiveSourceList>
 												<ActiveSource Name="217186__bosk1__wind-at-door-howling-4" ID="{9398C928-C4B4-4853-8FDA-06C36015ABA9}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -160,6 +261,7 @@
 															<Value>2</Value>
 														</ValueList>
 													</Property>
+													<Property Name="FirstOccurenceOnly" Type="bool" Value="True"/>
 												</PropertyList>
 											</GroupingBehavior>
 											<GroupingBehavior>
@@ -176,6 +278,7 @@
 															<Value>2</Value>
 														</ValueList>
 													</Property>
+													<Property Name="FirstOccurenceOnly" Type="bool" Value="True"/>
 												</PropertyList>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
@@ -1117,6 +1220,34 @@
 								<Sound Name="Giant_Wyrm" ID="{70C887B8-A684-42D1-B6BB-E15054BB4088}" ShortID="803332537" Type="SoundFX">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{F14F8399-7F8A-4E54-8286-FECA10AC1C7C}" ShortID="415585509">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{CF606D27-41B9-49CF-835E-D073BE52DAE9}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>100</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1127,7 +1258,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+											<ObjectRef Name="SFX" ID="{AF299EE6-B2FC-43A3-BCA8-F129720DE3C6}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1172,6 +1303,34 @@
 						<Sound Name="Giant_Wyrm" ID="{76D51BD2-4B50-4BE7-9BC5-BB9B642D59DD}" ShortID="1044164284" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{BFE1FE0F-8517-4CC8-B0B3-A935001EC16E}" ShortID="277307545">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F2870F82-5B93-4AED-A83B-A4039908AD5E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.128680000000003</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
