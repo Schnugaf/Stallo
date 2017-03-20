@@ -83,9 +83,6 @@
 													<ValueList>
 														<Value>40</Value>
 													</ValueList>
-												</Property>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="OutputBusHighpass" Type="int16">
 													<RTPCList>
 														<RTPC Name="" ID="{863FB5EF-C4D9-4041-BBDB-DAB422C37B47}" ShortID="898115587">
 															<ReferenceList>
@@ -105,8 +102,14 @@
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
+																		<XPos>8.22943</XPos>
+																		<YPos>8</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>49</YPos>
+																		<YPos>17</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -114,7 +117,8 @@
 														</RTPC>
 													</RTPCList>
 												</Property>
-												<Property Name="OutputBusLowpass" Type="int16">
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
 													<RTPCList>
 														<RTPC Name="" ID="{85FA2C0A-BC53-4C33-A0FD-C5DDA73B9F9A}" ShortID="35405121">
 															<ReferenceList>
@@ -129,19 +133,25 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>0</YPos>
+																		<YPos>1</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>30.17456</XPos>
-																		<YPos>48</YPos>
+																		<XPos>8.22942</XPos>
+																		<YPos>17</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>37.65585</XPos>
+																		<YPos>42</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>80</YPos>
+																		<YPos>43</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -174,7 +184,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>-0.19375</YPos>
+																		<YPos>-200</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -1364,7 +1374,7 @@
 										<RTPC Name="" ID="{B16CDE62-642B-492D-A632-210AFC10F150}" ShortID="328794020">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+													<ObjectRef Name="cornerCount" ID="{DDEA3DCA-F175-48E3-B8BB-62264EF69138}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{BBA4BBA5-9F0B-46FA-ACF2-EBEC9F367D43}">
@@ -1385,7 +1395,13 @@
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>100</XPos>
+														<XPos>1.00249</XPos>
+														<YPos>4</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>2</XPos>
 														<YPos>17</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -1400,7 +1416,7 @@
 										<RTPC Name="" ID="{8EBD3E52-88B4-4A9E-9880-36E18E47DBEE}" ShortID="235942171">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+													<ObjectRef Name="cornerCount" ID="{DDEA3DCA-F175-48E3-B8BB-62264EF69138}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{F86D4557-8832-4BC8-8CC8-693BEA58EC07}">
@@ -1415,8 +1431,14 @@
 														<SegmentShape>Exp2</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>100</XPos>
-														<YPos>7</YPos>
+														<XPos>0.99751</XPos>
+														<YPos>3</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>2</XPos>
+														<YPos>25</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -1478,15 +1500,16 @@
 						</Sound>
 						<Sound Name="Macho Man Randy Savage Theme song" ID="{4AF4949A-381B-4683-9D6D-E8EDF96460DB}" ShortID="966018842" Type="SoundFX">
 							<PropertyList>
+								<Property Name="HdrEnableEnvelope" Type="bool" Value="True"/>
 								<Property Name="Highpass" Type="int16">
 									<RTPCList>
-										<RTPC Name="" ID="{482E21EE-9D00-49D4-A433-93989FA08034}" ShortID="265011062">
+										<RTPC Name="" ID="{07425995-DB83-471A-BF93-02E0833D9EE5}" ShortID="29958015">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{7AEEFCDB-4BDF-4BB0-B1F7-310684C483BA}">
+											<Curve Name="" ID="{0C465182-E4CD-4C19-92F2-34FB2905D66A}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="65537"/>
 												</PropertyList>
@@ -1495,19 +1518,7 @@
 														<XPos>0</XPos>
 														<YPos>0</YPos>
 														<Flags>5</Flags>
-														<SegmentShape>Exp2</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>0.001</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Log2</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>70.17544</XPos>
-														<YPos>18</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp2</SegmentShape>
+														<SegmentShape>Exp1</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>100</XPos>
@@ -1521,32 +1532,32 @@
 								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
-										<RTPC Name="" ID="{7CAB1D27-AFC3-4E9F-B384-2FB1B4B82150}" ShortID="310965494">
+										<RTPC Name="" ID="{9E670FAF-9B43-4593-856D-0577C9653E3E}" ShortID="266669">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{B6A13BDA-1F43-405E-A837-96B2EB2DBF70}">
+											<Curve Name="" ID="{B09EDD48-8207-40E2-8003-250A5E534848}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="65537"/>
 												</PropertyList>
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>0</YPos>
+														<YPos>1</YPos>
 														<Flags>5</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>30.6733</XPos>
+														<YPos>34</YPos>
+														<Flags>0</Flags>
 														<SegmentShape>Exp2</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>70.17544</XPos>
-														<YPos>9</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Log2</SegmentShape>
-													</Point>
-													<Point>
 														<XPos>100</XPos>
-														<YPos>7</YPos>
+														<YPos>43</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -1554,30 +1565,29 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
-								<Property Name="OutputBusVolume" Type="Real64">
+								<Property Name="MotionLowpass" Type="int16">
+									<ValueList>
+										<Value>51</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
 									<RTPCList>
-										<RTPC Name="" ID="{B76496D3-2764-4BCC-BA32-15F682E4D932}" ShortID="649002670">
+										<RTPC Name="" ID="{D3AAD17E-EEA0-46D6-8EFD-3010A4AE00A4}" ShortID="583133102">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+													<ObjectRef Name="totalDist" ID="{7C6127DB-D2BC-4944-AB76-8560A13D79A9}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{E8F5CCEF-5515-4A5F-BA5C-ECA12816CA35}">
+											<Curve Name="" ID="{42FF0DB4-3DD9-46BC-A45E-7938FB85015D}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="3"/>
 												</PropertyList>
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>2.38628</YPos>
+														<YPos>0.0641</YPos>
 														<Flags>5</Flags>
-														<SegmentShape>Exp3</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>69.85646</XPos>
-														<YPos>-152.44748</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Log3</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>100</XPos>
@@ -1589,11 +1599,10 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Stallo" ID="{42D485C3-38FD-482A-919F-C763888AAF93}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+									<ObjectRef Name="DoorTest" ID="{3792E32D-A683-46FC-896D-02BE2FB67222}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
@@ -1608,6 +1617,9 @@
 									<AudioFile>Macho Man Randy Savage Theme song.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{818D2970-4D5C-4E8A-B78A-7A2999B88B4B}"/>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Macho Man Randy Savage Theme song" ID="{4F12D54F-CE83-4146-B592-5AA600C6F654}" Platform="Linked"/>
 							</ActiveSourceList>

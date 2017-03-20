@@ -8490,7 +8490,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="127">
+				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
 					<PropertyList>
 						<Property Name="AlgoTypeSelect" Type="int32">
 							<ValueList>
@@ -9230,7 +9230,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="170">
+				<SharedPropertyList ClassName="Microsoft HRTF" PluginType="3" CompanyID="0" PluginID="170">
 					<PropertyList>
 						<Property Name="Inclusion" Type="bool">
 							<ValueList>
@@ -9416,7 +9416,7 @@
 					</PropertyList>
 				</SharedPropertyList>
 				<SharedPropertyList ClassName="Controller" PluginType="4" CompanyID="0" PluginID="406"/>
-				<SharedPropertyList ClassName="" PluginType="2" CompanyID="261" PluginID="416">
+				<SharedPropertyList ClassName="CrankcaseAudio REV" PluginType="2" CompanyID="261" PluginID="416">
 					<PropertyList>
 						<Property Name="EnableShifting" Type="int32">
 							<ValueList>
@@ -9455,7 +9455,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="417">
+				<SharedPropertyList ClassName="EngineSimulationControlData" PluginType="0" CompanyID="261" PluginID="417">
 					<PropertyList>
 						<Property Name="ClutchRPMMergeTime" Type="Real32">
 							<ValueList>
@@ -9539,7 +9539,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="418">
+				<SharedPropertyList ClassName="AccelDecelModelControlData" PluginType="0" CompanyID="261" PluginID="418">
 					<PropertyList>
 						<Property Name="AccelVolume_Off" Type="Real32">
 							<ValueList>
@@ -9966,7 +9966,7 @@
 				<ObsOccCurves>
 					<Comment></Comment>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="Volume">
-						<PlatformCurve Platform="Linked" EnableCurve="true">
+						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{B9DB6089-5A7E-47E2-B4FC-FE2C3BAB362E}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="3"/>
@@ -9980,7 +9980,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-18.26945</YPos>
+										<YPos>-6.15848</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -10010,7 +10010,7 @@
 						</PlatformCurve>
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="HPF">
-						<PlatformCurve Platform="Linked" EnableCurve="false">
+						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{0777F6D1-E392-416B-AE77-CE8372D0E882}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1"/>
@@ -10023,7 +10023,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>100</YPos>
+										<YPos>30.31496</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -10031,7 +10031,7 @@
 						</PlatformCurve>
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="Volume">
-						<PlatformCurve Platform="Linked" EnableCurve="true">
+						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{6CCDAE96-11EB-4F5A-9C51-5A6110282D6E}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="3"/>
@@ -10045,7 +10045,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-8.63411</YPos>
+										<YPos>-4.01427</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -10067,7 +10067,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>39.76378</YPos>
+										<YPos>59.44882</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -10075,7 +10075,7 @@
 						</PlatformCurve>
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="HPF">
-						<PlatformCurve Platform="Linked" EnableCurve="false">
+						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{0AEDCDBE-621F-4362-892D-2C7D822634F7}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1"/>
@@ -10088,7 +10088,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>100</YPos>
+										<YPos>30.31496</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
