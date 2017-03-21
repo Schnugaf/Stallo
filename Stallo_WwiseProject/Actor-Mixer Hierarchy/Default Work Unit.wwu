@@ -581,6 +581,33 @@
 								</SwitchContainer>
 							</ChildrenList>
 						</ActorMixer>
+						<Sound Name="StalloAmbience" ID="{3F437909-6703-4F54-B37E-F75305E7EF2C}" ShortID="904819076" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="19171__martian__bass-feedback-01" ID="{E366CB2C-2ED9-41C7-861F-63E7C2674380}" ShortID="907409783">
+									<Language>SFX</Language>
+									<AudioFile>19171__martian__bass-feedback-01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="19171__martian__bass-feedback-01" ID="{E366CB2C-2ED9-41C7-861F-63E7C2674380}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{32446660-40A1-4766-8420-1D4DADBB7391}" ShortID="527874416">
@@ -1624,6 +1651,162 @@
 								<ActiveSource Name="Macho Man Randy Savage Theme song" ID="{4F12D54F-CE83-4146-B592-5AA600C6F654}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Items" ID="{A3C1545F-7C62-4276-9E60-A9E771828ACA}" ShortID="154513441">
+					<ChildrenList>
+						<Folder Name="Clock" ID="{2F047B31-8757-448E-835D-A2A1C8C47D5F}" ShortID="290479093"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Stone" ID="{C118F1FD-718B-4054-80CB-5E1FE06455BE}" ShortID="487754395">
+					<ChildrenList>
+						<Folder Name="StoneRotate" ID="{E43BF99C-8CD8-4795-8070-EE1522F32166}" ShortID="535928654">
+							<ChildrenList>
+								<RandomSequenceContainer Name="StoneGrind" ID="{1858D208-AD3E-46A3-9DA6-01AF67A14495}" ShortID="534419384">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-400</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="StoneGrind1" ID="{97F0BAD9-DBCF-4413-80B9-215486CA9F8F}" ShortID="97011502" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="StoneGrind1" ID="{FB83DCBB-A5EB-452F-B5C0-52CE0AD6CEF7}" ShortID="1059993567">
+													<Language>SFX</Language>
+													<AudioFile>StoneGrind1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="StoneGrind1" ID="{FB83DCBB-A5EB-452F-B5C0-52CE0AD6CEF7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="StoneGrind2" ID="{D0345D8D-FD7D-49F9-80A0-610023F29E7E}" ShortID="647915730" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="StoneGrind2" ID="{12C77184-2F8A-4A15-BAD3-F3A69A47CE37}" ShortID="504895240">
+													<Language>SFX</Language>
+													<AudioFile>StoneGrind2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="StoneGrind2" ID="{12C77184-2F8A-4A15-BAD3-F3A69A47CE37}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="StoneGrind3" ID="{88D55EBE-14BA-4043-8A81-91A8EBFC151B}" ShortID="520743249" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="StoneGrind3" ID="{72451F8D-192A-4345-B917-9BDF416DE40C}" ShortID="969389287">
+													<Language>SFX</Language>
+													<AudioFile>StoneGrind3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="StoneGrind3" ID="{72451F8D-192A-4345-B917-9BDF416DE40C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="StoneGrind4" ID="{6F6D68B9-35F3-42C9-A8B2-42966A49CBE1}" ShortID="668676360" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="StoneGrind4" ID="{B00BADC6-EF2F-4B1D-8A5E-CECAAFCCF9D4}" ShortID="706325024">
+													<Language>SFX</Language>
+													<AudioFile>StoneGrind4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="StoneGrind4" ID="{B00BADC6-EF2F-4B1D-8A5E-CECAAFCCF9D4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="StoneGrind5" ID="{E662AFFF-F242-4812-BF1C-962EE7882E68}" ShortID="686484119" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="StoneGrind5" ID="{51F0145A-2F1C-4ABF-9125-3166A86550A9}" ShortID="957237055">
+													<Language>SFX</Language>
+													<AudioFile>StoneGrind5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="StoneGrind5" ID="{51F0145A-2F1C-4ABF-9125-3166A86550A9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="StoneSlot" ID="{3D7363B7-0A5E-42B4-AC98-8B1EF9E763AF}" ShortID="494791401" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="StoneSlot" ID="{1346D1D5-6334-4BC0-A2E1-D57BC335FF96}" ShortID="1021897468">
+											<Language>SFX</Language>
+											<AudioFile>StoneSlot.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="StoneSlot" ID="{1346D1D5-6334-4BC0-A2E1-D57BC335FF96}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -7,6 +7,10 @@
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{D99C0536-A762-493B-A753-44E84FFA1F20}"/>
 			</Platforms>
 			<PropertyList>
+				<Property Name="AutoDetectFFTWindowSize" Type="int16" Value="2048"/>
+				<Property Name="AutoDetectThresholdHigh" Type="Real64" Value="0"/>
+				<Property Name="AutoDetectThresholdLow" Type="Real64" Value="0"/>
+				<Property Name="AutoDetectThresholdMedium" Type="Real64" Value="0"/>
 				<Property Name="DefaultLanguage" Type="int32" Value="12"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
