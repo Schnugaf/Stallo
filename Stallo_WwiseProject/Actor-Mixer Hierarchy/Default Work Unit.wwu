@@ -1655,7 +1655,129 @@
 				</Folder>
 				<Folder Name="Items" ID="{A3C1545F-7C62-4276-9E60-A9E771828ACA}" ShortID="154513441">
 					<ChildrenList>
-						<Folder Name="Clock" ID="{2F047B31-8757-448E-835D-A2A1C8C47D5F}" ShortID="290479093"/>
+						<Folder Name="Clock" ID="{2F047B31-8757-448E-835D-A2A1C8C47D5F}" ShortID="290479093">
+							<ChildrenList>
+								<SwitchContainer Name="Clock" ID="{66580524-C2E6-4DFA-A3DD-3E2098FC10F1}" ShortID="1051772445">
+									<PropertyList>
+										<Property Name="3DPositionSource" Type="int16" Value="0"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Clock" ID="{796DFD7A-8561-438C-807C-A7BC333268E9}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ClockTick" ID="{74E950F0-69A8-4B33-99A3-A4F26DED20D7}" ShortID="599798228" Type="SoundFX">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ClockTick" ID="{9EDF9DBF-5ED9-49E4-A87D-8E0481B32C00}" ShortID="730968485">
+													<Language>SFX</Language>
+													<AudioFile>ClockTick.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ClockTick" ID="{9EDF9DBF-5ED9-49E4-A87D-8E0481B32C00}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ClockAlarm" ID="{70117516-1C24-46B3-AEFC-632D05B29DCD}" ShortID="238395645" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ClockAlarm" ID="{D78FD82A-3E7A-406F-BFB0-A41099CFA1D4}" ShortID="484297712">
+													<Language>SFX</Language>
+													<AudioFile>ClockAlarm.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ClockAlarm" ID="{D78FD82A-3E7A-406F-BFB0-A41099CFA1D4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{F1028372-14A6-41DC-ACC0-54DCB00347E9}"/>
+									</PositioningInfo>
+									<GroupingInfo>
+										<GroupRef Name="Clock" ID="{F4657E59-A261-44E3-82A6-1CA7EA841390}"/>
+										<DefaultSwitchRef Name="Ticking" ID="{3A859606-5C80-42B9-ACA3-15AACCB82E33}"/>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="ClockAlarm" ID="{70117516-1C24-46B3-AEFC-632D05B29DCD}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="ClockTick" ID="{74E950F0-69A8-4B33-99A3-A4F26DED20D7}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+												</PropertyList>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Ticking" ID="{3A859606-5C80-42B9-ACA3-15AACCB82E33}"/>
+												<ItemList>
+													<ItemRef Name="ClockTick" ID="{74E950F0-69A8-4B33-99A3-A4F26DED20D7}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Alarm" ID="{E0DA6D08-5F62-49DC-9F5F-C613D3DD2C5E}"/>
+												<ItemList>
+													<ItemRef Name="ClockAlarm" ID="{70117516-1C24-46B3-AEFC-632D05B29DCD}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Radio" ID="{6A09010E-1219-4996-AD8E-92F665DAA933}" ShortID="357459449">
+							<ChildrenList>
+								<Sound Name="RadioBuzzer" ID="{F009A899-6229-48DE-B97A-F9BA23D8BA1D}" ShortID="374795461" Type="SoundFX">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RadioBuzzer" ID="{4BBF6E00-3EA3-493D-8F3D-6A73CA4FFAC0}" ShortID="1044612433">
+											<Language>SFX</Language>
+											<AudioFile>RadioBuzzer.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RadioBuzzer" ID="{4BBF6E00-3EA3-493D-8F3D-6A73CA4FFAC0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Stone" ID="{C118F1FD-718B-4054-80CB-5E1FE06455BE}" ShortID="487754395">

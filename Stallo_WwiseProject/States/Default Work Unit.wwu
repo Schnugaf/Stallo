@@ -38,6 +38,13 @@
 						</StateGroup>
 					</ChildrenList>
 				</Folder>
+				<StateGroup Name="Clock" ID="{F4657E59-A261-44E3-82A6-1CA7EA841390}">
+					<ChildrenList>
+						<State Name="None" ID="{75C52FBE-F297-4670-877C-270B65F13666}"/>
+						<State Name="Ticking" ID="{3A859606-5C80-42B9-ACA3-15AACCB82E33}"/>
+						<State Name="Alarm" ID="{E0DA6D08-5F62-49DC-9F5F-C613D3DD2C5E}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
