@@ -26,14 +26,18 @@
 				<Event Id="291717360" Name="MusicStartPos" ObjectPath="\Events\Default Work Unit\Menu\MusicStartPos"/>
 				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Open_Door"/>
 				<Event Id="2036047442" Name="Screaming" ObjectPath="\Events\Default Work Unit\Character\Voice\Screaming"/>
-				<Event Id="1231189491" Name="Stallo_Croak" ObjectPath="\Events\Default Work Unit\Stallo\Stallo_Croak"/>
+				<Event Id="1231189491" Name="Stallo_Croak" ObjectPath="\Events\Default Work Unit\Stallo\Voice\Stallo_Croak"/>
+				<Event Id="3041118060" Name="StalloAmbience" ObjectPath="\Events\Default Work Unit\Stallo\StalloAmbience"/>
+				<Event Id="4031051492" Name="StalloAmbienceStop" ObjectPath="\Events\Default Work Unit\Stallo\StalloAmbienceStop"/>
+				<Event Id="4201360071" Name="Stonedragging" ObjectPath="\Events\Default Work Unit\Stone\Stonedragging"/>
+				<Event Id="519841063" Name="StonedraggingStop" ObjectPath="\Events\Default Work Unit\Stone\StonedraggingStop"/>
 				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\StopAll"/>
 				<Event Id="3414304297" Name="WindStart" ObjectPath="\Events\Default Work Unit\Ambience\WindStart"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="15391426" Language="SFX">
 					<ShortName>217186__bosk1__wind-at-door-howling-4.wav</ShortName>
-					<Path>SFX\217186__bosk1__wind-at-door-howling-4_9E69E797.wem</Path>
+					<Path>SFX\217186__bosk1__wind-at-door-howling-4_B3602F10.wem</Path>
 				</File>
 				<File Id="49387479" Language="SFX">
 					<ShortName>wind.wav</ShortName>
@@ -61,11 +65,15 @@
 				</File>
 				<File Id="355182275" Language="SFX">
 					<ShortName>331892__squashy555__wind-whistling-spooky-haunted-howling.wav</ShortName>
-					<Path>SFX\331892__squashy555__wind-whistling-spooky-haunted-howling_20738036.wem</Path>
+					<Path>SFX\331892__squashy555__wind-whistling-spooky-haunted-howling_B3602F10.wem</Path>
 				</File>
 				<File Id="444827419" Language="SFX">
 					<ShortName>Monster Snarling-SoundBible.com-401809359.wav</ShortName>
 					<Path>SFX\Monster Snarling-SoundBible.com-401809359_20738036.wem</Path>
+				</File>
+				<File Id="504895240" Language="SFX">
+					<ShortName>StoneGrind2.wav</ShortName>
+					<Path>SFX\StoneGrind2_9E69E797.wem</Path>
 				</File>
 				<File Id="536119734" Language="SFX">
 					<ShortName>OutsideWind.wav</ShortName>
@@ -81,7 +89,11 @@
 				</File>
 				<File Id="593073333" Language="SFX">
 					<ShortName>Macho Man Randy Savage Theme song.wav</ShortName>
-					<Path>SFX\Macho Man Randy Savage Theme song_9E69E797.wem</Path>
+					<Path>SFX\Macho Man Randy Savage Theme song_20738036.wem</Path>
+				</File>
+				<File Id="706325024" Language="SFX">
+					<ShortName>StoneGrind4.wav</ShortName>
+					<Path>SFX\StoneGrind4_9E69E797.wem</Path>
 				</File>
 				<File Id="708826383" Language="SFX">
 					<ShortName>Giant_Wyrm.wav</ShortName>
@@ -106,6 +118,22 @@
 				<File Id="907007178" Language="SFX">
 					<ShortName>woodsteps2.wav</ShortName>
 					<Path>SFX\woodsteps2_9E69E797.wem</Path>
+				</File>
+				<File Id="907409783" Language="SFX">
+					<ShortName>19171__martian__bass-feedback-01.wav</ShortName>
+					<Path>SFX\19171__martian__bass-feedback-01_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="957237055" Language="SFX">
+					<ShortName>StoneGrind5.wav</ShortName>
+					<Path>SFX\StoneGrind5_9E69E797.wem</Path>
+				</File>
+				<File Id="969389287" Language="SFX">
+					<ShortName>StoneGrind3.wav</ShortName>
+					<Path>SFX\StoneGrind3_9E69E797.wem</Path>
+				</File>
+				<File Id="1059993567" Language="SFX">
+					<ShortName>StoneGrind1.wav</ShortName>
+					<Path>SFX\StoneGrind1_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

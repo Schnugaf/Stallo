@@ -126,12 +126,43 @@
 				</Event>
 				<Folder Name="Stallo" ID="{39C58000-F1E7-4EEC-80C0-8614FAE6CECD}" ShortID="960760569">
 					<ChildrenList>
-						<Event Name="Stallo_Croak" ID="{7B5DD4BC-EBD5-4848-BB94-1CEE1F2CFF14}">
+						<Folder Name="FootSteps" ID="{101DEDAD-277D-40D5-8709-1B35E269E868}" ShortID="339932451"/>
+						<Folder Name="Voice" ID="{CEB1BE21-48BB-426B-9A87-391B0E93642E}" ShortID="109398538">
 							<ChildrenList>
-								<Action Name="Play" ID="{E40FF972-66E3-4D33-9125-F47504986D30}" ShortID="898867666" Type="Play" Scope="One" Global="false">
+								<Event Name="Stallo_Croak" ID="{7B5DD4BC-EBD5-4848-BB94-1CEE1F2CFF14}">
+									<ChildrenList>
+										<Action Name="Play" ID="{E40FF972-66E3-4D33-9125-F47504986D30}" ShortID="898867666" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{8518F060-DBD6-43C6-835D-6A84E47739DD}" Global="false">
+													<ObjectRef Name="Stallo Croak" ID="{96D3B8EC-3344-4490-BABF-2E3627438E43}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Movement" ID="{45B931DD-7E24-4D5E-BF45-C9EC12053C27}" ShortID="237117995"/>
+						<Event Name="StalloAmbience" ID="{2368E0BE-BC12-49C9-83F8-95EB58CB61CC}">
+							<ChildrenList>
+								<Action Name="Play" ID="{8E87C2B1-72CF-4851-AD8C-0E0736B8D89F}" ShortID="965459678" Type="Play" Scope="One" Global="false">
 									<ElementList>
-										<Element ID="{8518F060-DBD6-43C6-835D-6A84E47739DD}" Global="false">
-											<ObjectRef Name="Stallo Croak" ID="{96D3B8EC-3344-4490-BABF-2E3627438E43}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										<Element ID="{ABEA4440-7FB4-4B45-A664-CD38096120D8}" Global="false">
+											<ObjectRef Name="StalloAmbience" ID="{3F437909-6703-4F54-B37E-F75305E7EF2C}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StalloAmbienceStop" ID="{5CA4540D-DFE9-4E29-9E83-1E1709CBB37B}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{A06CF607-B5A7-4412-B19C-A3BBA0423776}" ShortID="395043840" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="4"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{179CB472-A277-43A3-8E5B-CE3D1CA0CA91}" Global="true">
+											<ObjectRef Name="StalloAmbience" ID="{3F437909-6703-4F54-B37E-F75305E7EF2C}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -169,6 +200,97 @@
 									<ElementList>
 										<Element ID="{C7EF7189-E7DB-4029-8E9E-01A94B7A47CA}" Global="false">
 											<ObjectRef Name="Macho Man Randy Savage Theme song" ID="{4AF4949A-381B-4683-9D6D-E8EDF96460DB}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="LivingRoom" ID="{7511A471-F795-457E-8159-27554E9DA09B}" ShortID="77879827">
+					<ChildrenList>
+						<Event Name="TrophyFalls" ID="{0DE09C3B-1C50-43C3-AEEA-B420329C4754}"/>
+						<Event Name="FireplaceWind" ID="{78A61575-CB31-4297-A4F0-2892066B02FD}"/>
+						<Folder Name="CandleStick" ID="{E8C9A92C-26A4-42F8-9D46-839F46EBF67A}" ShortID="139309910">
+							<ChildrenList>
+								<Event Name="CandleStickOn" ID="{49ADB9F4-CE4F-43C3-A6D2-7AD83DFFEF45}"/>
+								<Event Name="CandleStickOff" ID="{83327A22-0C44-4FAC-A0B6-9AE38CCB93BC}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="ClosetDoor" ID="{28678479-8A5F-4A2E-931D-A8EB6DC414FE}" ShortID="369177939">
+							<ChildrenList>
+								<Event Name="ClosedDoorOpen" ID="{9356D82C-DD98-4D9C-8D5D-3EA42A5ECF4D}"/>
+								<Event Name="ClosetDoorShut" ID="{4E504023-D201-4350-85D1-EC0D9970799A}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Radio" ID="{8976D483-3693-4E68-A20D-2734647A25EB}" ShortID="405319296">
+							<ChildrenList>
+								<Event Name="RadioOn" ID="{C93618A3-AC73-4191-90E2-6E840CAEDBA2}"/>
+								<Event Name="RadioOff" ID="{F68F3F5A-F8A4-40D3-B251-2243119FB403}"/>
+								<Event Name="RadioStatic" ID="{D32470D0-22DE-43EC-8715-E186F9BF85E2}"/>
+								<Event Name="RadioScare" ID="{64376094-D6AA-4DFC-A8C8-940B33E6DA72}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="BedRoom" ID="{03BE162A-0089-4CAB-9C8E-89018F17AF09}" ShortID="127379500">
+					<ChildrenList>
+						<Event Name="AlarmClock" ID="{65A6F7D2-D11B-4DBE-9704-865AA52DE8D7}"/>
+						<Event Name="BedScare" ID="{959C418C-0AE7-4415-912D-E7FE46430A6F}"/>
+						<Event Name="ClockTicking" ID="{2FA63208-3A9D-45E7-8F73-60CE1AF43BBD}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Kitchen" ID="{5F0DA2AC-8DC8-4300-81B8-DCC2EA6E7011}" ShortID="811820388">
+					<ChildrenList>
+						<Event Name="Refridgerator" ID="{B2E358DE-8B90-4803-946E-13917CC1F376}"/>
+						<Event Name="DinnerPlates" ID="{AF441774-BA1A-46B4-85A2-C087E817BD6E}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="DiningRoom" ID="{2FFE728A-E2B5-468C-AC4D-5F8AA059083F}" ShortID="651346087">
+					<ChildrenList>
+						<Event Name="ChairMoving" ID="{0672A3BC-104C-4651-B75C-56716F3FA39B}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Entrance" ID="{11C0EA0C-D54F-4789-A6A3-EE4049E87FE2}" ShortID="607473004">
+					<ChildrenList>
+						<Folder Name="Door" ID="{8B4DD569-3D23-487E-86FA-2CBE9EB5622F}" ShortID="441904433">
+							<ChildrenList>
+								<Event Name="DoorLock" ID="{77EC41C4-A661-4597-84DE-5BC6D133E04A}"/>
+								<Event Name="DoorUnlock" ID="{1FCF92D6-F346-4AA1-A598-1CE724F7A288}"/>
+								<Event Name="DoorOpenWind" ID="{843BDF0F-1C79-4171-95E5-D070615651AF}"/>
+								<Event Name="DoorSlam" ID="{9AFD8687-364B-4AE3-90FE-44860C5FDACC}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Loft" ID="{1CB48EC7-881C-49BA-9E07-C0B9ED534519}" ShortID="328205244">
+					<ChildrenList>
+						<Folder Name="Ladder" ID="{3ACDCBDD-A2CC-451D-A9AE-B7ABBA6D5374}" ShortID="93915166"/>
+						<Folder Name="General Noises" ID="{CA97CDC9-7F94-4C40-820C-F5E59666EB71}" ShortID="675038717"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Stone" ID="{06B19544-FBDE-4496-9396-3730004327A7}" ShortID="764957840">
+					<ChildrenList>
+						<Event Name="Stonedragging" ID="{B1FBA175-8B97-4832-AFDC-3FF5D23CE423}">
+							<ChildrenList>
+								<Action Name="Play" ID="{8ACECB93-73B3-4FB0-A639-EA8489EB7958}" ShortID="772780444" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{8A3F598F-B841-4B34-B674-1D7A93ABFA84}" Global="false">
+											<ObjectRef Name="StoneGrind" ID="{1858D208-AD3E-46A3-9DA6-01AF67A14495}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StonedraggingStop" ID="{073A3F63-7895-4663-913C-CDC97A926EF8}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{32B36D72-5C12-463B-881B-599161E556BC}" ShortID="788651177" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{F94EF383-5E05-4C55-BDF1-814B89FB5B1C}" Global="true">
+											<ObjectRef Name="StoneGrind" ID="{1858D208-AD3E-46A3-9DA6-01AF67A14495}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>

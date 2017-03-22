@@ -26,7 +26,6 @@ State	ID	Name	State Group			Notes
 	2058049674	Wood	FootMat			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	1881682307	DyingTime			\Default Work Unit\DyingTime	
 	2255331094	playerDist			\Default Work Unit\playerDist	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
