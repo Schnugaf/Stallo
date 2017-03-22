@@ -8,7 +8,10 @@
 				<GameParameter Name="playerRot" ID="{68184EAC-1F5C-45FA-9508-A27B7CD32CC0}"/>
 				<GameParameter Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}">
 					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="3000"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 						<Property Name="SlewRateUp" Type="Real64" Value="10"/>
 					</PropertyList>
 				</GameParameter>
