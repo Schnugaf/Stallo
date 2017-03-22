@@ -8,6 +8,7 @@ Switch	ID	Name	Switch Group			Notes
 State Group	ID	Name			Wwise Object Path	Notes
 	238653005	Breathing			\Default Work Unit\Character\Breathing	
 	673320787	windLoc			\Default Work Unit\windLoc	
+	1182830809	Clock			\Default Work Unit\Clock	
 	2756041832	DoorState			\Default Work Unit\DoorState	
 	3553155257	FootMat			\Default Work Unit\Character\FootMat	
 
@@ -18,6 +19,9 @@ State	ID	Name	State Group			Notes
 	748895195	None	windLoc			
 	2730119150	Outdoors	windLoc			
 	4103860031	Indoors	windLoc			
+	748895195	None	Clock			
+	855317084	Alarm	Clock			
+	968197334	Ticking	Clock			
 	748895195	None	DoorState			
 	3012222945	Closed	DoorState			
 	3072142513	Open	DoorState			

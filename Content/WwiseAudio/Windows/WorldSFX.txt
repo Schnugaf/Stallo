@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	291717360	MusicStartPos			\Default Work Unit\Menu\MusicStartPos	
 	477783203	MirrorFrame			\Default Work Unit\MirrorFrame	
 	519841063	StonedraggingStop			\Default Work Unit\Stone\StonedraggingStop	
+	1051411130	ClockTicking			\Default Work Unit\BedRoom\ClockTicking	
 	1231189491	Stallo_Croak			\Default Work Unit\Stallo\Voice\Stallo_Croak	
 	1338510799	DoorHowl			\Default Work Unit\Ambience\DoorHowl	
 	1584507803	Click			\Default Work Unit\Menu\Click	
@@ -39,7 +40,6 @@ State	ID	Name	State Group			Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2255331094	playerDist			\Default Work Unit\playerDist	
-	3846925005	totalDist			\Default Work Unit\totalDist	
 	3863669765	playerRot			\Default Work Unit\playerRot	
 
 Effect plug-ins	ID	Name	Type				Notes
