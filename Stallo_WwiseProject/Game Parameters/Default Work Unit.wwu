@@ -12,6 +12,18 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="10"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="cornerCount" ID="{DDEA3DCA-F175-48E3-B8BB-62264EF69138}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="2"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="totalDist" ID="{7C6127DB-D2BC-4944-AB76-8560A13D79A9}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
