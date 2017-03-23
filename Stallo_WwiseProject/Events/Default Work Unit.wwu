@@ -235,7 +235,6 @@
 				</Folder>
 				<Folder Name="BedRoom" ID="{03BE162A-0089-4CAB-9C8E-89018F17AF09}" ShortID="127379500">
 					<ChildrenList>
-						<Event Name="AlarmClock" ID="{65A6F7D2-D11B-4DBE-9704-865AA52DE8D7}"/>
 						<Event Name="BedScare" ID="{959C418C-0AE7-4415-912D-E7FE46430A6F}"/>
 						<Event Name="ClockTicking" ID="{2FA63208-3A9D-45E7-8F73-60CE1AF43BBD}"/>
 					</ChildrenList>

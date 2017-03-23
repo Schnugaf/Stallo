@@ -18,6 +18,7 @@
 			<IncludedEvents>
 				<Event Id="238653005" Name="Breathing" ObjectPath="\Events\Default Work Unit\Character\Breathing"/>
 				<Event Id="1584507803" Name="Click" ObjectPath="\Events\Default Work Unit\Menu\Click"/>
+				<Event Id="1051411130" Name="ClockTicking" ObjectPath="\Events\Default Work Unit\BedRoom\ClockTicking"/>
 				<Event Id="1338510799" Name="DoorHowl" ObjectPath="\Events\Default Work Unit\Ambience\DoorHowl"/>
 				<Event Id="3328495488" Name="Dying" ObjectPath="\Events\Default Work Unit\Character\Voice\Dying"/>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Character\Footstep"/>
