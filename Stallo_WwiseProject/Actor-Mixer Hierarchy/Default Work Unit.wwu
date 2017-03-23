@@ -1133,7 +1133,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+									<ObjectRef Name="Movable Sounds" ID="{322ED997-5C8D-4738-BE6B-F3B8E19C2ECC}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1147,6 +1147,136 @@
 							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Macho Man Randy Savage Theme song" ID="{4F12D54F-CE83-4146-B592-5AA600C6F654}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Massive Attack - Angel" ID="{DD9E0FFA-20FE-4820-BFAD-CD2D95DCEFD1}" ShortID="540158953" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{EEC22150-4D02-45C9-AF90-ABC2697BF11F}" ShortID="243546914">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2196FF56-10B1-48D1-8000-989415948818}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>29</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{9749685D-5740-42E1-8263-6745069F22B4}" ShortID="383907179">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{929A7BB4-3B67-49CF-A097-68AB023CD97B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>3</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>51</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{38E41C98-59E8-473E-8EFF-284236C26E96}" ShortID="435194519">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="CornerAngle" ID="{874B476A-F262-4102-99D0-72E0B312C6F0}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A25D32CC-D7D7-47A8-BEE6-48173A3B34B1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>5</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>40</XPos>
+														<YPos>10</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>60</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>80</XPos>
+														<YPos>5</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>10</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DoorTest" ID="{3792E32D-A683-46FC-896D-02BE2FB67222}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Small_Wooden_Room1" ID="{F7CBE859-36A8-4174-B553-AE32A7FE95FA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Movable Sounds" ID="{322ED997-5C8D-4738-BE6B-F3B8E19C2ECC}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Massive Attack - Angel" ID="{106C4DF5-CFCA-4C31-AC0E-A63FB458ED47}" ShortID="944274896">
+									<Language>SFX</Language>
+									<AudioFile>Massive Attack - Angel.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Massive Attack - Angel" ID="{106C4DF5-CFCA-4C31-AC0E-A63FB458ED47}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

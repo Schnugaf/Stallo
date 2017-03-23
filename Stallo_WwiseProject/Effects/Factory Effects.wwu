@@ -739,9 +739,65 @@
 						</Effect>
 						<Effect Name="Small_Wooden_Room1" ID="{F7CBE859-36A8-4174-B553-AE32A7FE95FA}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 							<PropertyList>
+								<Property Name="DryLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{5697AEEE-E2E5-40DF-97D0-F74BD54A9EA5}" ShortID="468746955">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{455A6BD2-DD05-40B5-89A7-EA4B68BF1F2D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>-4.53065</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="HFRatio" Type="Real32" Value="10"/>
 								<Property Name="NumberOfDelays" Type="int32" Value="12"/>
-								<Property Name="ReverbTime" Type="Real32" Value="1.5"/>
+								<Property Name="ReverbTime" Type="Real32" Value="1.5">
+									<RTPCList>
+										<RTPC Name="" ID="{372F9D2E-DFDC-495F-80BC-B7ECA32586D2}" ShortID="685943514">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6D9A6FD4-9627-483D-AB39-D2BE4BF3C84A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>3.99613</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>6.64678</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="WetLevel" Type="Real32" Value="-30"/>
 							</PropertyList>
 						</Effect>
@@ -1266,7 +1322,34 @@
 										<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
 										<Property Name="HFDamping" Type="Real32" Value="2.7"/>
 										<Property Name="Quality" Type="int32" Value="12"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-22">
+											<RTPCList>
+												<RTPC Name="" ID="{1F4BFE7E-D629-4790-976C-48BF3EAD9D2E}" ShortID="756965692">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{F108C8BE-2ECF-4084-9F75-B51C0664D5C6}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96.3000030517578</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>3000</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="RoomShape" Type="Real32" Value="55"/>
 										<Property Name="RoomSize" Type="Real32" Value="15"/>
 										<Property Name="StereoWidth" Type="Real32" Value="115"/>
@@ -1275,8 +1358,8 @@
 								<Effect Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<PropertyList>
 										<Property Name="DecayTime" Type="Real32" Value="0.7"/>
-										<Property Name="Density" Type="Real32" Value="44"/>
-										<Property Name="Diffusion" Type="Real32" Value="46"/>
+										<Property Name="Density" Type="Real32" Value="60"/>
+										<Property Name="Diffusion" Type="Real32" Value="80"/>
 										<Property Name="ERLevel" Type="Real32" Value="-23"/>
 										<Property Name="ERPattern" Type="int32" Value="22"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
@@ -1284,9 +1367,35 @@
 										<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
 										<Property Name="HFDamping" Type="Real32" Value="2.7"/>
 										<Property Name="PreDelay" Type="Real32" Value="12"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
-										<Property Name="RoomShape" Type="Real32" Value="55"/>
-										<Property Name="RoomSize" Type="Real32" Value="15"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-22">
+											<RTPCList>
+												<RTPC Name="" ID="{81387C05-44FC-4F77-B974-09F5D20B3699}" ShortID="972171959">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{94D9455E-FD2B-45BD-BBC2-A94FCC85B7BB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96.3000030517578</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>3000</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="RoomSize" Type="Real32" Value="51"/>
 										<Property Name="StereoWidth" Type="Real32" Value="90"/>
 									</PropertyList>
 								</Effect>
@@ -1321,7 +1430,34 @@
 										<Property Name="Filter3Gain" Type="Real32" Value="-12"/>
 										<Property Name="HFDamping" Type="Real32" Value="7"/>
 										<Property Name="Quality" Type="int32" Value="10"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-22">
+											<RTPCList>
+												<RTPC Name="" ID="{ECDC9662-C28F-44BB-A83C-0CC37D7F6B30}" ShortID="972443191">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{733B16CF-5984-4665-85C8-861AFC9EC776}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96.3000030517578</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>3000</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="RoomShape" Type="Real32" Value="55"/>
 										<Property Name="RoomSize" Type="Real32" Value="15"/>
 										<Property Name="StereoWidth" Type="Real32" Value="115"/>
