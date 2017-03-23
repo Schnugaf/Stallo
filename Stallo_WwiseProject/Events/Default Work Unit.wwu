@@ -214,7 +214,17 @@
 				<Folder Name="BedRoom" ID="{03BE162A-0089-4CAB-9C8E-89018F17AF09}" ShortID="127379500">
 					<ChildrenList>
 						<Event Name="BedScare" ID="{959C418C-0AE7-4415-912D-E7FE46430A6F}"/>
-						<Event Name="ClockTicking" ID="{2FA63208-3A9D-45E7-8F73-60CE1AF43BBD}"/>
+						<Event Name="ClockTicking" ID="{2FA63208-3A9D-45E7-8F73-60CE1AF43BBD}">
+							<ChildrenList>
+								<Action Name="Play" ID="{205CFFD7-6B20-4790-8860-B9FA257EFA99}" ShortID="264521977" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{D6530633-0CA1-43ED-87B9-1BC1A4F2DB52}" Global="false">
+											<ObjectRef Name="Clock" ID="{66580524-C2E6-4DFA-A3DD-3E2098FC10F1}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Kitchen" ID="{5F0DA2AC-8DC8-4300-81B8-DCC2EA6E7011}" ShortID="811820388">

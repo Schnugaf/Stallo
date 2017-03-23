@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>d:\Github\Stallo\Stallo_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>d:\Github\Stallo\Stallo_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>d:\Github\Stallo\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Skole\Pilot\Stallo\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>d:\Github\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -72,6 +72,10 @@
 					<ShortName>Monster Snarling-SoundBible.com-401809359.wav</ShortName>
 					<Path>SFX\Monster Snarling-SoundBible.com-401809359_20738036.wem</Path>
 				</File>
+				<File Id="484297712" Language="SFX">
+					<ShortName>ClockAlarm.wav</ShortName>
+					<Path>SFX\ClockAlarm_9E69E797.wem</Path>
+				</File>
 				<File Id="504895240" Language="SFX">
 					<ShortName>StoneGrind2.wav</ShortName>
 					<Path>SFX\StoneGrind2_9E69E797.wem</Path>
@@ -95,6 +99,10 @@
 				<File Id="708826383" Language="SFX">
 					<ShortName>Giant_Wyrm.wav</ShortName>
 					<Path>SFX\Giant_Wyrm_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="730968485" Language="SFX">
+					<ShortName>ClockTick.wav</ShortName>
+					<Path>SFX\ClockTick_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="739213325" Language="SFX">
 					<ShortName>woodsteps1.wav</ShortName>
