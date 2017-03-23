@@ -18,28 +18,106 @@
 								</Bus>
 								<Bus Name="Movable Sounds" ID="{322ED997-5C8D-4738-BE6B-F3B8E19C2ECC}">
 									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
+										<Property Name="BypassEffect0" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Highpass" Type="int16">
 											<RTPCList>
-												<RTPC Name="" ID="{B1AB2CA3-78A1-46D1-B74A-7358C04566AF}" ShortID="973715619">
+												<RTPC Name="" ID="{1F186E4A-1124-4FD0-8457-D27A3F2BABA3}" ShortID="456660901">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{7AF197FB-5697-4E69-9578-91824C0488A7}">
+													<Curve Name="" ID="{C8EBDD3C-EA8D-437C-A164-75C60A8234DF}">
 														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
+															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>0.0641</YPos>
+																<YPos>0</YPos>
 																<Flags>5</Flags>
-																<SegmentShape>Exp3</SegmentShape>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>3000</XPos>
+																<YPos>29</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{6D55B323-9789-4538-825E-24B0185E4DAC}" ShortID="75681541">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="CornerAngle" ID="{874B476A-F262-4102-99D0-72E0B312C6F0}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7E2EA39A-7C44-4C93-8F73-5654DF2BE26F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>20</XPos>
+																<YPos>10</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>40</XPos>
+																<YPos>20</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>60</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>80</XPos>
+																<YPos>10</YPos>
+																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>-200</YPos>
+																<YPos>20</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{B44FDC5F-E7DD-4223-B1BB-A33F9A3F1A6E}" ShortID="794214488">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="playerDist" ID="{E6AB411C-A073-48B2-9273-C5D027AF357B}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{EA8E8821-D897-4207-BB09-92ACB4973743}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>3</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>3000</XPos>
+																<YPos>74</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -48,6 +126,11 @@
 											</RTPCList>
 										</Property>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Small_Wooden_Room1" ID="{F7CBE859-36A8-4174-B553-AE32A7FE95FA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
 								</Bus>
 							</ChildrenList>
 						</Bus>

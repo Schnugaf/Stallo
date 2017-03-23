@@ -19,13 +19,13 @@
 				<Event Id="238653005" Name="Breathing" ObjectPath="\Events\Default Work Unit\Character\Breathing"/>
 				<Event Id="1584507803" Name="Click" ObjectPath="\Events\Default Work Unit\Menu\Click"/>
 				<Event Id="1051411130" Name="ClockTicking" ObjectPath="\Events\Default Work Unit\BedRoom\ClockTicking"/>
-				<Event Id="1338510799" Name="DoorHowl" ObjectPath="\Events\Default Work Unit\Ambience\DoorHowl"/>
+				<Event Id="1338510799" Name="DoorHowl" ObjectPath="\Events\Default Work Unit\Door\DoorHowl"/>
 				<Event Id="3328495488" Name="Dying" ObjectPath="\Events\Default Work Unit\Character\Voice\Dying"/>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Character\Footstep"/>
-				<Event Id="477783203" Name="MirrorFrame" ObjectPath="\Events\Default Work Unit\MirrorFrame"/>
+				<Event Id="477783203" Name="MirrorFrame" ObjectPath="\Events\Default Work Unit\LivingRoom\MirrorFrame"/>
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Menu\Music"/>
 				<Event Id="291717360" Name="MusicStartPos" ObjectPath="\Events\Default Work Unit\Menu\MusicStartPos"/>
-				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Open_Door"/>
+				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Door\Open_Door"/>
 				<Event Id="2036047442" Name="Screaming" ObjectPath="\Events\Default Work Unit\Character\Voice\Screaming"/>
 				<Event Id="1231189491" Name="Stallo_Croak" ObjectPath="\Events\Default Work Unit\Stallo\Voice\Stallo_Croak"/>
 				<Event Id="3041118060" Name="StalloAmbience" ObjectPath="\Events\Default Work Unit\Stallo\StalloAmbience"/>
@@ -88,10 +88,6 @@
 					<ShortName>snow1.wav</ShortName>
 					<Path>SFX\snow1_9E69E797.wem</Path>
 				</File>
-				<File Id="593073333" Language="SFX">
-					<ShortName>Macho Man Randy Savage Theme song.wav</ShortName>
-					<Path>SFX\Macho Man Randy Savage Theme song_20738036.wem</Path>
-				</File>
 				<File Id="706325024" Language="SFX">
 					<ShortName>StoneGrind4.wav</ShortName>
 					<Path>SFX\StoneGrind4_9E69E797.wem</Path>
@@ -123,6 +119,10 @@
 				<File Id="907409783" Language="SFX">
 					<ShortName>19171__martian__bass-feedback-01.wav</ShortName>
 					<Path>SFX\19171__martian__bass-feedback-01_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="944274896" Language="SFX">
+					<ShortName>Massive Attack - Angel.wav</ShortName>
+					<Path>SFX\Massive Attack - Angel_9E69E797.wem</Path>
 				</File>
 				<File Id="957237055" Language="SFX">
 					<ShortName>StoneGrind5.wav</ShortName>

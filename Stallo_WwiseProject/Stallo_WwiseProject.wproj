@@ -9983,7 +9983,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-200</YPos>
+										<YPos>-2.5216</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -10004,7 +10004,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>100</YPos>
+										<YPos>20.07874</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -10015,7 +10015,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{0777F6D1-E392-416B-AE77-CE8372D0E882}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="3"/>
+									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -10025,7 +10025,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>100</YPos>
+										<YPos>19.68504</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -10041,12 +10041,12 @@
 								<PointList>
 									<Point>
 										<XPos>0</XPos>
-										<YPos>-0</YPos>
+										<YPos>0</YPos>
 										<Flags>5</Flags>
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-200</YPos>
+										<YPos>-8.72702</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -10057,7 +10057,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{20F2B81B-D715-4FD9-9AF1-1FF153CFD15E}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="3"/>
+									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -10067,7 +10067,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>100</YPos>
+										<YPos>60.62992</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -10088,7 +10088,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>100</YPos>
+										<YPos>39.76378</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
