@@ -1287,7 +1287,6 @@
 							<ChildrenList>
 								<SwitchContainer Name="Clock" ID="{66580524-C2E6-4DFA-A3DD-3E2098FC10F1}" ShortID="1051772445">
 									<PropertyList>
-										<Property Name="3DPositionSource" Type="int16" Value="0"/>
 										<Property Name="Lowpass" Type="int16">
 											<RTPCList>
 												<RTPC Name="" ID="{D57258D4-9A8C-4338-AC93-A59D84A44A9E}" ShortID="916803470">
@@ -1321,7 +1320,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Clock" ID="{796DFD7A-8561-438C-807C-A7BC333268E9}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+											<ObjectRef Name="ClockAttenuation" ID="{6D2F5D06-2992-410E-9155-493821113F9B}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>

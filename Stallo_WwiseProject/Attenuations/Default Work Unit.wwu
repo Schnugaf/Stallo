@@ -149,19 +149,14 @@
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Attenuation Name="Clock" ID="{796DFD7A-8561-438C-807C-A7BC333268E9}" ShortID="752114580">
+				<Attenuation Name="ClockAttenuation" ID="{6D2F5D06-2992-410E-9155-493821113F9B}" ShortID="638557214">
 					<PropertyList>
-						<Property Name="ConeUse" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
 						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-								<Curve Name="VolumeDry" ID="{E56C1EDB-F814-4389-846E-59159F31CC09}">
+								<Curve Name="VolumeDry" ID="{699700A9-614D-41D5-BEFB-4C76BEE13786}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="3"/>
 									</PropertyList>
@@ -187,25 +182,7 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 						</VolumeWetUserUsage>
 						<LowPassFilterUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-								<Curve Name="LowPassFilter" ID="{03F3C57D-5ED4-4785-9CAC-B214E7AF5152}">
-									<PropertyList>
-										<Property Name="Flags" Type="int32" Value="65537"/>
-									</PropertyList>
-									<PointList>
-										<Point>
-											<XPos>0</XPos>
-											<YPos>0</YPos>
-											<Flags>5</Flags>
-										</Point>
-										<Point>
-											<XPos>1000</XPos>
-											<YPos>100</YPos>
-											<Flags>37</Flags>
-										</Point>
-									</PointList>
-								</Curve>
-							</CurveUsageInfo>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 						</LowPassFilterUsage>
 						<HighPassFilterUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
