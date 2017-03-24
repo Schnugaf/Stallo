@@ -214,7 +214,17 @@
 				<Folder Name="BedRoom" ID="{03BE162A-0089-4CAB-9C8E-89018F17AF09}" ShortID="127379500">
 					<ChildrenList>
 						<Event Name="BedScare" ID="{959C418C-0AE7-4415-912D-E7FE46430A6F}"/>
-						<Event Name="ClockTicking" ID="{2FA63208-3A9D-45E7-8F73-60CE1AF43BBD}"/>
+						<Event Name="ClockTicking" ID="{2FA63208-3A9D-45E7-8F73-60CE1AF43BBD}">
+							<ChildrenList>
+								<Action Name="Play" ID="{D99407DA-B24F-4D77-BB17-D73A1C3AB4D8}" ShortID="24858200" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{6A80CEDE-DBB0-4938-A586-01D8EFE14C30}" Global="false">
+											<ObjectRef Name="Clock" ID="{66580524-C2E6-4DFA-A3DD-3E2098FC10F1}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Kitchen" ID="{5F0DA2AC-8DC8-4300-81B8-DCC2EA6E7011}" ShortID="811820388">
@@ -288,7 +298,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="LockingDoor" ID="{28BFE160-99CC-4681-A4FA-A4EC03E5880C}"/>
+						<Event Name="LockingDoor" ID="{28BFE160-99CC-4681-A4FA-A4EC03E5880C}">
+							<ChildrenList>
+								<Action Name="Play" ID="{F1B4420E-B114-4688-9C3F-40880150E22F}" ShortID="391797464" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{DEB001E6-21D1-4A18-B69B-A8DE3E089777}" Global="false">
+											<ObjectRef Name="DoorLock" ID="{42523270-5E48-417C-8BB5-29AD5665A89B}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Open_Door" ID="{2621BA1A-42F9-447F-829F-ECD11B1FB039}">
 							<ChildrenList>
 								<Action Name="Play" ID="{2C681990-C1B8-4AE6-90A3-EFF67F53CE16}" ShortID="125854997" Type="Play" Scope="One" Global="false">
