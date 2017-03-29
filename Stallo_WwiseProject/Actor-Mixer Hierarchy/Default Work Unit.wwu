@@ -303,6 +303,47 @@
 								<ActiveSource Name="19171__martian__bass-feedback-01" ID="{E366CB2C-2ED9-41C7-861F-63E7C2674380}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="creepy-low-atmosphere-ambiance_MJ5grHE_" ID="{B4B2BDD3-2853-4097-A0B4-DA31372D3A61}" ShortID="197793976" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="creepy-low-atmosphere-ambiance_MJ5grHE_" ID="{CCDC5D0D-0339-4211-96E6-B03347FF9C55}" ShortID="103019964">
+									<Language>SFX</Language>
+									<AudioFile>creepy-low-atmosphere-ambiance_MJ5grHE_.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="creepy-low-atmosphere-ambiance_MJ5grHE_" ID="{CCDC5D0D-0339-4211-96E6-B03347FF9C55}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="monster-growl-deep-slow-drone_fktugnE_" ID="{D7E28863-3FE1-405C-9980-BA1A97A51AF0}" ShortID="524503514" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="monster-growl-deep-slow-drone_fktugnE_" ID="{72013777-39AE-49F2-91CB-8D38E0EA1F7A}" ShortID="120497952">
+									<Language>SFX</Language>
+									<AudioFile>monster-growl-deep-slow-drone_fktugnE_.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="monster-growl-deep-slow-drone_fktugnE_" ID="{72013777-39AE-49F2-91CB-8D38E0EA1F7A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{32446660-40A1-4766-8420-1D4DADBB7391}" ShortID="527874416">
@@ -1445,6 +1486,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="ab-f-031616-38503548_classic-radio-static-01" ID="{4C434801-DB31-4738-B7DB-F975F5BA9C2C}" ShortID="78781303" Type="SoundFX">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
@@ -1458,6 +1502,9 @@
 													<Language>SFX</Language>
 													<AudioFile>ab-f-031616-38503548_classic-radio-static-01.wav</AudioFile>
 												</AudioFileSource>
+												<ExternalSource Name="External_Source" ID="{1BC81C63-2568-47EF-AA88-D9F0297BE603}">
+													<Language>SFX</Language>
+												</ExternalSource>
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="ab-f-031616-38503548_classic-radio-static-01" ID="{520D4019-5B63-4EDD-84EE-BB72CA1059A2}" Platform="Linked"/>
@@ -2063,6 +2110,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Doorknock3" ID="{8E2BA456-11DE-410E-813A-3F9AF5AA0039}" ShortID="82608549" Type="SoundFX">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>12</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
@@ -2101,6 +2160,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Doorknock2" ID="{2F158A7C-498E-4D41-8D8F-DC2F7FD0A8D1}" ShortID="420650553" Type="SoundFX">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
@@ -2113,6 +2179,13 @@
 														<AudioFileSource Name="Doorknock2" ID="{1FE8169A-DA1C-4BAB-9664-2FE6D499325A}" ShortID="1045931598">
 															<Language>SFX</Language>
 															<AudioFile>Doorknock2.wav</AudioFile>
+														</AudioFileSource>
+														<AudioFileSource Name="Doorknock3" ID="{5081A511-9C43-4D73-A41E-9CC0D95C1420}" ShortID="831414922">
+															<Language>SFX</Language>
+															<AudioFile>Doorknock3.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="641174054"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2135,6 +2208,40 @@
 								</ActorMixer>
 							</ChildrenList>
 						</Folder>
+						<ActorMixer Name="DoorKnock" ID="{7A92C79C-A88D-40D8-8F29-ECDC3488E8F1}" ShortID="855084760">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DoorKnock1" ID="{C3FD52BD-A2C8-44F7-A39A-0AD93D154E13}" ShortID="86605177" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DoorKnock1" ID="{1BFF959F-8D87-4948-BD5D-F9E44A24F411}" ShortID="462999670">
+											<Language>SFX</Language>
+											<AudioFile>DoorKnock1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="348120316"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DoorKnock1" ID="{1BFF959F-8D87-4948-BD5D-F9E44A24F411}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="LivingRoom" ID="{68C28A3F-B5D6-4FBA-B6C2-43678F057043}" ShortID="1070893956">
@@ -2334,6 +2441,46 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="dial-turn-switch-clicks_zJGw724_" ID="{F5657D90-5522-4C03-BD24-082A3C83AD8A}" ShortID="378537203" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="dial-turn-switch-clicks_zJGw724_" ID="{25010A5A-B288-4335-AA69-CBDAD5373D72}" ShortID="155965444">
+													<Language>SFX</Language>
+													<AudioFile>dial-turn-switch-clicks_zJGw724_.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="dial-turn-switch-clicks_zJGw724_" ID="{25010A5A-B288-4335-AA69-CBDAD5373D72}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="dial-turn-switch-clicks_zysYQ2N_" ID="{EC4443FD-635A-44C6-B569-91AD4ACFBF3A}" ShortID="226190372" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="dial-turn-switch-clicks_zysYQ2N_" ID="{6761A9EB-F81D-4384-AB15-B60D8ECA98E9}" ShortID="988153557">
+													<Language>SFX</Language>
+													<AudioFile>dial-turn-switch-clicks_zysYQ2N_.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="dial-turn-switch-clicks_zysYQ2N_" ID="{6761A9EB-F81D-4384-AB15-B60D8ECA98E9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
@@ -2346,6 +2493,27 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fridge-sounds_z1jK7SNO" ID="{F102F263-212E-4352-A48B-A3432882DD37}" ShortID="930718959" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fridge-sounds_z1jK7SNO" ID="{492D16CC-C2A2-49D4-BFB2-8BD0D21A5D30}" ShortID="189346210">
+											<Language>SFX</Language>
+											<AudioFile>fridge-sounds_z1jK7SNO.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fridge-sounds_z1jK7SNO" ID="{492D16CC-C2A2-49D4-BFB2-8BD0D21A5D30}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>
