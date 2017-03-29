@@ -210,7 +210,17 @@
 							<ChildrenList>
 								<Event Name="ClosedDoorOpen" ID="{9356D82C-DD98-4D9C-8D5D-3EA42A5ECF4D}"/>
 								<Event Name="ClosetDoorShut" ID="{4E504023-D201-4350-85D1-EC0D9970799A}"/>
-								<Event Name="ClosetDoorKnock" ID="{502BD838-B67F-4D33-B7D5-F48020EA2843}"/>
+								<Event Name="ClosetDoorKnock" ID="{502BD838-B67F-4D33-B7D5-F48020EA2843}">
+									<ChildrenList>
+										<Action Name="Play" ID="{DEB446E9-01C2-43FC-A967-925E78901A15}" ShortID="256506231" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{4ACD20D4-1D2E-44C9-A2CD-C55682E08B0C}" Global="false">
+													<ObjectRef Name="KnockRandom" ID="{23DE05F0-8A66-4B56-BA00-41C669392A66}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Radio" ID="{8976D483-3693-4E68-A20D-2734647A25EB}" ShortID="405319296">

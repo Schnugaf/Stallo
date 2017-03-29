@@ -2090,6 +2090,9 @@
 						<Folder Name="ClosetDoor" ID="{7AAC88A4-0054-4FB8-86B6-85E2380DC5B9}" ShortID="467780047">
 							<ChildrenList>
 								<ActorMixer Name="ClosetDoorKnock" ID="{2A111132-F875-437F-893C-E970A072A43F}" ShortID="90569612">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
@@ -2209,6 +2212,9 @@
 							</ChildrenList>
 						</Folder>
 						<ActorMixer Name="DoorKnock" ID="{7A92C79C-A88D-40D8-8F29-ECDC3488E8F1}" ShortID="855084760">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
