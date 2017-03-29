@@ -188,14 +188,35 @@
 							<ChildrenList>
 								<Event Name="ClosedDoorOpen" ID="{9356D82C-DD98-4D9C-8D5D-3EA42A5ECF4D}"/>
 								<Event Name="ClosetDoorShut" ID="{4E504023-D201-4350-85D1-EC0D9970799A}"/>
+								<Event Name="ClosetDoorKnock" ID="{502BD838-B67F-4D33-B7D5-F48020EA2843}"/>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Radio" ID="{8976D483-3693-4E68-A20D-2734647A25EB}" ShortID="405319296">
 							<ChildrenList>
 								<Event Name="RadioOn" ID="{C93618A3-AC73-4191-90E2-6E840CAEDBA2}"/>
 								<Event Name="RadioOff" ID="{F68F3F5A-F8A4-40D3-B251-2243119FB403}"/>
-								<Event Name="RadioStatic" ID="{D32470D0-22DE-43EC-8715-E186F9BF85E2}"/>
-								<Event Name="RadioScare" ID="{64376094-D6AA-4DFC-A8C8-940B33E6DA72}"/>
+								<Event Name="RadioStatic" ID="{D32470D0-22DE-43EC-8715-E186F9BF85E2}">
+									<ChildrenList>
+										<Action Name="Play" ID="{63FB636C-3298-49EA-897D-CCA711282459}" ShortID="20605948" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{4FDCFD61-59D6-495D-9AEF-F8E2BF7F35D4}" Global="false">
+													<ObjectRef Name="ab-f-031616-38503548_classic-radio-static-01" ID="{4C434801-DB31-4738-B7DB-F975F5BA9C2C}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="RadioScare" ID="{64376094-D6AA-4DFC-A8C8-940B33E6DA72}">
+									<ChildrenList>
+										<Action Name="Play" ID="{0FC3804A-89DA-40EF-91B8-663B2145089F}" ShortID="697271584" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{F4551065-E060-42EA-90F0-481EDB23B1A1}" Global="false">
+													<ObjectRef Name="NRKNEWS" ID="{B41E5E05-321B-4169-97B1-7C904BF20993}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Event Name="MirrorFrame" ID="{73F1CF41-E36B-41F5-9AEB-23498DE94E79}">
