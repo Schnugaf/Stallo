@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3299103488" DateHigh="30577272"/>
-	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3299103488" DateHigh="30577272"/>
+	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2782638336" DateHigh="30582884"/>
+	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1647605632" DateHigh="30582883"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1924433536" DateHigh="30576059"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
-	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Effects\Factory Effects.wwu" DateLow="2523743744" DateHigh="30577261"/>
-	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Events\Default Work Unit.wwu" DateLow="3299103488" DateHigh="30577272"/>
-	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="2523743744" DateHigh="30577261"/>
+	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Effects\Factory Effects.wwu" DateLow="1647605632" DateHigh="30582883"/>
+	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Events\Default Work Unit.wwu" DateLow="2782638336" DateHigh="30582884"/>
+	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1647605632" DateHigh="30582883"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
-	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2523743744" DateHigh="30577261"/>
+	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1677605632" DateHigh="30582883"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Queries\Factory Queries.wwu" DateLow="1924433536" DateHigh="30576059"/>
-	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
+	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3077605632" DateHigh="30582883"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
-	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Stallo_WwiseProject.crossover.wsettings" DateLow="3299103488" DateHigh="30577272"/>
-	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Stallo_WwiseProject.wproj" DateLow="2523743744" DateHigh="30577261"/>
-	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\States\Default Work Unit.wwu" DateLow="2523743744" DateHigh="30577261"/>
-	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
+	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Stallo_WwiseProject.crossover.wsettings" DateLow="367605632" DateHigh="30582883"/>
+	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Stallo_WwiseProject.wproj" DateLow="3077605632" DateHigh="30582883"/>
+	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\States\Default Work Unit.wwu" DateLow="3077605632" DateHigh="30582883"/>
+	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3077605632" DateHigh="30582883"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
 </ValidationCache>
