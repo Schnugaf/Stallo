@@ -2287,6 +2287,9 @@
 				<Folder Name="GeneralHouse" ID="{6F5483CB-15F6-4EA6-87D7-75E4E5BADF62}" ShortID="152623914">
 					<ChildrenList>
 						<ActorMixer Name="Curtains" ID="{06E15B16-9972-4352-ABF8-E484660C91E1}" ShortID="445432066">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
@@ -2429,6 +2432,9 @@
 				<Folder Name="Kitchen" ID="{0671EB78-401C-4079-855F-548F9558BE14}" ShortID="4687266">
 					<ChildrenList>
 						<ActorMixer Name="Stove" ID="{CAD3B8BF-906B-4CC7-9C05-93175FCE9E48}" ShortID="844768756">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
@@ -2491,6 +2497,9 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Refridgerator" ID="{DD4885F7-6FF7-4296-A08A-A4E442CC73D1}" ShortID="815706799">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
@@ -2517,6 +2526,77 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="fridge-sounds_z1jK7SNO" ID="{492D16CC-C2A2-49D4-BFB2-8BD0D21A5D30}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Faucet" ID="{2364DDB7-DB9E-4B54-884F-7E171C3E1084}" ShortID="436790028">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="jg-032316-sfx-sink-faucet-running" ID="{B384CFCB-C01E-4714-8A92-BAC16F29CE06}" ShortID="803301483" Type="SoundFX">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="jg-032316-sfx-sink-faucet-running" ID="{0509B030-3C40-432F-9667-BDEE4925C285}" ShortID="257825557">
+											<Language>SFX</Language>
+											<AudioFile>jg-032316-sfx-sink-faucet-running.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="jg-032316-sfx-sink-faucet-running" ID="{0509B030-3C40-432F-9667-BDEE4925C285}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Cabinet" ID="{98337D7E-955C-4A0B-AD0A-4BA5A713A45D}" ShortID="503334244">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="cabinet-door-open-squeak_GypDeGNu" ID="{D4069DAB-37AD-4E52-81E3-EF6988F50330}" ShortID="668542638" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cabinet-door-open-squeak_GypDeGNu" ID="{5EFA1E6F-BED4-4363-BBA9-036874647779}" ShortID="630971542">
+											<Language>SFX</Language>
+											<AudioFile>cabinet-door-open-squeak_GypDeGNu.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cabinet-door-open-squeak_GypDeGNu" ID="{5EFA1E6F-BED4-4363-BBA9-036874647779}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
