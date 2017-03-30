@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2529113728" DateHigh="30583082"/>
+	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2554211840" DateHigh="30583085"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="2529113728" DateHigh="30583082"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
@@ -20,7 +20,7 @@
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Queries\Factory Queries.wwu" DateLow="1924433536" DateHigh="30576059"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3077605632" DateHigh="30582883"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1924433536" DateHigh="30576059"/>
-	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Stallo_WwiseProject.crossover.wsettings" DateLow="2219179136" DateHigh="30583084"/>
+	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Stallo_WwiseProject.crossover.wsettings" DateLow="2664211840" DateHigh="30583085"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Stallo_WwiseProject.wproj" DateLow="3077605632" DateHigh="30582883"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\States\Default Work Unit.wwu" DateLow="2008721280" DateHigh="30583070"/>
 	<ValidationCacheItem File="Y:\Stallo\Stallo_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3077605632" DateHigh="30582883"/>
