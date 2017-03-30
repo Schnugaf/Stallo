@@ -385,7 +385,13 @@
 								<Event Name="DoorOpenWind" ID="{843BDF0F-1C79-4171-95E5-D070615651AF}"/>
 								<Event Name="DoorSlam" ID="{9AFD8687-364B-4AE3-90FE-44860C5FDACC}">
 									<ChildrenList>
-										<Action Name="Play" ID="{C7BF0034-57DC-4FD2-8DDA-3F1ED6A9BC80}" ShortID="463275281" Type="Play" Scope="One" Global="false"/>
+										<Action Name="Play" ID="{C7BF0034-57DC-4FD2-8DDA-3F1ED6A9BC80}" ShortID="463275281" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{576A4AFF-45CD-4E4C-A949-DF24A6F72637}" Global="false">
+													<ObjectRef Name="door-slam-5_fJGqgMVd" ID="{53F5A418-C648-48D6-8AB4-E32029707DD5}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+												</Element>
+											</ElementList>
+										</Action>
 									</ChildrenList>
 								</Event>
 							</ChildrenList>
