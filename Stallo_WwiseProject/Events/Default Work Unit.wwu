@@ -489,6 +489,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Cabinets" ID="{9294C7BE-D449-4D02-97DD-681785014C7C}">
+							<ChildrenList>
+								<Action Name="Play" ID="{F57A50E6-C17F-42EC-BD74-31FC231FAFFC}" ShortID="615280889" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{B47D603A-0A56-437D-8230-C612B2A5FE78}" Global="false">
+											<ObjectRef Name="cabinet-door-open-squeak_GypDeGNu" ID="{D4069DAB-37AD-4E52-81E3-EF6988F50330}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
