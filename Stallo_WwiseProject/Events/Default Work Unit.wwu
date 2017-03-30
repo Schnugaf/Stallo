@@ -16,6 +16,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="CreepyLow" ID="{CDDF1391-1316-45F2-BB4F-F1D1F448B54E}">
+							<ChildrenList>
+								<Action Name="Play" ID="{5723B8C7-7EAD-4B90-8C96-EA0556ECE80C}" ShortID="366301716" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{2A8A4E80-06BC-4BA8-9653-061C0EFEADC3}" Global="false">
+											<ObjectRef Name="creepy-low-atmosphere-ambiance_MJ5grHE_" ID="{B4B2BDD3-2853-4097-A0B4-DA31372D3A61}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="monsterGrowl" ID="{68674D36-78BF-4BBA-AAC7-05F30B06C394}">
+							<ChildrenList>
+								<Action Name="Play" ID="{C4D187BE-26AB-4A56-AA3D-CE69B0C52A6E}" ShortID="656557735" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{AEB93CDC-E823-40F4-A3F9-8DEDFC449E58}" Global="false">
+											<ObjectRef Name="monster-growl-deep-slow-drone_fktugnE_" ID="{D7E28863-3FE1-405C-9980-BA1A97A51AF0}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{2D15DC5B-021E-4347-AF0F-C4E6711BF93F}" ShortID="903430213">
@@ -188,7 +210,17 @@
 							<ChildrenList>
 								<Event Name="ClosedDoorOpen" ID="{9356D82C-DD98-4D9C-8D5D-3EA42A5ECF4D}"/>
 								<Event Name="ClosetDoorShut" ID="{4E504023-D201-4350-85D1-EC0D9970799A}"/>
-								<Event Name="ClosetDoorKnock" ID="{502BD838-B67F-4D33-B7D5-F48020EA2843}"/>
+								<Event Name="ClosetDoorKnock" ID="{502BD838-B67F-4D33-B7D5-F48020EA2843}">
+									<ChildrenList>
+										<Action Name="Play" ID="{DEB446E9-01C2-43FC-A967-925E78901A15}" ShortID="256506231" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{4ACD20D4-1D2E-44C9-A2CD-C55682E08B0C}" Global="false">
+													<ObjectRef Name="KnockRandom" ID="{23DE05F0-8A66-4B56-BA00-41C669392A66}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Radio" ID="{8976D483-3693-4E68-A20D-2734647A25EB}" ShortID="405319296">
@@ -250,8 +282,60 @@
 				</Folder>
 				<Folder Name="Kitchen" ID="{5F0DA2AC-8DC8-4300-81B8-DCC2EA6E7011}" ShortID="811820388">
 					<ChildrenList>
-						<Event Name="Refridgerator" ID="{B2E358DE-8B90-4803-946E-13917CC1F376}"/>
+						<Event Name="Refridgerator" ID="{B2E358DE-8B90-4803-946E-13917CC1F376}">
+							<ChildrenList>
+								<Action Name="Play" ID="{69344352-1304-4858-8404-E5C6872A6663}" ShortID="484587473" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{9FD077D9-524E-45AB-80DA-394606CCB401}" Global="false">
+											<ObjectRef Name="fridge-sounds_z1jK7SNO" ID="{F102F263-212E-4352-A48B-A3432882DD37}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="DinnerPlates" ID="{AF441774-BA1A-46B4-85A2-C087E817BD6E}"/>
+						<Event Name="faucetOn" ID="{BC7BACEB-EB30-4222-9EE8-DB2D8A6B4E93}">
+							<ChildrenList>
+								<Action Name="Play" ID="{758C2FDC-3C7B-4FE8-836D-1D25EF9D07AF}" ShortID="318881330" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{DEEB50A1-0609-43F6-A595-1D1ED4A06E83}" Global="false">
+											<ObjectRef Name="opentap" ID="{9172C367-DEFD-4B1F-A403-90D270F41562}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{82CA724F-2848-48B2-9BDD-E1C51F4845F2}" ShortID="476442023" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{60367C78-E2BC-40DC-BFBA-3AC28673A45A}" Global="false">
+											<ObjectRef Name="jg-032316-sfx-sink-faucet-running" ID="{B384CFCB-C01E-4714-8A92-BAC16F29CE06}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="faucetOff" ID="{F5D8FFD2-C352-4DF1-B680-253290C46DF5}">
+							<ChildrenList>
+								<Action Name="Play" ID="{B904D743-7FEB-42F9-8EFB-C2808F853C47}" ShortID="839621713" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{5AC0D8A6-3068-4739-A848-56406659FD13}" Global="false">
+											<ObjectRef Name="closeTap" ID="{E51AA5B3-A360-4944-8CBB-CF9AE6F5BD84}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{375D4DDE-04AA-4C96-94C2-3A59F5D2B9F4}" ShortID="314318560" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{37530943-300C-4F84-A710-FBB2EA75653E}" Global="false">
+											<ObjectRef Name="jg-032316-sfx-sink-faucet-running" ID="{B384CFCB-C01E-4714-8A92-BAC16F29CE06}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="DiningRoom" ID="{2FFE728A-E2B5-468C-AC4D-5F8AA059083F}" ShortID="651346087">
@@ -336,6 +420,43 @@
 									<ElementList>
 										<Element ID="{21F29324-424F-4F1B-910D-D2D7DF8418B6}" Global="false">
 											<ObjectRef Name="Open_Door" ID="{3843EEE1-CAA6-4538-9120-6273093B6E95}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="GeneralHouse" ID="{731C2815-BB6E-4F4D-B85C-1F61C95AA65D}" ShortID="764375670">
+					<ChildrenList>
+						<Event Name="Curtains" ID="{AB656963-E638-41FF-A035-7558E728BC73}">
+							<ChildrenList>
+								<Action Name="Play" ID="{FF0D3547-11CC-4E2C-9C66-666AED224A81}" ShortID="498247955" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{7CA6D3FF-6197-4763-937C-DCCC61956945}" Global="false">
+											<ObjectRef Name="CurtainsRandom" ID="{6F12AA39-67C8-4094-94F6-82819661DC83}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Drawers" ID="{88128868-F274-4A56-9E85-D63EF05435B0}">
+							<ChildrenList>
+								<Action Name="Play" ID="{AA6A577F-5161-423B-9DF1-307238F511E6}" ShortID="993796334" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{21B778BD-4840-4AFF-8432-3A066A0099B3}" Global="false">
+											<ObjectRef Name="DrawerState" ID="{431A02E4-8796-49E3-A22A-7683BC6AE25F}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Book" ID="{970A4707-32B9-4FAF-AFB9-F7510E2695A3}">
+							<ChildrenList>
+								<Action Name="Play" ID="{23C54804-A1DD-4C44-A482-0844CDEB4DAE}" ShortID="249464396" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{F389FE71-316A-4B25-98EC-00A54E5E116F}" Global="false">
+											<ObjectRef Name="BookState" ID="{AD29A2AE-4BA4-4AE9-ADCD-5A0044C65EE3}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>
