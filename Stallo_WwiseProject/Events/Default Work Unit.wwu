@@ -294,6 +294,48 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="DinnerPlates" ID="{AF441774-BA1A-46B4-85A2-C087E817BD6E}"/>
+						<Event Name="faucetOn" ID="{BC7BACEB-EB30-4222-9EE8-DB2D8A6B4E93}">
+							<ChildrenList>
+								<Action Name="Play" ID="{758C2FDC-3C7B-4FE8-836D-1D25EF9D07AF}" ShortID="318881330" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{DEEB50A1-0609-43F6-A595-1D1ED4A06E83}" Global="false">
+											<ObjectRef Name="opentap" ID="{9172C367-DEFD-4B1F-A403-90D270F41562}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{82CA724F-2848-48B2-9BDD-E1C51F4845F2}" ShortID="476442023" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{60367C78-E2BC-40DC-BFBA-3AC28673A45A}" Global="false">
+											<ObjectRef Name="jg-032316-sfx-sink-faucet-running" ID="{B384CFCB-C01E-4714-8A92-BAC16F29CE06}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="faucetOff" ID="{F5D8FFD2-C352-4DF1-B680-253290C46DF5}">
+							<ChildrenList>
+								<Action Name="Play" ID="{B904D743-7FEB-42F9-8EFB-C2808F853C47}" ShortID="839621713" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{5AC0D8A6-3068-4739-A848-56406659FD13}" Global="false">
+											<ObjectRef Name="closeTap" ID="{E51AA5B3-A360-4944-8CBB-CF9AE6F5BD84}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{375D4DDE-04AA-4C96-94C2-3A59F5D2B9F4}" ShortID="314318560" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{37530943-300C-4F84-A710-FBB2EA75653E}" Global="false">
+											<ObjectRef Name="jg-032316-sfx-sink-faucet-running" ID="{B384CFCB-C01E-4714-8A92-BAC16F29CE06}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="DiningRoom" ID="{2FFE728A-E2B5-468C-AC4D-5F8AA059083F}" ShortID="651346087">
@@ -393,6 +435,28 @@
 									<ElementList>
 										<Element ID="{7CA6D3FF-6197-4763-937C-DCCC61956945}" Global="false">
 											<ObjectRef Name="CurtainsRandom" ID="{6F12AA39-67C8-4094-94F6-82819661DC83}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Drawers" ID="{88128868-F274-4A56-9E85-D63EF05435B0}">
+							<ChildrenList>
+								<Action Name="Play" ID="{AA6A577F-5161-423B-9DF1-307238F511E6}" ShortID="993796334" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{21B778BD-4840-4AFF-8432-3A066A0099B3}" Global="false">
+											<ObjectRef Name="DrawerState" ID="{431A02E4-8796-49E3-A22A-7683BC6AE25F}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Book" ID="{970A4707-32B9-4FAF-AFB9-F7510E2695A3}">
+							<ChildrenList>
+								<Action Name="Play" ID="{23C54804-A1DD-4C44-A482-0844CDEB4DAE}" ShortID="249464396" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{F389FE71-316A-4B25-98EC-00A54E5E116F}" Global="false">
+											<ObjectRef Name="BookState" ID="{AD29A2AE-4BA4-4AE9-ADCD-5A0044C65EE3}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>

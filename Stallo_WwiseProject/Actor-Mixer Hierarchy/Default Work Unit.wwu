@@ -1581,38 +1581,7 @@
 										</Reference>
 									</ReferenceList>
 								</ActorMixer>
-								<ActorMixer Name="BookOpen" ID="{E59F9980-B9AB-4662-AEAF-FA786E0379A6}" ShortID="469183349">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="book_Open" ID="{FB498224-8F60-4514-9493-2838228BF328}" ShortID="1032320107" Type="SoundFX">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="book_Open" ID="{DBA48477-4BF6-4AE9-A6AB-6D9D0F586AAD}" ShortID="80766433">
-													<Language>SFX</Language>
-													<AudioFile>book_Open.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="book_Open" ID="{DBA48477-4BF6-4AE9-A6AB-6D9D0F586AAD}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</ActorMixer>
-								<ActorMixer Name="BookClose" ID="{C31AF0F6-5C1B-44BE-9239-FE6C2840A1DD}" ShortID="184773955">
+								<SwitchContainer Name="BookState" ID="{AD29A2AE-4BA4-4AE9-ADCD-5A0044C65EE3}" ShortID="82977933">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
@@ -1641,8 +1610,53 @@
 												<ActiveSource Name="book_Close" ID="{24449916-9300-4BC0-8CCD-73FD4199DB09}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="book_Open" ID="{FB498224-8F60-4514-9493-2838228BF328}" ShortID="1032320107" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="book_Open" ID="{DBA48477-4BF6-4AE9-A6AB-6D9D0F586AAD}" ShortID="80766433">
+													<Language>SFX</Language>
+													<AudioFile>book_Open.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="book_Open" ID="{DBA48477-4BF6-4AE9-A6AB-6D9D0F586AAD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-								</ActorMixer>
+									<GroupingInfo>
+										<GroupRef Name="Book" ID="{835A5D5F-6144-4D5A-BE2E-62ABE764F80F}"/>
+										<DefaultSwitchRef Name="Close" ID="{BFD31CDD-13C7-484C-8A16-77F69F4096EC}"/>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="book_Open" ID="{FB498224-8F60-4514-9493-2838228BF328}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="book_Close" ID="{CBE62BA0-1093-4BA8-90A3-B1CEDCA0496D}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Open" ID="{296A5D6B-9962-4639-A49B-E44C96AB82FA}"/>
+												<ItemList>
+													<ItemRef Name="book_Open" ID="{FB498224-8F60-4514-9493-2838228BF328}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Close" ID="{BFD31CDD-13C7-484C-8A16-77F69F4096EC}"/>
+												<ItemList>
+													<ItemRef Name="book_Close" ID="{CBE62BA0-1093-4BA8-90A3-B1CEDCA0496D}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -2465,6 +2479,103 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Drawers" ID="{7708891A-ED6F-4270-9283-B5BBC3672BD8}" ShortID="771676937">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="DrawerState" ID="{431A02E4-8796-49E3-A22A-7683BC6AE25F}" ShortID="1002930602">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="drawerClose" ID="{8BFA3816-E9D0-44B0-BB22-34A567065264}" ShortID="452743984" Type="SoundFX">
+											<PropertyList>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="drawerClose" ID="{5BB6298D-0397-42BD-916D-F26C68A806FA}" ShortID="260754957">
+													<Language>SFX</Language>
+													<AudioFile>drawerClose.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="drawerClose" ID="{5BB6298D-0397-42BD-916D-F26C68A806FA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="drawerOpen" ID="{2C120504-35CF-452C-BF2C-B2C6312A4D2E}" ShortID="81997616" Type="SoundFX">
+											<PropertyList>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="drawerOpen" ID="{A8821926-987E-4DA5-9826-EE270089EE0E}" ShortID="761767855">
+													<Language>SFX</Language>
+													<AudioFile>drawerOpen.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="drawerOpen" ID="{A8821926-987E-4DA5-9826-EE270089EE0E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupRef Name="Drawer" ID="{766514A7-BB98-49C3-A644-2CD5E3C499CD}"/>
+										<DefaultSwitchRef Name="Close" ID="{03442E2F-43DA-4984-9FF8-1602A19B3F8F}"/>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="drawerOpen" ID="{2C120504-35CF-452C-BF2C-B2C6312A4D2E}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="drawerClose" ID="{8BFA3816-E9D0-44B0-BB22-34A567065264}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Close" ID="{03442E2F-43DA-4984-9FF8-1602A19B3F8F}"/>
+												<ItemList>
+													<ItemRef Name="drawerClose" ID="{8BFA3816-E9D0-44B0-BB22-34A567065264}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Open" ID="{47CEB556-6D57-4FAA-8D76-1A928027DDCD}"/>
+												<ItemList>
+													<ItemRef Name="drawerOpen" ID="{2C120504-35CF-452C-BF2C-B2C6312A4D2E}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

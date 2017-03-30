@@ -45,6 +45,23 @@
 						<State Name="Alarm" ID="{E0DA6D08-5F62-49DC-9F5F-C613D3DD2C5E}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Drawer" ID="{766514A7-BB98-49C3-A644-2CD5E3C499CD}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{88358794-0D63-4C2A-8D91-679EC5907370}"/>
+						<State Name="Open" ID="{47CEB556-6D57-4FAA-8D76-1A928027DDCD}"/>
+						<State Name="Close" ID="{03442E2F-43DA-4984-9FF8-1602A19B3F8F}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Book" ID="{835A5D5F-6144-4D5A-BE2E-62ABE764F80F}">
+					<ChildrenList>
+						<State Name="None" ID="{E83537D6-97DC-4CB7-A8CC-A281803076FF}"/>
+						<State Name="Open" ID="{296A5D6B-9962-4639-A49B-E44C96AB82FA}"/>
+						<State Name="Close" ID="{BFD31CDD-13C7-484C-8A16-77F69F4096EC}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
