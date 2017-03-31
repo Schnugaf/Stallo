@@ -1508,6 +1508,11 @@
 										<Sound Name="ClockTick" ID="{74E950F0-69A8-4B33-99A3-A4F26DED20D7}" ShortID="599798228" Type="SoundFX">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2919,6 +2924,11 @@
 						<ActorMixer Name="Stove" ID="{CAD3B8BF-906B-4CC7-9C05-93175FCE9E48}" ShortID="844768756">
 							<PropertyList>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -3154,6 +3164,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="cabinet-door-open-squeak_GypDeGNu" ID="{D4069DAB-37AD-4E52-81E3-EF6988F50330}" ShortID="668542638" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-26</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
