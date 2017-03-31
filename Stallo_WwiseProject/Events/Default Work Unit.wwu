@@ -84,7 +84,7 @@
 								<Action Name="Play" ID="{F73E77F5-D326-4335-A470-FED3F604AFF4}" ShortID="186830584" Type="Play" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{14AAE581-2FBE-48A6-9278-9A80B33F9804}" Global="false">
-											<ObjectRef Name="outside breathing" ID="{3F37B47F-AEC3-433C-89AC-DEE1BD58ACBF}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+											<ObjectRef Name="Breathing" ID="{233FBB8A-3E93-4597-9C79-6F745DE98A25}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -129,7 +129,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="StalloBreathing" ID="{36C2F7A2-A63B-4E24-921D-3ABB8CDCCFF8}"/>
+								<Event Name="StalloBreathing" ID="{36C2F7A2-A63B-4E24-921D-3ABB8CDCCFF8}">
+									<ChildrenList>
+										<Action Name="Play" ID="{816F80E4-2AB4-4F5E-ACBE-8F122F27F981}" ShortID="381114173" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{43DE52F3-86AE-4177-957E-E693DEE9BCAC}" Global="false">
+													<ObjectRef Name="Breathing" ID="{09A0A2B4-2454-4A0B-B651-9ECED6559671}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Movement" ID="{45B931DD-7E24-4D5E-BF45-C9EC12053C27}" ShortID="237117995"/>
@@ -375,7 +385,13 @@
 								<Event Name="DoorOpenWind" ID="{843BDF0F-1C79-4171-95E5-D070615651AF}"/>
 								<Event Name="DoorSlam" ID="{9AFD8687-364B-4AE3-90FE-44860C5FDACC}">
 									<ChildrenList>
-										<Action Name="Play" ID="{C7BF0034-57DC-4FD2-8DDA-3F1ED6A9BC80}" ShortID="463275281" Type="Play" Scope="One" Global="false"/>
+										<Action Name="Play" ID="{C7BF0034-57DC-4FD2-8DDA-3F1ED6A9BC80}" ShortID="463275281" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{576A4AFF-45CD-4E4C-A949-DF24A6F72637}" Global="false">
+													<ObjectRef Name="door-slam-5_fJGqgMVd" ID="{53F5A418-C648-48D6-8AB4-E32029707DD5}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+												</Element>
+											</ElementList>
+										</Action>
 									</ChildrenList>
 								</Event>
 							</ChildrenList>

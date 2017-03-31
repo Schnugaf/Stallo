@@ -16,23 +16,38 @@
 			<ShortName>WorldSFX</ShortName>
 			<Path>WorldSFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1761501022" Name="Book" ObjectPath="\Events\Default Work Unit\GeneralHouse\Book"/>
 				<Event Id="238653005" Name="Breathing" ObjectPath="\Events\Default Work Unit\Character\Breathing"/>
+				<Event Id="1869633006" Name="Cabinets" ObjectPath="\Events\Default Work Unit\GeneralHouse\Cabinets"/>
 				<Event Id="1584507803" Name="Click" ObjectPath="\Events\Default Work Unit\Menu\Click"/>
 				<Event Id="1051411130" Name="ClockTicking" ObjectPath="\Events\Default Work Unit\BedRoom\ClockTicking"/>
+				<Event Id="1349247621" Name="ClosedDoorOpen" ObjectPath="\Events\Default Work Unit\LivingRoom\ClosetDoor\ClosedDoorOpen"/>
+				<Event Id="232506007" Name="ClosetDoorKnock" ObjectPath="\Events\Default Work Unit\LivingRoom\ClosetDoor\ClosetDoorKnock"/>
+				<Event Id="1041932307" Name="ClosetDoorShut" ObjectPath="\Events\Default Work Unit\LivingRoom\ClosetDoor\ClosetDoorShut"/>
+				<Event Id="325910425" Name="CreepyLow" ObjectPath="\Events\Default Work Unit\Ambience\CreepyLow"/>
+				<Event Id="2928161104" Name="Curtains" ObjectPath="\Events\Default Work Unit\GeneralHouse\Curtains"/>
 				<Event Id="1338510799" Name="DoorHowl" ObjectPath="\Events\Default Work Unit\Door\DoorHowl"/>
+				<Event Id="3178299198" Name="DoorSlam" ObjectPath="\Events\Default Work Unit\Entrance\Door\DoorSlam"/>
+				<Event Id="1553818165" Name="DoorUnlock" ObjectPath="\Events\Default Work Unit\Entrance\Door\DoorUnlock"/>
+				<Event Id="1462380605" Name="Drawers" ObjectPath="\Events\Default Work Unit\GeneralHouse\Drawers"/>
 				<Event Id="3328495488" Name="Dying" ObjectPath="\Events\Default Work Unit\Character\Voice\Dying"/>
+				<Event Id="1404152342" Name="FirePlace" ObjectPath="\Events\Default Work Unit\DiningRoom\FirePlace"/>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Character\Footstep"/>
+				<Event Id="4033139392" Name="LockingDoor" ObjectPath="\Events\Default Work Unit\Door\LockingDoor"/>
 				<Event Id="477783203" Name="MirrorFrame" ObjectPath="\Events\Default Work Unit\LivingRoom\MirrorFrame"/>
+				<Event Id="193678488" Name="monsterGrowl" ObjectPath="\Events\Default Work Unit\Ambience\monsterGrowl"/>
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Menu\Music"/>
-				<Event Id="291717360" Name="MusicStartPos" ObjectPath="\Events\Default Work Unit\Menu\MusicStartPos"/>
 				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Door\Open_Door"/>
+				<Event Id="1549599785" Name="Refridgerator" ObjectPath="\Events\Default Work Unit\Kitchen\Refridgerator"/>
 				<Event Id="2036047442" Name="Screaming" ObjectPath="\Events\Default Work Unit\Character\Voice\Screaming"/>
 				<Event Id="1231189491" Name="Stallo_Croak" ObjectPath="\Events\Default Work Unit\Stallo\Voice\Stallo_Croak"/>
 				<Event Id="3041118060" Name="StalloAmbience" ObjectPath="\Events\Default Work Unit\Stallo\StalloAmbience"/>
 				<Event Id="4031051492" Name="StalloAmbienceStop" ObjectPath="\Events\Default Work Unit\Stallo\StalloAmbienceStop"/>
+				<Event Id="2946944654" Name="StalloBreathing" ObjectPath="\Events\Default Work Unit\Stallo\Voice\StalloBreathing"/>
 				<Event Id="4201360071" Name="Stonedragging" ObjectPath="\Events\Default Work Unit\Stone\Stonedragging"/>
 				<Event Id="519841063" Name="StonedraggingStop" ObjectPath="\Events\Default Work Unit\Stone\StonedraggingStop"/>
 				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\StopAll"/>
+				<Event Id="73648138" Name="StoveDial" ObjectPath="\Events\Default Work Unit\Kitchen\StoveDial"/>
 				<Event Id="3414304297" Name="WindStart" ObjectPath="\Events\Default Work Unit\Ambience\WindStart"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -40,13 +55,49 @@
 					<ShortName>217186__bosk1__wind-at-door-howling-4.wav</ShortName>
 					<Path>SFX\217186__bosk1__wind-at-door-howling-4_B3602F10.wem</Path>
 				</File>
+				<File Id="25587780" Language="SFX">
+					<ShortName>Curtain6.wav</ShortName>
+					<Path>SFX\Curtain6_9E69E797.wem</Path>
+				</File>
 				<File Id="49387479" Language="SFX">
 					<ShortName>wind.wav</ShortName>
 					<Path>SFX\wind_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="80766433" Language="SFX">
+					<ShortName>book_Open.wav</ShortName>
+					<Path>SFX\book_Open_9E69E797.wem</Path>
+				</File>
+				<File Id="103019964" Language="SFX">
+					<ShortName>creepy-low-atmosphere-ambiance_MJ5grHE_.wav</ShortName>
+					<Path>SFX\creepy-low-atmosphere-ambiance_MJ5grHE__4B8CC0C5.wem</Path>
+				</File>
 				<File Id="114601963" Language="SFX">
 					<ShortName>261419__archeos__womanscream.wav</ShortName>
 					<Path>SFX\261419__archeos__womanscream_9E69E797.wem</Path>
+				</File>
+				<File Id="120497952" Language="SFX">
+					<ShortName>monster-growl-deep-slow-drone_fktugnE_.wav</ShortName>
+					<Path>SFX\monster-growl-deep-slow-drone_fktugnE__9E69E797.wem</Path>
+				</File>
+				<File Id="128755975" Language="SFX">
+					<ShortName>door-slam-5_fJGqgMVd.wav</ShortName>
+					<Path>SFX\door-slam-5_fJGqgMVd_9E69E797.wem</Path>
+				</File>
+				<File Id="146084082" Language="SFX">
+					<ShortName>Curtain5.wav</ShortName>
+					<Path>SFX\Curtain5_9E69E797.wem</Path>
+				</File>
+				<File Id="155965444" Language="SFX">
+					<ShortName>dial-turn-switch-clicks_zJGw724_.wav</ShortName>
+					<Path>SFX\dial-turn-switch-clicks_zJGw724__9E69E797.wem</Path>
+				</File>
+				<File Id="189346210" Language="SFX">
+					<ShortName>fridge-sounds_z1jK7SNO.wav</ShortName>
+					<Path>SFX\fridge-sounds_z1jK7SNO_9E69E797.wem</Path>
+				</File>
+				<File Id="223743055" Language="SFX">
+					<ShortName>Curtain3.wav</ShortName>
+					<Path>SFX\Curtain3_9E69E797.wem</Path>
 				</File>
 				<File Id="242060973" Language="SFX">
 					<ShortName>outside breathing.wav</ShortName>
@@ -56,6 +107,18 @@
 					<ShortName>381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2.wav</ShortName>
 					<Path>SFX\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2_9E69E797.wem</Path>
 				</File>
+				<File Id="260754957" Language="SFX">
+					<ShortName>drawerClose.wav</ShortName>
+					<Path>SFX\drawerClose_9E69E797.wem</Path>
+				</File>
+				<File Id="273665176" Language="SFX">
+					<ShortName>Breathing4.wav</ShortName>
+					<Path>SFX\Breathing4_9E69E797.wem</Path>
+				</File>
+				<File Id="299896963" Language="SFX">
+					<ShortName>book_Close.wav</ShortName>
+					<Path>SFX\book_Close_9E69E797.wem</Path>
+				</File>
 				<File Id="308711752" Language="SFX">
 					<ShortName>Button-SoundBible.com-1420500901.wav</ShortName>
 					<Path>SFX\Button-SoundBible.com-1420500901_9E69E797.wem</Path>
@@ -63,6 +126,14 @@
 				<File Id="341799809" Language="SFX">
 					<ShortName>Foley Movement Wood Slide On Wood Short 01.wav</ShortName>
 					<Path>SFX\Foley Movement Wood Slide On Wood Short 01_9E69E797.wem</Path>
+				</File>
+				<File Id="342943882" Language="SFX">
+					<ShortName>monster-growl-breath_z1aL2UNu.wav</ShortName>
+					<Path>SFX\monster-growl-breath_z1aL2UNu_9E69E797.wem</Path>
+				</File>
+				<File Id="348120316" Language="SFX">
+					<ShortName>DoorKnock1.wav</ShortName>
+					<Path>SFX\DoorKnock1_9E69E797.wem</Path>
 				</File>
 				<File Id="355182275" Language="SFX">
 					<ShortName>331892__squashy555__wind-whistling-spooky-haunted-howling.wav</ShortName>
@@ -72,9 +143,21 @@
 					<ShortName>Monster Snarling-SoundBible.com-401809359.wav</ShortName>
 					<Path>SFX\Monster Snarling-SoundBible.com-401809359_20738036.wem</Path>
 				</File>
+				<File Id="468338154" Language="SFX">
+					<ShortName>Breathing1.wav</ShortName>
+					<Path>SFX\Breathing1_9E69E797.wem</Path>
+				</File>
+				<File Id="478951101" Language="SFX">
+					<ShortName>Curtain4.wav</ShortName>
+					<Path>SFX\Curtain4_9E69E797.wem</Path>
+				</File>
 				<File Id="484297712" Language="SFX">
 					<ShortName>ClockAlarm.wav</ShortName>
 					<Path>SFX\ClockAlarm_9E69E797.wem</Path>
+				</File>
+				<File Id="484489163" Language="SFX">
+					<ShortName>Breathing2-Fix.wav</ShortName>
+					<Path>SFX\Breathing2-Fix_9E69E797.wem</Path>
 				</File>
 				<File Id="504895240" Language="SFX">
 					<ShortName>StoneGrind2.wav</ShortName>
@@ -92,6 +175,14 @@
 					<ShortName>snow1.wav</ShortName>
 					<Path>SFX\snow1_9E69E797.wem</Path>
 				</File>
+				<File Id="630971542" Language="SFX">
+					<ShortName>cabinet-door-open-squeak_GypDeGNu.wav</ShortName>
+					<Path>SFX\cabinet-door-open-squeak_GypDeGNu_9E69E797.wem</Path>
+				</File>
+				<File Id="641174054" Language="SFX">
+					<ShortName>Doorknock3.wav</ShortName>
+					<Path>SFX\Doorknock3_9E69E797.wem</Path>
+				</File>
 				<File Id="706325024" Language="SFX">
 					<ShortName>StoneGrind4.wav</ShortName>
 					<Path>SFX\StoneGrind4_9E69E797.wem</Path>
@@ -104,13 +195,29 @@
 					<ShortName>ClockTick.wav</ShortName>
 					<Path>SFX\ClockTick_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="731789612" Language="SFX">
+					<ShortName>Curtain2.wav</ShortName>
+					<Path>SFX\Curtain2_9E69E797.wem</Path>
+				</File>
 				<File Id="739213325" Language="SFX">
 					<ShortName>woodsteps1.wav</ShortName>
 					<Path>SFX\woodsteps1_9E69E797.wem</Path>
 				</File>
+				<File Id="744835021" Language="SFX">
+					<ShortName>monster-growl-breath_zkoS2IVO.wav</ShortName>
+					<Path>SFX\monster-growl-breath_zkoS2IVO_9E69E797.wem</Path>
+				</File>
+				<File Id="761767855" Language="SFX">
+					<ShortName>drawerOpen.wav</ShortName>
+					<Path>SFX\drawerOpen_9E69E797.wem</Path>
+				</File>
 				<File Id="775870315" Language="SFX">
 					<ShortName>snow2.wav</ShortName>
 					<Path>SFX\snow2_9E69E797.wem</Path>
+				</File>
+				<File Id="780984221" Language="SFX">
+					<ShortName>Breathing3-fix.wav</ShortName>
+					<Path>SFX\Breathing3-fix_9E69E797.wem</Path>
 				</File>
 				<File Id="804504558" Language="SFX">
 					<ShortName>326890__11linda__dying-gasps.wav</ShortName>
@@ -128,10 +235,6 @@
 					<ShortName>19171__martian__bass-feedback-01.wav</ShortName>
 					<Path>SFX\19171__martian__bass-feedback-01_4B8CC0C5.wem</Path>
 				</File>
-				<File Id="944274896" Language="SFX">
-					<ShortName>Massive Attack - Angel.wav</ShortName>
-					<Path>SFX\Massive Attack - Angel_9E69E797.wem</Path>
-				</File>
 				<File Id="957237055" Language="SFX">
 					<ShortName>StoneGrind5.wav</ShortName>
 					<Path>SFX\StoneGrind5_9E69E797.wem</Path>
@@ -139,6 +242,26 @@
 				<File Id="969389287" Language="SFX">
 					<ShortName>StoneGrind3.wav</ShortName>
 					<Path>SFX\StoneGrind3_9E69E797.wem</Path>
+				</File>
+				<File Id="988153557" Language="SFX">
+					<ShortName>dial-turn-switch-clicks_zysYQ2N_.wav</ShortName>
+					<Path>SFX\dial-turn-switch-clicks_zysYQ2N__9E69E797.wem</Path>
+				</File>
+				<File Id="1006718582" Language="SFX">
+					<ShortName>Breathing5.wav</ShortName>
+					<Path>SFX\Breathing5_9E69E797.wem</Path>
+				</File>
+				<File Id="1034178203" Language="SFX">
+					<ShortName>DoorLock.wav</ShortName>
+					<Path>SFX\DoorLock_9E69E797.wem</Path>
+				</File>
+				<File Id="1045931598" Language="SFX">
+					<ShortName>Doorknock2.wav</ShortName>
+					<Path>SFX\Doorknock2_9E69E797.wem</Path>
+				</File>
+				<File Id="1050435060" Language="SFX">
+					<ShortName>Curtain1.wav</ShortName>
+					<Path>SFX\Curtain1_9E69E797.wem</Path>
 				</File>
 				<File Id="1059993567" Language="SFX">
 					<ShortName>StoneGrind1.wav</ShortName>

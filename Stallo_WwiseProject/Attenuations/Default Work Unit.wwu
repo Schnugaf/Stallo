@@ -151,7 +151,7 @@
 				</Attenuation>
 				<Attenuation Name="ClockAttenuation" ID="{6D2F5D06-2992-410E-9155-493821113F9B}" ShortID="638557214">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="700"/>
+						<Property Name="RadiusMax" Type="Real64" Value="400"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -167,7 +167,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>700</XPos>
+											<XPos>400</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
