@@ -37,7 +37,6 @@
 				<Event Id="477783203" Name="MirrorFrame" ObjectPath="\Events\Default Work Unit\LivingRoom\MirrorFrame"/>
 				<Event Id="193678488" Name="monsterGrowl" ObjectPath="\Events\Default Work Unit\Ambience\monsterGrowl"/>
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Menu\Music"/>
-				<Event Id="291717360" Name="MusicStartPos" ObjectPath="\Events\Default Work Unit\Menu\MusicStartPos"/>
 				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Door\Open_Door"/>
 				<Event Id="1549599785" Name="Refridgerator" ObjectPath="\Events\Default Work Unit\Kitchen\Refridgerator"/>
 				<Event Id="2036047442" Name="Screaming" ObjectPath="\Events\Default Work Unit\Character\Voice\Screaming"/>
@@ -112,6 +111,10 @@
 					<ShortName>drawerClose.wav</ShortName>
 					<Path>SFX\drawerClose_9E69E797.wem</Path>
 				</File>
+				<File Id="273665176" Language="SFX">
+					<ShortName>Breathing4.wav</ShortName>
+					<Path>SFX\Breathing4_9E69E797.wem</Path>
+				</File>
 				<File Id="299896963" Language="SFX">
 					<ShortName>book_Close.wav</ShortName>
 					<Path>SFX\book_Close_9E69E797.wem</Path>
@@ -140,6 +143,10 @@
 					<ShortName>Monster Snarling-SoundBible.com-401809359.wav</ShortName>
 					<Path>SFX\Monster Snarling-SoundBible.com-401809359_20738036.wem</Path>
 				</File>
+				<File Id="468338154" Language="SFX">
+					<ShortName>Breathing1.wav</ShortName>
+					<Path>SFX\Breathing1_9E69E797.wem</Path>
+				</File>
 				<File Id="478951101" Language="SFX">
 					<ShortName>Curtain4.wav</ShortName>
 					<Path>SFX\Curtain4_9E69E797.wem</Path>
@@ -147,6 +154,10 @@
 				<File Id="484297712" Language="SFX">
 					<ShortName>ClockAlarm.wav</ShortName>
 					<Path>SFX\ClockAlarm_9E69E797.wem</Path>
+				</File>
+				<File Id="484489163" Language="SFX">
+					<ShortName>Breathing2-Fix.wav</ShortName>
+					<Path>SFX\Breathing2-Fix_9E69E797.wem</Path>
 				</File>
 				<File Id="504895240" Language="SFX">
 					<ShortName>StoneGrind2.wav</ShortName>
@@ -204,6 +215,10 @@
 					<ShortName>snow2.wav</ShortName>
 					<Path>SFX\snow2_9E69E797.wem</Path>
 				</File>
+				<File Id="780984221" Language="SFX">
+					<ShortName>Breathing3-fix.wav</ShortName>
+					<Path>SFX\Breathing3-fix_9E69E797.wem</Path>
+				</File>
 				<File Id="804504558" Language="SFX">
 					<ShortName>326890__11linda__dying-gasps.wav</ShortName>
 					<Path>SFX\326890__11linda__dying-gasps_9E69E797.wem</Path>
@@ -220,10 +235,6 @@
 					<ShortName>19171__martian__bass-feedback-01.wav</ShortName>
 					<Path>SFX\19171__martian__bass-feedback-01_4B8CC0C5.wem</Path>
 				</File>
-				<File Id="944274896" Language="SFX">
-					<ShortName>Massive Attack - Angel.wav</ShortName>
-					<Path>SFX\Massive Attack - Angel_9E69E797.wem</Path>
-				</File>
 				<File Id="957237055" Language="SFX">
 					<ShortName>StoneGrind5.wav</ShortName>
 					<Path>SFX\StoneGrind5_9E69E797.wem</Path>
@@ -235,6 +246,10 @@
 				<File Id="988153557" Language="SFX">
 					<ShortName>dial-turn-switch-clicks_zysYQ2N_.wav</ShortName>
 					<Path>SFX\dial-turn-switch-clicks_zysYQ2N__9E69E797.wem</Path>
+				</File>
+				<File Id="1006718582" Language="SFX">
+					<ShortName>Breathing5.wav</ShortName>
+					<Path>SFX\Breathing5_9E69E797.wem</Path>
 				</File>
 				<File Id="1034178203" Language="SFX">
 					<ShortName>DoorLock.wav</ShortName>

@@ -84,7 +84,7 @@
 								<Action Name="Play" ID="{F73E77F5-D326-4335-A470-FED3F604AFF4}" ShortID="186830584" Type="Play" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{14AAE581-2FBE-48A6-9278-9A80B33F9804}" Global="false">
-											<ObjectRef Name="outside breathing" ID="{3F37B47F-AEC3-433C-89AC-DEE1BD58ACBF}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+											<ObjectRef Name="Breathing" ID="{233FBB8A-3E93-4597-9C79-6F745DE98A25}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>
