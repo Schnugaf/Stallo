@@ -166,6 +166,26 @@
 										</Element>
 									</ElementList>
 								</Action>
+								<Action Name="Stop" ID="{FA4E705E-F2E1-4432-BF50-632D06E9B55D}" ShortID="104179365" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="4"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{4B1D86BF-2319-44D6-B64C-2DD61EB90131}" Global="false">
+											<ObjectRef Name="monster-growl-deep-slow-drone_fktugnE_" ID="{D7E28863-3FE1-405C-9980-BA1A97A51AF0}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{B6EC9CDF-E334-435D-847E-1D19DC55843F}" ShortID="369924343" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="4"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{B0E51155-B271-4AAC-97AB-D1E5AA7AEB65}" Global="false">
+											<ObjectRef Name="creepy-low-atmosphere-ambiance_MJ5grHE_" ID="{B4B2BDD3-2853-4097-A0B4-DA31372D3A61}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
 							</ChildrenList>
 						</Event>
 					</ChildrenList>
@@ -177,7 +197,7 @@
 								<Action Name="Play" ID="{9B51137C-CEF5-4251-BC4F-8EFBA3633878}" ShortID="85880372" Type="Play" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{6A05BC39-5ECE-4545-B110-8BF1049A9692}" Global="false">
-											<ObjectRef Name="Giant_Wyrm" ID="{76D51BD2-4B50-4BE7-9BC5-BB9B642D59DD}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+											<ObjectRef Name="Until Dawn Theme Song - 'O Death' - Soundtrack" ID="{999A69A3-E5BE-4C15-83F4-1A1CCCE91C44}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -296,6 +316,9 @@
 						<Event Name="Refridgerator" ID="{B2E358DE-8B90-4803-946E-13917CC1F376}">
 							<ChildrenList>
 								<Action Name="Play" ID="{69344352-1304-4858-8404-E5C6872A6663}" ShortID="484587473" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
 									<ElementList>
 										<Element ID="{9FD077D9-524E-45AB-80DA-394606CCB401}" Global="false">
 											<ObjectRef Name="fridge-sounds_z1jK7SNO" ID="{F102F263-212E-4352-A48B-A3432882DD37}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>

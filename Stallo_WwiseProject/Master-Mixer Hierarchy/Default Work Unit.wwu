@@ -18,11 +18,6 @@
 								</Bus>
 								<Bus Name="Movable Sounds" ID="{322ED997-5C8D-4738-BE6B-F3B8E19C2ECC}">
 									<PropertyList>
-										<Property Name="BypassEffect0" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Highpass" Type="int16">
 											<RTPCList>
 												<RTPC Name="" ID="{1F186E4A-1124-4FD0-8457-D27A3F2BABA3}" ShortID="456660901">
@@ -126,14 +121,20 @@
 											</RTPCList>
 										</Property>
 									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-											<ObjectRef Name="Small_Wooden_Room1" ID="{F7CBE859-36A8-4174-B553-AE32A7FE95FA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-										</Reference>
-									</ReferenceList>
+									<ReferenceList/>
 								</Bus>
 							</ChildrenList>
 						</Bus>
+						<AuxBus Name="Reverb" ID="{46B4160B-62D3-4ED6-B4D4-F9765E60E6FA}">
+							<PropertyList>
+								<Property Name="EnablePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Plate_Small" ID="{5681977F-CD7F-4D09-AA58-118BEFA48C8C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
