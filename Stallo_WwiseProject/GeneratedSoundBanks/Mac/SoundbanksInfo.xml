@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>D:\Github\Stallo\Stallo_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Github\Stallo\Stallo_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Github\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>/Users/onarheim/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Stallo/Stallo_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/onarheim/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Stallo/Stallo_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/onarheim/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Stallo/Stallo_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Github\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/onarheim/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Stallo/Stallo_WwiseProject/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>

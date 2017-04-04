@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Skole\Pilot\Stallo\Content\WwiseAudio\Mac\</SoundBanksRoot>
+		<ProjectRoot>/Users/onarheim/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Stallo/Stallo_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/onarheim/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Stallo/Stallo_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/onarheim/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Users/onarheim/Stallo/Content/WwiseAudio/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/onarheim/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Stallo/Stallo_WwiseProject/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -38,111 +38,111 @@
 			<IncludedMemoryFiles>
 				<File Id="15391426" Language="SFX">
 					<ShortName>217186__bosk1__wind-at-door-howling-4.wav</ShortName>
-					<Path>SFX\217186__bosk1__wind-at-door-howling-4_B3602F10.wem</Path>
+					<Path>SFX/217186__bosk1__wind-at-door-howling-4_B3602F10.wem</Path>
 				</File>
 				<File Id="49387479" Language="SFX">
 					<ShortName>wind.wav</ShortName>
-					<Path>SFX\wind_4B8CC0C5.wem</Path>
+					<Path>SFX/wind_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="114601963" Language="SFX">
 					<ShortName>261419__archeos__womanscream.wav</ShortName>
-					<Path>SFX\261419__archeos__womanscream_9E69E797.wem</Path>
+					<Path>SFX/261419__archeos__womanscream_9E69E797.wem</Path>
 				</File>
 				<File Id="242060973" Language="SFX">
 					<ShortName>outside breathing.wav</ShortName>
-					<Path>SFX\outside breathing_4B8CC0C5.wem</Path>
+					<Path>SFX/outside breathing_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="259537959" Language="SFX">
 					<ShortName>381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2.wav</ShortName>
-					<Path>SFX\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2_9E69E797.wem</Path>
+					<Path>SFX/381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2_9E69E797.wem</Path>
 				</File>
 				<File Id="308711752" Language="SFX">
 					<ShortName>Button-SoundBible.com-1420500901.wav</ShortName>
-					<Path>SFX\Button-SoundBible.com-1420500901_9E69E797.wem</Path>
+					<Path>SFX/Button-SoundBible.com-1420500901_9E69E797.wem</Path>
 				</File>
 				<File Id="341799809" Language="SFX">
 					<ShortName>Foley Movement Wood Slide On Wood Short 01.wav</ShortName>
-					<Path>SFX\Foley Movement Wood Slide On Wood Short 01_9E69E797.wem</Path>
+					<Path>SFX/Foley Movement Wood Slide On Wood Short 01_9E69E797.wem</Path>
 				</File>
 				<File Id="355182275" Language="SFX">
 					<ShortName>331892__squashy555__wind-whistling-spooky-haunted-howling.wav</ShortName>
-					<Path>SFX\331892__squashy555__wind-whistling-spooky-haunted-howling_B3602F10.wem</Path>
+					<Path>SFX/331892__squashy555__wind-whistling-spooky-haunted-howling_B3602F10.wem</Path>
 				</File>
 				<File Id="444827419" Language="SFX">
 					<ShortName>Monster Snarling-SoundBible.com-401809359.wav</ShortName>
-					<Path>SFX\Monster Snarling-SoundBible.com-401809359_20738036.wem</Path>
+					<Path>SFX/Monster Snarling-SoundBible.com-401809359_20738036.wem</Path>
 				</File>
 				<File Id="484297712" Language="SFX">
 					<ShortName>ClockAlarm.wav</ShortName>
-					<Path>SFX\ClockAlarm_9E69E797.wem</Path>
+					<Path>SFX/ClockAlarm_9E69E797.wem</Path>
 				</File>
 				<File Id="504895240" Language="SFX">
 					<ShortName>StoneGrind2.wav</ShortName>
-					<Path>SFX\StoneGrind2_9E69E797.wem</Path>
+					<Path>SFX/StoneGrind2_9E69E797.wem</Path>
 				</File>
 				<File Id="536119734" Language="SFX">
 					<ShortName>OutsideWind.wav</ShortName>
-					<Path>SFX\OutsideWind_4B8CC0C5.wem</Path>
+					<Path>SFX/OutsideWind_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="550729221" Language="SFX">
 					<ShortName>woodsteps4.wav</ShortName>
-					<Path>SFX\woodsteps4_9E69E797.wem</Path>
+					<Path>SFX/woodsteps4_9E69E797.wem</Path>
 				</File>
 				<File Id="564635908" Language="SFX">
 					<ShortName>snow1.wav</ShortName>
-					<Path>SFX\snow1_9E69E797.wem</Path>
+					<Path>SFX/snow1_9E69E797.wem</Path>
 				</File>
 				<File Id="706325024" Language="SFX">
 					<ShortName>StoneGrind4.wav</ShortName>
-					<Path>SFX\StoneGrind4_9E69E797.wem</Path>
+					<Path>SFX/StoneGrind4_9E69E797.wem</Path>
 				</File>
 				<File Id="708826383" Language="SFX">
 					<ShortName>Giant_Wyrm.wav</ShortName>
-					<Path>SFX\Giant_Wyrm_4B8CC0C5.wem</Path>
+					<Path>SFX/Giant_Wyrm_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="730968485" Language="SFX">
 					<ShortName>ClockTick.wav</ShortName>
-					<Path>SFX\ClockTick_4B8CC0C5.wem</Path>
+					<Path>SFX/ClockTick_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="739213325" Language="SFX">
 					<ShortName>woodsteps1.wav</ShortName>
-					<Path>SFX\woodsteps1_9E69E797.wem</Path>
+					<Path>SFX/woodsteps1_9E69E797.wem</Path>
 				</File>
 				<File Id="775870315" Language="SFX">
 					<ShortName>snow2.wav</ShortName>
-					<Path>SFX\snow2_9E69E797.wem</Path>
+					<Path>SFX/snow2_9E69E797.wem</Path>
 				</File>
 				<File Id="804504558" Language="SFX">
 					<ShortName>326890__11linda__dying-gasps.wav</ShortName>
-					<Path>SFX\326890__11linda__dying-gasps_9E69E797.wem</Path>
+					<Path>SFX/326890__11linda__dying-gasps_9E69E797.wem</Path>
 				</File>
 				<File Id="837046008" Language="SFX">
 					<ShortName>woodsteps3.wav</ShortName>
-					<Path>SFX\woodsteps3_9E69E797.wem</Path>
+					<Path>SFX/woodsteps3_9E69E797.wem</Path>
 				</File>
 				<File Id="907007178" Language="SFX">
 					<ShortName>woodsteps2.wav</ShortName>
-					<Path>SFX\woodsteps2_9E69E797.wem</Path>
+					<Path>SFX/woodsteps2_9E69E797.wem</Path>
 				</File>
 				<File Id="907409783" Language="SFX">
 					<ShortName>19171__martian__bass-feedback-01.wav</ShortName>
-					<Path>SFX\19171__martian__bass-feedback-01_4B8CC0C5.wem</Path>
+					<Path>SFX/19171__martian__bass-feedback-01_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="944274896" Language="SFX">
 					<ShortName>Massive Attack - Angel.wav</ShortName>
-					<Path>SFX\Massive Attack - Angel_9E69E797.wem</Path>
+					<Path>SFX/Massive Attack - Angel_9E69E797.wem</Path>
 				</File>
 				<File Id="957237055" Language="SFX">
 					<ShortName>StoneGrind5.wav</ShortName>
-					<Path>SFX\StoneGrind5_9E69E797.wem</Path>
+					<Path>SFX/StoneGrind5_9E69E797.wem</Path>
 				</File>
 				<File Id="969389287" Language="SFX">
 					<ShortName>StoneGrind3.wav</ShortName>
-					<Path>SFX\StoneGrind3_9E69E797.wem</Path>
+					<Path>SFX/StoneGrind3_9E69E797.wem</Path>
 				</File>
 				<File Id="1059993567" Language="SFX">
 					<ShortName>StoneGrind1.wav</ShortName>
-					<Path>SFX\StoneGrind1_9E69E797.wem</Path>
+					<Path>SFX/StoneGrind1_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

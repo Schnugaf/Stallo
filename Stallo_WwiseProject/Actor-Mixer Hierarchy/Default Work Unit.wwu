@@ -611,7 +611,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>1</Value>
+												<Value>5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -861,6 +861,12 @@
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Inside" ID="{B2B3AD39-DA45-4D07-B8F1-FB388E459722}"/>
+										<ItemList>
+											<ItemRef Name="InsideBreathing" ID="{588D040D-7D27-409D-A328-6F90AC9B0622}"/>
+										</ItemList>
+									</Grouping>
 									<Grouping>
 										<SwitchRef Name="Outside" ID="{7DFA279A-6F25-4094-B146-8577A7F7C287}"/>
 										<ItemList>
@@ -1492,6 +1498,11 @@
 										</Property>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -2290,6 +2301,9 @@
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="DoorTest" ID="{3792E32D-A683-46FC-896D-02BE2FB67222}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
 										</Reference>
@@ -3140,6 +3154,11 @@
 						<ActorMixer Name="Cabinet" ID="{98337D7E-955C-4A0B-AD0A-4BA5A713A45D}" ShortID="503334244">
 							<PropertyList>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-22</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
