@@ -48,6 +48,9 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3362109267	Unreal Project			\Default Work Unit\Master Audio Bus\Unreal Project	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+
 Effect plug-ins	ID	Name	Type				Notes
-	1551236760	Small_Wooden_Room1	Wwise Matrix Reverb			
+	506891147	Plate_Small	Wwise RoomVerb			
 
