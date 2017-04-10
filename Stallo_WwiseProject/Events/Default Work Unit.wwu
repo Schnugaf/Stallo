@@ -166,22 +166,22 @@
 										</Element>
 									</ElementList>
 								</Action>
-								<Action Name="Stop" ID="{FA4E705E-F2E1-4432-BF50-632D06E9B55D}" ShortID="104179365" Type="Stop" Scope="One" Global="false">
+								<Action Name="Stop" ID="{FA4E705E-F2E1-4432-BF50-632D06E9B55D}" ShortID="104179365" Type="Stop" Scope="One" Global="true">
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="4"/>
 									</PropertyList>
 									<ElementList>
-										<Element ID="{4B1D86BF-2319-44D6-B64C-2DD61EB90131}" Global="false">
+										<Element ID="{4B1D86BF-2319-44D6-B64C-2DD61EB90131}" Global="true">
 											<ObjectRef Name="monster-growl-deep-slow-drone_fktugnE_" ID="{D7E28863-3FE1-405C-9980-BA1A97A51AF0}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>
-								<Action Name="Stop" ID="{B6EC9CDF-E334-435D-847E-1D19DC55843F}" ShortID="369924343" Type="Stop" Scope="One" Global="false">
+								<Action Name="Stop" ID="{B6EC9CDF-E334-435D-847E-1D19DC55843F}" ShortID="369924343" Type="Stop" Scope="One" Global="true">
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="4"/>
 									</PropertyList>
 									<ElementList>
-										<Element ID="{B0E51155-B271-4AAC-97AB-D1E5AA7AEB65}" Global="false">
+										<Element ID="{B0E51155-B271-4AAC-97AB-D1E5AA7AEB65}" Global="true">
 											<ObjectRef Name="creepy-low-atmosphere-ambiance_MJ5grHE_" ID="{B4B2BDD3-2853-4097-A0B4-DA31372D3A61}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
