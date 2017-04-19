@@ -83,61 +83,61 @@ Effect plug-ins	ID	Name	Type				Notes
 	659840901	Low_Pass_20KHz (Custom)	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	15391426	Open_DoorHowl	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\217186__bosk1__wind-at-door-howling-4_B3602F10.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\FrontDoorHowl\DoorState\Open_DoorHowl		20329372
-	25587780	Curtain6	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Curtain6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain6		137964
-	49387479	wind_indoors	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\wind_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\Wind_Loc\wind_indoors		5760064
-	80766433	book_Open	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\book_Open_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Book\BookState\book_Open		183004
-	103019964	creepy-low-atmosphere-ambiance_MJ5grHE_	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\creepy-low-atmosphere-ambiance_MJ5grHE__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\creepy-low-atmosphere-ambiance_MJ5grHE_		9821124
-	114601963	261419__archeos__womanscream	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\261419__archeos__womanscream_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Screaming\261419__archeos__womanscream		323784
-	120497952	monster-growl-deep-slow-drone_fktugnE_	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\monster-growl-deep-slow-drone_fktugnE__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\monster-growl-deep-slow-drone_fktugnE_		4738964
-	128755975	door-slam-5_fJGqgMVd	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\door-slam-5_fJGqgMVd_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\DoorSlam\door-slam-5_fJGqgMVd		164868
-	146084082	Curtain5	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Curtain5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain5		125812
-	155965444	dial-turn-switch-clicks_zJGw724_	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\dial-turn-switch-clicks_zJGw724__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Stove\TempWheels\dial-turn-switch-clicks_zJGw724_		61348
-	189346210	fridge-sounds_z1jK7SNO	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\fridge-sounds_z1jK7SNO_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Refridgerator\fridge-sounds_z1jK7SNO		13698072
-	223743055	Curtain3	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Curtain3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain3		122776
-	235046290	closeTap	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\closeTap_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Faucet\CloseTap\closeTap		583180
-	242060973	outside breathing	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\outside breathing_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\outside breathing		9212464
-	257825557	jg-032316-sfx-sink-faucet-running	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\jg-032316-sfx-sink-faucet-running_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Faucet\jg-032316-sfx-sink-faucet-running		3911204
-	259537959	Open_Door	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\FrontDoor\Open_Door		486320
-	260754957	drawerClose	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\drawerClose_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Drawers\DrawerState\drawerClose		158304
-	273665176	Breathing4	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Breathing4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\InsideBreathing\Breathing4		263296
-	299896963	book_Close	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\book_Close_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Book\BookState\book_Close		108840
-	308711752	Click	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Button-SoundBible.com-1420500901_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Button\Click		44880
-	341799809	Foley Movement Wood Slide On Wood Short 01	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Foley Movement Wood Slide On Wood Short 01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\MirrorFrame\Foley Movement Wood Slide On Wood Short 01		393280
-	342943882	monster-growl-breath_z1aL2UNu	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\monster-growl-breath_z1aL2UNu_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stallo\Voice\StalloBreath\Breathing\monster-growl-breath_z1aL2UNu		392524
-	348120316	DoorKnock1	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\DoorKnock1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\ClosetDoor\ClosetDoorKnock\KnockRandom\DoorKnock1		69520
-	355182275	Closed_DoorHowl	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\331892__squashy555__wind-whistling-spooky-haunted-howling_B3602F10.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\FrontDoorHowl\DoorState\Closed_DoorHowl		8390480
-	361610085	opentap	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\opentap_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Faucet\OpenTap\opentap		128064
-	444827419	Stallo Croak	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Monster Snarling-SoundBible.com-401809359_20738036.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stallo\Voice\Stallo Croak		673828
-	468338154	Breathing1	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Breathing1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\InsideBreathing\Breathing1		283120
-	478951101	Curtain4	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Curtain4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain4		109408
-	484297712	ClockAlarm	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\ClockAlarm_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Clock\Clock\ClockAlarm		4663332
-	484489163	Breathing2-Fix	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Breathing2-Fix_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\InsideBreathing\Breathing2-Fix		698544
-	504895240	StoneGrind2	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\StoneGrind2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stone\StoneRotate\StoneGrind\StoneGrind2		224200
-	520447707	Until Dawn Theme Song - 'O Death' - Soundtrack	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Until Dawn Theme Song - 'O Death' - Soundtrack_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Music\MusicTest\Until Dawn Theme Song - 'O Death' - Soundtrack		30159424
-	536119734	wind_Outdoors	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\OutsideWind_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\Wind_Loc\wind_Outdoors		20625296
-	550729221	woodsteps4	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps4		70256
-	564635908	snow1	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\snow1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Snow\snow1		68664
-	630971542	cabinet-door-open-squeak_GypDeGNu	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\cabinet-door-open-squeak_GypDeGNu_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Cabinet\cabinet-door-open-squeak_GypDeGNu		88352
-	641174054	Doorknock3	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Doorknock3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\ClosetDoor\ClosetDoorKnock\KnockRandom\Doorknock3		69516
-	706325024	StoneGrind4	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\StoneGrind4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stone\StoneRotate\StoneGrind\StoneGrind4		237480
-	730968485	ClockTick	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\ClockTick_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Clock\Clock\ClockTick		11667448
-	731789612	Curtain2	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Curtain2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain2		195064
-	739213325	woodsteps1	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps1		101844
-	744835021	monster-growl-breath_zkoS2IVO	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\monster-growl-breath_zkoS2IVO_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stallo\Voice\StalloBreath\Breathing\monster-growl-breath_zkoS2IVO		498140
-	761767855	drawerOpen	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\drawerOpen_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Drawers\DrawerState\drawerOpen		174840
-	775870315	snow2	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\snow2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Snow\snow2		65652
-	780984221	Breathing3-fix	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Breathing3-fix_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\InsideBreathing\Breathing3-fix		262304
-	804504558	326890__11linda__dying-gasps	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\326890__11linda__dying-gasps_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Dying\326890__11linda__dying-gasps		1921288
-	837046008	woodsteps3	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps3		70256
-	907007178	woodsteps2	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps2		77276
-	907409783	StalloAmbience	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\19171__martian__bass-feedback-01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\StalloAmbience		1532708
-	957237055	StoneGrind5	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\StoneGrind5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stone\StoneRotate\StoneGrind\StoneGrind5		229432
-	969389287	StoneGrind3	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\StoneGrind3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stone\StoneRotate\StoneGrind\StoneGrind3		155392
-	988153557	dial-turn-switch-clicks_zysYQ2N_	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\dial-turn-switch-clicks_zysYQ2N__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Stove\TempWheels\dial-turn-switch-clicks_zysYQ2N_		27320
-	1006718582	Breathing5	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Breathing5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\InsideBreathing\Breathing5		260792
-	1034178203	DoorLock	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\DoorLock_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\DoorLock\DoorLock		167680
-	1045931598	Doorknock2	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Doorknock2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\ClosetDoor\ClosetDoorKnock\KnockRandom\Doorknock2		69516
-	1050435060	Curtain1	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Curtain1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain1		195064
-	1059993567	StoneGrind1	D:\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\StoneGrind1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stone\StoneRotate\StoneGrind\StoneGrind1		189996
+	15391426	Open_DoorHowl	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\217186__bosk1__wind-at-door-howling-4_B3602F10.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\FrontDoorHowl\DoorState\Open_DoorHowl		20329372
+	25587780	Curtain6	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Curtain6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain6		137964
+	49387479	wind_indoors	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\wind_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\Wind_Loc\wind_indoors		5760064
+	80766433	book_Open	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\book_Open_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Book\BookState\book_Open		183004
+	103019964	creepy-low-atmosphere-ambiance_MJ5grHE_	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\creepy-low-atmosphere-ambiance_MJ5grHE__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\creepy-low-atmosphere-ambiance_MJ5grHE_		9821124
+	114601963	261419__archeos__womanscream	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\261419__archeos__womanscream_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Screaming\261419__archeos__womanscream		323784
+	120497952	monster-growl-deep-slow-drone_fktugnE_	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\monster-growl-deep-slow-drone_fktugnE__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\monster-growl-deep-slow-drone_fktugnE_		4738964
+	128755975	door-slam-5_fJGqgMVd	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\door-slam-5_fJGqgMVd_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\DoorSlam\door-slam-5_fJGqgMVd		164868
+	146084082	Curtain5	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Curtain5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain5		125812
+	155965444	dial-turn-switch-clicks_zJGw724_	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\dial-turn-switch-clicks_zJGw724__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Stove\TempWheels\dial-turn-switch-clicks_zJGw724_		61348
+	189346210	fridge-sounds_z1jK7SNO	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\fridge-sounds_z1jK7SNO_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Refridgerator\fridge-sounds_z1jK7SNO		13698072
+	223743055	Curtain3	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Curtain3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain3		122776
+	235046290	closeTap	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\closeTap_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Faucet\CloseTap\closeTap		583180
+	242060973	outside breathing	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\outside breathing_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\outside breathing		9212464
+	257825557	jg-032316-sfx-sink-faucet-running	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\jg-032316-sfx-sink-faucet-running_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Faucet\jg-032316-sfx-sink-faucet-running		3911204
+	259537959	Open_Door	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\FrontDoor\Open_Door		486320
+	260754957	drawerClose	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\drawerClose_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Drawers\DrawerState\drawerClose		158304
+	273665176	Breathing4	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Breathing4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\InsideBreathing\Breathing4		263296
+	299896963	book_Close	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\book_Close_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Book\BookState\book_Close		108840
+	308711752	Click	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Button-SoundBible.com-1420500901_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Button\Click		44880
+	341799809	Foley Movement Wood Slide On Wood Short 01	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Foley Movement Wood Slide On Wood Short 01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WorldSFX\MirrorFrame\Foley Movement Wood Slide On Wood Short 01		393280
+	342943882	monster-growl-breath_z1aL2UNu	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\monster-growl-breath_z1aL2UNu_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stallo\Voice\StalloBreath\Breathing\monster-growl-breath_z1aL2UNu		392524
+	348120316	DoorKnock1	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\DoorKnock1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\ClosetDoor\ClosetDoorKnock\KnockRandom\DoorKnock1		69520
+	355182275	Closed_DoorHowl	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\331892__squashy555__wind-whistling-spooky-haunted-howling_B3602F10.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\FrontDoorHowl\DoorState\Closed_DoorHowl		8390480
+	361610085	opentap	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\opentap_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Faucet\OpenTap\opentap		128064
+	444827419	Stallo Croak	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Monster Snarling-SoundBible.com-401809359_20738036.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stallo\Voice\Stallo Croak		673828
+	468338154	Breathing1	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Breathing1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\InsideBreathing\Breathing1		283120
+	478951101	Curtain4	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Curtain4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain4		109408
+	484297712	ClockAlarm	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\ClockAlarm_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Clock\Clock\ClockAlarm		4663332
+	484489163	Breathing2-Fix	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Breathing2-Fix_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\InsideBreathing\Breathing2-Fix		698544
+	504895240	StoneGrind2	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\StoneGrind2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stone\StoneRotate\StoneGrind\StoneGrind2		224200
+	520447707	Until Dawn Theme Song - 'O Death' - Soundtrack	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Until Dawn Theme Song - 'O Death' - Soundtrack_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Music\MusicTest\Until Dawn Theme Song - 'O Death' - Soundtrack		30159424
+	536119734	wind_Outdoors	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\OutsideWind_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\Wind_Loc\wind_Outdoors		20625296
+	550729221	woodsteps4	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps4		70256
+	564635908	snow1	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\snow1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Snow\snow1		68664
+	630971542	cabinet-door-open-squeak_GypDeGNu	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\cabinet-door-open-squeak_GypDeGNu_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Cabinet\cabinet-door-open-squeak_GypDeGNu		88352
+	641174054	Doorknock3	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Doorknock3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\ClosetDoor\ClosetDoorKnock\KnockRandom\Doorknock3		69516
+	706325024	StoneGrind4	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\StoneGrind4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stone\StoneRotate\StoneGrind\StoneGrind4		237480
+	730968485	ClockTick	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\ClockTick_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Clock\Clock\ClockTick		11667448
+	731789612	Curtain2	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Curtain2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain2		195064
+	739213325	woodsteps1	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps1		101844
+	744835021	monster-growl-breath_zkoS2IVO	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\monster-growl-breath_zkoS2IVO_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stallo\Voice\StalloBreath\Breathing\monster-growl-breath_zkoS2IVO		498140
+	761767855	drawerOpen	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\drawerOpen_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Drawers\DrawerState\drawerOpen		174840
+	775870315	snow2	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\snow2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Snow\snow2		65652
+	780984221	Breathing3-fix	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Breathing3-fix_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\InsideBreathing\Breathing3-fix		262304
+	804504558	326890__11linda__dying-gasps	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\326890__11linda__dying-gasps_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Dying\326890__11linda__dying-gasps		1921288
+	837046008	woodsteps3	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps3		70256
+	907007178	woodsteps2	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\woodsteps2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps2		77276
+	907409783	StalloAmbience	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\19171__martian__bass-feedback-01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\StalloAmbience		1532708
+	957237055	StoneGrind5	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\StoneGrind5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stone\StoneRotate\StoneGrind\StoneGrind5		229432
+	969389287	StoneGrind3	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\StoneGrind3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stone\StoneRotate\StoneGrind\StoneGrind3		155392
+	988153557	dial-turn-switch-clicks_zysYQ2N_	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\dial-turn-switch-clicks_zysYQ2N__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Stove\TempWheels\dial-turn-switch-clicks_zysYQ2N_		27320
+	1006718582	Breathing5	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Breathing5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\InsideBreathing\Breathing5		260792
+	1034178203	DoorLock	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\DoorLock_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\DoorLock\DoorLock		167680
+	1045931598	Doorknock2	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Doorknock2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\ClosetDoor\ClosetDoorKnock\KnockRandom\Doorknock2		69516
+	1050435060	Curtain1	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\Curtain1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain1		195064
+	1059993567	StoneGrind1	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\SFX\StoneGrind1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stone\StoneRotate\StoneGrind\StoneGrind1		189996
 
