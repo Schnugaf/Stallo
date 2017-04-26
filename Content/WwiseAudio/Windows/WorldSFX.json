@@ -221,7 +221,7 @@
       "Id": "1549599785",
       "Name": "Refridgerator",
       "ObjectPath": "\\Events\\Default Work Unit\\Kitchen\\Refridgerator",
-      "MaxAttenuation": "1500.000000",
+      "MaxAttenuation": "705.000000",
       "DurationType": "OneShot",
       "DurationMin": "77.653107",
       "DurationMax": "77.653107"

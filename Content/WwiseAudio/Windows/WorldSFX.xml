@@ -37,7 +37,7 @@
 				<Event Id="193678488" Name="monsterGrowl" ObjectPath="\Events\Default Work Unit\Ambience\monsterGrowl" DurationType="OneShot" DurationMin="26.864513" DurationMax="26.864513"/>
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Menu\Music" MaxAttenuation="5000.000000" DurationType="OneShot" DurationMin="170.971436" DurationMax="170.971436"/>
 				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Door\Open_Door" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="2.532583" DurationMax="2.532583"/>
-				<Event Id="1549599785" Name="Refridgerator" ObjectPath="\Events\Default Work Unit\Kitchen\Refridgerator" MaxAttenuation="1500.000000" DurationType="OneShot" DurationMin="77.653107" DurationMax="77.653107"/>
+				<Event Id="1549599785" Name="Refridgerator" ObjectPath="\Events\Default Work Unit\Kitchen\Refridgerator" MaxAttenuation="705.000000" DurationType="OneShot" DurationMin="77.653107" DurationMax="77.653107"/>
 				<Event Id="2036047442" Name="Screaming" ObjectPath="\Events\Default Work Unit\Character\Voice\Screaming" DurationType="OneShot" DurationMin="1.835147" DurationMax="1.835147"/>
 				<Event Id="1231189491" Name="Stallo_Croak" ObjectPath="\Events\Default Work Unit\Stallo\Voice\Stallo_Croak" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="3.211443" DurationMax="4.541666"/>
 				<Event Id="3041118060" Name="StalloAmbience" ObjectPath="\Events\Default Work Unit\Stallo\StalloAmbience" DurationType="Infinite"/>
