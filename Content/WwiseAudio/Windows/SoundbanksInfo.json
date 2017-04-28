@@ -105,6 +105,24 @@
       "DurationMax": "1.105442"
      },
      {
+      "Id": "2175424403",
+      "Name": "DoorHandleSHake",
+      "ObjectPath": "\\Events\\Default Work Unit\\Door\\DoorHandleSHake",
+      "MaxAttenuation": "400.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.516961",
+      "DurationMax": "1.516961"
+     },
+     {
+      "Id": "2747278834",
+      "Name": "DoorHandleTurn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Door\\DoorHandleTurn",
+      "MaxAttenuation": "400.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.690227",
+      "DurationMax": "0.690227"
+     },
+     {
       "Id": "1338510799",
       "Name": "DoorHowl",
       "ObjectPath": "\\Events\\Default Work Unit\\Door\\DoorHowl",
@@ -592,6 +610,12 @@
       "Path": "SFX\\woodsteps3_9E69E797.wem"
      },
      {
+      "Id": "872577408",
+      "Language": "SFX",
+      "ShortName": "door-handle-shake_MyxBy2NO.wav",
+      "Path": "SFX\\door-handle-shake_MyxBy2NO_9E69E797.wem"
+     },
+     {
       "Id": "907007178",
       "Language": "SFX",
       "ShortName": "woodsteps2.wav",
@@ -626,6 +650,12 @@
       "Language": "SFX",
       "ShortName": "Breathing5.wav",
       "Path": "SFX\\Breathing5_9E69E797.wem"
+     },
+     {
+      "Id": "1012405662",
+      "Language": "SFX",
+      "ShortName": "door-handle-turn_GJOHy_Vd.wav",
+      "Path": "SFX\\door-handle-turn_GJOHy_Vd_9E69E797.wem"
      },
      {
       "Id": "1034178203",
