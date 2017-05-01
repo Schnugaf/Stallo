@@ -26,6 +26,8 @@
 				<Event Id="1041932307" Name="ClosetDoorShut" ObjectPath="\Events\Default Work Unit\LivingRoom\ClosetDoor\ClosetDoorShut" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="325910425" Name="CreepyLow" ObjectPath="\Events\Default Work Unit\Ambience\CreepyLow" DurationType="OneShot" DurationMin="55.674942" DurationMax="55.674942"/>
 				<Event Id="2928161104" Name="Curtains" ObjectPath="\Events\Default Work Unit\GeneralHouse\Curtains" MaxAttenuation="400.000000" DurationType="OneShot" DurationMin="0.619864" DurationMax="1.105442"/>
+				<Event Id="2175424403" Name="DoorHandleSHake" ObjectPath="\Events\Default Work Unit\Door\DoorHandleSHake" MaxAttenuation="400.000000" DurationType="OneShot" DurationMin="1.516961" DurationMax="1.516961"/>
+				<Event Id="2747278834" Name="DoorHandleTurn" ObjectPath="\Events\Default Work Unit\Door\DoorHandleTurn" MaxAttenuation="400.000000" DurationType="OneShot" DurationMin="0.690227" DurationMax="0.690227"/>
 				<Event Id="1338510799" Name="DoorHowl" ObjectPath="\Events\Default Work Unit\Door\DoorHowl" MaxAttenuation="3000.000000" DurationType="Infinite"/>
 				<Event Id="3178299198" Name="DoorSlam" ObjectPath="\Events\Default Work Unit\Entrance\Door\DoorSlam" DurationType="OneShot" DurationMin="0.934263" DurationMax="0.934263"/>
 				<Event Id="1553818165" Name="DoorUnlock" ObjectPath="\Events\Default Work Unit\Entrance\Door\DoorUnlock" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -241,6 +243,10 @@
 					<ShortName>woodsteps3.wav</ShortName>
 					<Path>SFX\woodsteps3_9E69E797.wem</Path>
 				</File>
+				<File Id="872577408" Language="SFX">
+					<ShortName>door-handle-shake_MyxBy2NO.wav</ShortName>
+					<Path>SFX\door-handle-shake_MyxBy2NO_9E69E797.wem</Path>
+				</File>
 				<File Id="907007178" Language="SFX">
 					<ShortName>woodsteps2.wav</ShortName>
 					<Path>SFX\woodsteps2_9E69E797.wem</Path>
@@ -264,6 +270,10 @@
 				<File Id="1006718582" Language="SFX">
 					<ShortName>Breathing5.wav</ShortName>
 					<Path>SFX\Breathing5_9E69E797.wem</Path>
+				</File>
+				<File Id="1012405662" Language="SFX">
+					<ShortName>door-handle-turn_GJOHy_Vd.wav</ShortName>
+					<Path>SFX\door-handle-turn_GJOHy_Vd_9E69E797.wem</Path>
 				</File>
 				<File Id="1034178203" Language="SFX">
 					<ShortName>DoorLock.wav</ShortName>

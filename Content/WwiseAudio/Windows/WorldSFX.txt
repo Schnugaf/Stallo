@@ -22,6 +22,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	1869633006	Cabinets			\Default Work Unit\GeneralHouse\Cabinets	
 	2028047724	faucetOff			\Default Work Unit\Kitchen\faucetOff	
 	2036047442	Screaming			\Default Work Unit\Character\Voice\Screaming	
+	2175424403	DoorHandleSHake			\Default Work Unit\Door\DoorHandleSHake	
+	2747278834	DoorHandleTurn			\Default Work Unit\Door\DoorHandleTurn	
 	2928161104	Curtains			\Default Work Unit\GeneralHouse\Curtains	
 	2934549620	Open_Door			\Default Work Unit\Door\Open_Door	
 	2946944654	StalloBreathing			\Default Work Unit\Stallo\Voice\StalloBreathing	
@@ -130,12 +132,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	780984221	Breathing3-fix	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\Breathing3-fix_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\InsideBreathing\Breathing3-fix		262304
 	804504558	326890__11linda__dying-gasps	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\326890__11linda__dying-gasps_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Dying\326890__11linda__dying-gasps		1921288
 	837046008	woodsteps3	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\woodsteps3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps3		70256
+	872577408	door-handle-shake_MyxBy2NO	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\door-handle-shake_MyxBy2NO_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\DoorHandle\DoorHandleShake\door-handle-shake_MyxBy2NO		267656
 	907007178	woodsteps2	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\woodsteps2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps2		77276
 	907409783	StalloAmbience	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\19171__martian__bass-feedback-01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\StalloAmbience		1532708
 	957237055	StoneGrind5	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\StoneGrind5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stone\StoneRotate\StoneGrind\StoneGrind5		229432
 	969389287	StoneGrind3	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\StoneGrind3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stone\StoneRotate\StoneGrind\StoneGrind3		155392
 	988153557	dial-turn-switch-clicks_zysYQ2N_	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\dial-turn-switch-clicks_zysYQ2N__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Stove\TempWheels\dial-turn-switch-clicks_zysYQ2N_		27320
 	1006718582	Breathing5	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\Breathing5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\InsideBreathing\Breathing5		260792
+	1012405662	door-handle-turn_GJOHy_Vd	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\door-handle-turn_GJOHy_Vd_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\DoorHandle\DoorHandleOpen\door-handle-turn_GJOHy_Vd		121820
 	1034178203	DoorLock	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\DoorLock_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\DoorLock\DoorLock		167680
 	1045931598	Doorknock2	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\Doorknock2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\ClosetDoor\ClosetDoorKnock\KnockRandom\Doorknock2		69516
 	1050435060	Curtain1	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\Curtain1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain1		195064

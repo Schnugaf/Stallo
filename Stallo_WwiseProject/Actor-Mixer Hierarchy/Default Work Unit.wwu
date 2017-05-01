@@ -1678,6 +1678,105 @@
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
+								<ActorMixer Name="PageTurn" ID="{8DA2127F-5F13-4A3E-A4BA-6CD9952D841C}" ShortID="950458129">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ClockAttenuation" ID="{6D2F5D06-2992-410E-9155-493821113F9B}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="PageTurn" ID="{C5A38AFB-B1D7-4922-AC9D-7241416AAC19}" ShortID="962491440">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="book-page-turn-1_Mk2iLzVO" ID="{905A1A5B-BA4C-40BB-82C0-B13142C6CE4A}" ShortID="410160517" Type="SoundFX">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Unreal Project" ID="{CAB24F32-210C-46B2-9E59-BD9423899516}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="book-page-turn-1_Mk2iLzVO" ID="{FE647C07-D24B-4200-94A6-F38CE04EF4DA}" ShortID="107536125">
+															<Language>SFX</Language>
+															<AudioFile>book-page-turn-1_Mk2iLzVO.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="book-page-turn-1_Mk2iLzVO" ID="{FE647C07-D24B-4200-94A6-F38CE04EF4DA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="book-page-turn-3_MJPhUzNu" ID="{36B865A6-F870-4A28-AAC9-2728B7B6FC2D}" ShortID="237841698" Type="SoundFX">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Unreal Project" ID="{CAB24F32-210C-46B2-9E59-BD9423899516}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="book-page-turn-3_MJPhUzNu" ID="{D2293B2E-0049-4212-AF41-76C1AFF6AA16}" ShortID="13200416">
+															<Language>SFX</Language>
+															<AudioFile>book-page-turn-3_MJPhUzNu.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="book-page-turn-3_MJPhUzNu" ID="{D2293B2E-0049-4212-AF41-76C1AFF6AA16}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="book-page-turn-2_fkA98fVd" ID="{97A9F2FD-511D-43AF-ACFF-037B262F63C3}" ShortID="761754610" Type="SoundFX">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Unreal Project" ID="{CAB24F32-210C-46B2-9E59-BD9423899516}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="book-page-turn-2_fkA98fVd" ID="{5D735EEE-1FCC-4BB1-B64D-EB5592518723}" ShortID="898806508">
+															<Language>SFX</Language>
+															<AudioFile>book-page-turn-2_fkA98fVd.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="book-page-turn-2_fkA98fVd" ID="{5D735EEE-1FCC-4BB1-B64D-EB5592518723}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -1837,6 +1936,16 @@
 					<ChildrenList>
 						<ActorMixer Name="FrontDoor" ID="{F7401BC1-9EC5-431F-AF71-5EF1AC410956}" ShortID="457248792">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>36</Value>
+									</ValueList>
+								</Property>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
@@ -1869,6 +1978,25 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="381967__stiffman__sliding-wooden-door-close-mic-fixed-position-sweep-pass-scrape-2" ID="{87699DC9-694A-43A7-A405-C67345B1B19D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="old-wood-door-open_zJR1ZMVO" ID="{68E8A972-59AD-4396-8628-BECCE5A16D96}" ShortID="171979328" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="old-wood-door-open_zJR1ZMVO" ID="{D9A3A1E1-E8E5-4B49-B4B2-0A9FF9EFB15C}" ShortID="484006118">
+											<Language>SFX</Language>
+											<AudioFile>old-wood-door-open_zJR1ZMVO.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="old-wood-door-open_zJR1ZMVO" ID="{D9A3A1E1-E8E5-4B49-B4B2-0A9FF9EFB15C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -2365,6 +2493,93 @@
 										<ActiveSource Name="door-slam-5_fJGqgMVd" ID="{86840755-A6CE-4259-9EBA-66106F8993D1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="DoorHandle" ID="{73928E69-C873-4787-B721-C13562A06B0E}" ShortID="668112350">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ClockAttenuation" ID="{6D2F5D06-2992-410E-9155-493821113F9B}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="DoorHandleShake" ID="{9A73A80B-0B5A-4A82-81FB-53C38810BFC2}" ShortID="698409175">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="door-handle-shake_MyxBy2NO" ID="{1601FD4B-468D-4749-B4F0-A8A5426E0CBB}" ShortID="359922430" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="door-handle-shake_MyxBy2NO" ID="{A0F51C5B-AB22-4CD1-8287-DAB261087C9A}" ShortID="872577408">
+													<Language>SFX</Language>
+													<AudioFile>door-handle-shake_MyxBy2NO.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="door-handle-shake_MyxBy2NO" ID="{A0F51C5B-AB22-4CD1-8287-DAB261087C9A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
+								<ActorMixer Name="DoorHandleOpen" ID="{28F1E30E-8E58-40BE-B9A4-7D1D89A5A42B}" ShortID="2012504">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="door-handle-turn_GJOHy_Vd" ID="{91BAE833-2990-4FFB-AC75-E18FE62AA45F}" ShortID="131150373" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="door-handle-turn_GJOHy_Vd" ID="{CFC83467-C642-4522-9873-EBE9B729526A}" ShortID="1012405662">
+													<Language>SFX</Language>
+													<AudioFile>door-handle-turn_GJOHy_Vd.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="door-handle-turn_GJOHy_Vd" ID="{CFC83467-C642-4522-9873-EBE9B729526A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

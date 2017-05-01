@@ -491,6 +491,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="DoorHandleTurn" ID="{E8311199-085D-4F6F-949A-5A350C20F108}">
+							<ChildrenList>
+								<Action Name="Play" ID="{72689DFE-4A44-4BD6-AE9B-23250E81D1C8}" ShortID="475496242" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{06068EDC-F606-448B-8A73-B77CEDD175BF}" Global="false">
+											<ObjectRef Name="door-handle-turn_GJOHy_Vd" ID="{91BAE833-2990-4FFB-AC75-E18FE62AA45F}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DoorHandleSHake" ID="{D22C10A5-02B8-498F-9551-FC835A855F35}">
+							<ChildrenList>
+								<Action Name="Play" ID="{B57064C1-6337-485D-9C0B-0A8816755700}" ShortID="415884937" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{2C2AE4FD-C929-439C-B060-0BA46DA97399}" Global="false">
+											<ObjectRef Name="door-handle-shake_MyxBy2NO" ID="{1601FD4B-468D-4749-B4F0-A8A5426E0CBB}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="GeneralHouse" ID="{731C2815-BB6E-4F4D-B85C-1F61C95AA65D}" ShortID="764375670">
@@ -534,6 +556,17 @@
 									<ElementList>
 										<Element ID="{B47D603A-0A56-437D-8230-C612B2A5FE78}" Global="false">
 											<ObjectRef Name="cabinet-door-open-squeak_GypDeGNu" ID="{D4069DAB-37AD-4E52-81E3-EF6988F50330}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Book_TurnPage" ID="{E0FF9969-130C-4D67-B99C-EDF7729EEB26}">
+							<ChildrenList>
+								<Action Name="Play" ID="{408D2F54-C9F9-48A5-9DB9-C2A83AD6FCB5}" ShortID="806127502" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{ABF56E31-A1D2-4F55-92B0-16F555210342}" Global="false">
+											<ObjectRef Name="PageTurn" ID="{C5A38AFB-B1D7-4922-AC9D-7241416AAC19}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>
