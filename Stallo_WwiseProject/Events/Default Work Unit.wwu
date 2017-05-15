@@ -38,6 +38,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="RoomTone" ID="{A1402670-333A-4386-AF50-EB1A86A73D67}">
+							<ChildrenList>
+								<Action Name="Play" ID="{ABECE59A-0856-44CC-A0F8-1009DFD09756}" ShortID="943881620" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{703F44BC-F16D-4B10-8AC1-0C09E9F80098}" Global="false">
+											<ObjectRef Name="HauntedHouseAmbience" ID="{0FF15AA7-8C09-4C8F-AA10-3BF67044E6A8}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{2D15DC5B-021E-4347-AF0F-C4E6711BF93F}" ShortID="903430213">
@@ -197,7 +208,7 @@
 								<Action Name="Play" ID="{9B51137C-CEF5-4251-BC4F-8EFBA3633878}" ShortID="85880372" Type="Play" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{6A05BC39-5ECE-4545-B110-8BF1049A9692}" Global="false">
-											<ObjectRef Name="Until Dawn Theme Song - 'O Death' - Soundtrack" ID="{999A69A3-E5BE-4C15-83F4-1A1CCCE91C44}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+											<ObjectRef Name="Giant_Wyrm" ID="{70C887B8-A684-42D1-B6BB-E15054BB4088}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -209,17 +220,6 @@
 									<ElementList>
 										<Element ID="{FA922DEE-AA85-4535-B9E5-351A830E540D}" Global="false">
 											<ObjectRef Name="Click" ID="{6551395C-3470-4399-9B54-62EFC3A65B1B}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="MusicStartPos" ID="{372234DB-BE5F-42BA-A543-27E4634EBC75}">
-							<ChildrenList>
-								<Action Name="Play" ID="{E61A22C8-953C-4234-9F87-4B940AACBEB3}" ShortID="1051718902" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{C7EF7189-E7DB-4029-8E9E-01A94B7A47CA}" Global="false">
-											<ObjectRef Name="Massive Attack - Angel" ID="{DD9E0FFA-20FE-4820-BFAD-CD2D95DCEFD1}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -385,7 +385,17 @@
 				</Folder>
 				<Folder Name="DiningRoom" ID="{2FFE728A-E2B5-468C-AC4D-5F8AA059083F}" ShortID="651346087">
 					<ChildrenList>
-						<Event Name="ChairMoving" ID="{0672A3BC-104C-4651-B75C-56716F3FA39B}"/>
+						<Event Name="ChairMoving" ID="{0672A3BC-104C-4651-B75C-56716F3FA39B}">
+							<ChildrenList>
+								<Action Name="Play" ID="{7D6BCFB8-FBF9-4512-AF39-722E179E82A4}" ShortID="721427045" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{DD249BBC-A86D-4AF9-A4C4-D329FE5DF5E5}" Global="false">
+											<ObjectRef Name="chair-scuffle-3_Myl8KzE_" ID="{B6490784-934A-4997-A1EC-715242C5E005}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="FirePlace" ID="{8B36AC9F-54F2-4D10-BF71-D02138C75C13}">
 							<ChildrenList>
 								<Action Name="Play" ID="{7D295AF4-5D72-4DC4-9FA4-72FD9566FDA2}" ShortID="453964855" Type="Play" Scope="One" Global="false">

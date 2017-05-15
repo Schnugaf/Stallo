@@ -121,7 +121,38 @@
 											</RTPCList>
 										</Property>
 									</PropertyList>
-									<ReferenceList/>
+								</Bus>
+								<Bus Name="RoomTone" ID="{F53B65FB-4829-4290-A60A-617653E35D73}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{1C055919-106D-49BA-9548-61895E22D092}" ShortID="61019630">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RoomToneLoc" ID="{729729CB-DBFD-4210-AA9B-AF140058B18E}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{FE8F434F-0D4B-4E4E-8914-185C88AD8CC2}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
 								</Bus>
 							</ChildrenList>
 						</Bus>
