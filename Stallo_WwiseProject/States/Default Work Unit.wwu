@@ -62,6 +62,16 @@
 						<State Name="Close" ID="{BFD31CDD-13C7-484C-8A16-77F69F4096EC}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="roomLoc" ID="{8C5E9039-09BB-4E21-9777-DCE2BEB3C0A5}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{35F179A2-8409-43E3-99E1-AB83F8CEE61B}"/>
+						<State Name="Indoors" ID="{F72D2F40-C866-4496-B104-020B6403F4A1}"/>
+						<State Name="Outdoors" ID="{4DFDE599-4314-4BF9-B335-6A08C5DA0282}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
