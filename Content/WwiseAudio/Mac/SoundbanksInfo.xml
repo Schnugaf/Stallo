@@ -17,6 +17,7 @@
 			<Path>WorldSFX.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1761501022" Name="Book" ObjectPath="\Events\Default Work Unit\GeneralHouse\Book" DurationType="OneShot" DurationMin="0.616644" DurationMax="1.037075"/>
+				<Event Id="1866089485" Name="Book_TurnPage" ObjectPath="\Events\Default Work Unit\GeneralHouse\Book_TurnPage" MaxAttenuation="400.000000" DurationType="OneShot" DurationMin="0.500499" DurationMax="1.668322"/>
 				<Event Id="238653005" Name="Breathing" ObjectPath="\Events\Default Work Unit\Character\Breathing" DurationType="Infinite"/>
 				<Event Id="1869633006" Name="Cabinets" ObjectPath="\Events\Default Work Unit\GeneralHouse\Cabinets" MaxAttenuation="400.000000" DurationType="OneShot" DurationMin="0.500499" DurationMax="0.500499"/>
 				<Event Id="1584507803" Name="Click" ObjectPath="\Events\Default Work Unit\Menu\Click" DurationType="OneShot" DurationMin="0.254059" DurationMax="0.254059"/>
@@ -40,9 +41,10 @@
 				<Event Id="4033139392" Name="LockingDoor" ObjectPath="\Events\Default Work Unit\Door\LockingDoor" DurationType="OneShot" DurationMin="0.950204" DurationMax="0.950204"/>
 				<Event Id="477783203" Name="MirrorFrame" ObjectPath="\Events\Default Work Unit\LivingRoom\MirrorFrame" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="2.048000" DurationMax="2.048000"/>
 				<Event Id="193678488" Name="monsterGrowl" ObjectPath="\Events\Default Work Unit\Ambience\monsterGrowl" DurationType="OneShot" DurationMin="26.864513" DurationMax="26.864513"/>
-				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Menu\Music" MaxAttenuation="5000.000000" DurationType="OneShot" DurationMin="170.971436" DurationMax="170.971436"/>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Menu\Music" MaxAttenuation="2000.000000" DurationType="Infinite"/>
 				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Door\Open_Door" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="2.532583" DurationMax="2.532583"/>
 				<Event Id="1549599785" Name="Refridgerator" ObjectPath="\Events\Default Work Unit\Kitchen\Refridgerator" MaxAttenuation="705.000000" DurationType="OneShot" DurationMin="77.653107" DurationMax="77.653107"/>
+				<Event Id="2291679880" Name="RoomTone" ObjectPath="\Events\Default Work Unit\Ambience\RoomTone" DurationType="Infinite"/>
 				<Event Id="2036047442" Name="Screaming" ObjectPath="\Events\Default Work Unit\Character\Voice\Screaming" DurationType="OneShot" DurationMin="1.835147" DurationMax="1.835147"/>
 				<Event Id="1231189491" Name="Stallo_Croak" ObjectPath="\Events\Default Work Unit\Stallo\Voice\Stallo_Croak" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="3.211443" DurationMax="4.541666"/>
 				<Event Id="3041118060" Name="StalloAmbience" ObjectPath="\Events\Default Work Unit\Stallo\StalloAmbience" DurationType="Infinite"/>
@@ -55,6 +57,10 @@
 				<Event Id="3414304297" Name="WindStart" ObjectPath="\Events\Default Work Unit\Ambience\WindStart" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="13200416" Language="SFX">
+					<ShortName>book-page-turn-3_MJPhUzNu.wav</ShortName>
+					<Path>SFX\book-page-turn-3_MJPhUzNu_9E69E797.wem</Path>
+				</File>
 				<File Id="15391426" Language="SFX">
 					<ShortName>217186__bosk1__wind-at-door-howling-4.wav</ShortName>
 					<Path>SFX\217186__bosk1__wind-at-door-howling-4_B3602F10.wem</Path>
@@ -74,6 +80,10 @@
 				<File Id="103019964" Language="SFX">
 					<ShortName>creepy-low-atmosphere-ambiance_MJ5grHE_.wav</ShortName>
 					<Path>SFX\creepy-low-atmosphere-ambiance_MJ5grHE__9E69E797.wem</Path>
+				</File>
+				<File Id="107536125" Language="SFX">
+					<ShortName>book-page-turn-1_Mk2iLzVO.wav</ShortName>
+					<Path>SFX\book-page-turn-1_Mk2iLzVO_9E69E797.wem</Path>
 				</File>
 				<File Id="114601963" Language="SFX">
 					<ShortName>261419__archeos__womanscream.wav</ShortName>
@@ -179,10 +189,6 @@
 					<ShortName>StoneGrind2.wav</ShortName>
 					<Path>SFX\StoneGrind2_9E69E797.wem</Path>
 				</File>
-				<File Id="520447707" Language="SFX">
-					<ShortName>Until Dawn Theme Song - 'O Death' - Soundtrack.wav</ShortName>
-					<Path>SFX\Until Dawn Theme Song - 'O Death' - Soundtrack_9E69E797.wem</Path>
-				</File>
 				<File Id="536119734" Language="SFX">
 					<ShortName>OutsideWind.wav</ShortName>
 					<Path>SFX\OutsideWind_4B8CC0C5.wem</Path>
@@ -206,6 +212,10 @@
 				<File Id="706325024" Language="SFX">
 					<ShortName>StoneGrind4.wav</ShortName>
 					<Path>SFX\StoneGrind4_9E69E797.wem</Path>
+				</File>
+				<File Id="708826383" Language="SFX">
+					<ShortName>Giant_Wyrm.wav</ShortName>
+					<Path>SFX\Giant_Wyrm_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="730968485" Language="SFX">
 					<ShortName>ClockTick.wav</ShortName>
@@ -247,6 +257,10 @@
 					<ShortName>door-handle-shake_MyxBy2NO.wav</ShortName>
 					<Path>SFX\door-handle-shake_MyxBy2NO_9E69E797.wem</Path>
 				</File>
+				<File Id="898806508" Language="SFX">
+					<ShortName>book-page-turn-2_fkA98fVd.wav</ShortName>
+					<Path>SFX\book-page-turn-2_fkA98fVd_9E69E797.wem</Path>
+				</File>
 				<File Id="907007178" Language="SFX">
 					<ShortName>woodsteps2.wav</ShortName>
 					<Path>SFX\woodsteps2_9E69E797.wem</Path>
@@ -278,6 +292,10 @@
 				<File Id="1034178203" Language="SFX">
 					<ShortName>DoorLock.wav</ShortName>
 					<Path>SFX\DoorLock_9E69E797.wem</Path>
+				</File>
+				<File Id="1044762382" Language="SFX">
+					<ShortName>haunted-house-ambience-wood-creaks_G1ColhEu.wav</ShortName>
+					<Path>SFX\haunted-house-ambience-wood-creaks_G1ColhEu_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="1045931598" Language="SFX">
 					<ShortName>Doorknock2.wav</ShortName>

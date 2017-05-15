@@ -28,6 +28,15 @@
       "DurationMax": "1.037075"
      },
      {
+      "Id": "1866089485",
+      "Name": "Book_TurnPage",
+      "ObjectPath": "\\Events\\Default Work Unit\\GeneralHouse\\Book_TurnPage",
+      "MaxAttenuation": "400.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.500499",
+      "DurationMax": "1.668322"
+     },
+     {
       "Id": "238653005",
       "Name": "Breathing",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Breathing",
@@ -221,10 +230,8 @@
       "Id": "3991942870",
       "Name": "Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Menu\\Music",
-      "MaxAttenuation": "5000.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "170.971436",
-      "DurationMax": "170.971436"
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "Infinite"
      },
      {
       "Id": "2934549620",
@@ -243,6 +250,12 @@
       "DurationType": "OneShot",
       "DurationMin": "77.653107",
       "DurationMax": "77.653107"
+     },
+     {
+      "Id": "2291679880",
+      "Name": "RoomTone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\RoomTone",
+      "DurationType": "Infinite"
      },
      {
       "Id": "2036047442",
@@ -325,6 +338,12 @@
     ],
     "IncludedMemoryFiles": [
      {
+      "Id": "13200416",
+      "Language": "SFX",
+      "ShortName": "book-page-turn-3_MJPhUzNu.wav",
+      "Path": "SFX\\book-page-turn-3_MJPhUzNu_9E69E797.wem"
+     },
+     {
       "Id": "15391426",
       "Language": "SFX",
       "ShortName": "217186__bosk1__wind-at-door-howling-4.wav",
@@ -353,6 +372,12 @@
       "Language": "SFX",
       "ShortName": "creepy-low-atmosphere-ambiance_MJ5grHE_.wav",
       "Path": "SFX\\creepy-low-atmosphere-ambiance_MJ5grHE__9E69E797.wem"
+     },
+     {
+      "Id": "107536125",
+      "Language": "SFX",
+      "ShortName": "book-page-turn-1_Mk2iLzVO.wav",
+      "Path": "SFX\\book-page-turn-1_Mk2iLzVO_9E69E797.wem"
      },
      {
       "Id": "114601963",
@@ -511,12 +536,6 @@
       "Path": "SFX\\StoneGrind2_9E69E797.wem"
      },
      {
-      "Id": "520447707",
-      "Language": "SFX",
-      "ShortName": "Until Dawn Theme Song - 'O Death' - Soundtrack.wav",
-      "Path": "SFX\\Until Dawn Theme Song - 'O Death' - Soundtrack_9E69E797.wem"
-     },
-     {
       "Id": "536119734",
       "Language": "SFX",
       "ShortName": "OutsideWind.wav",
@@ -551,6 +570,12 @@
       "Language": "SFX",
       "ShortName": "StoneGrind4.wav",
       "Path": "SFX\\StoneGrind4_9E69E797.wem"
+     },
+     {
+      "Id": "708826383",
+      "Language": "SFX",
+      "ShortName": "Giant_Wyrm.wav",
+      "Path": "SFX\\Giant_Wyrm_4B8CC0C5.wem"
      },
      {
       "Id": "730968485",
@@ -613,6 +638,12 @@
       "Path": "SFX\\door-handle-shake_MyxBy2NO_9E69E797.wem"
      },
      {
+      "Id": "898806508",
+      "Language": "SFX",
+      "ShortName": "book-page-turn-2_fkA98fVd.wav",
+      "Path": "SFX\\book-page-turn-2_fkA98fVd_9E69E797.wem"
+     },
+     {
       "Id": "907007178",
       "Language": "SFX",
       "ShortName": "woodsteps2.wav",
@@ -659,6 +690,12 @@
       "Language": "SFX",
       "ShortName": "DoorLock.wav",
       "Path": "SFX\\DoorLock_9E69E797.wem"
+     },
+     {
+      "Id": "1044762382",
+      "Language": "SFX",
+      "ShortName": "haunted-house-ambience-wood-creaks_G1ColhEu.wav",
+      "Path": "SFX\\haunted-house-ambience-wood-creaks_G1ColhEu_4B8CC0C5.wem"
      },
      {
       "Id": "1045931598",
