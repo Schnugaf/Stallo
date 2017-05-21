@@ -1032,6 +1032,43 @@
 										</Sound>
 									</ChildrenList>
 								</ActorMixer>
+								<ActorMixer Name="Gasping" ID="{E63C90DB-F5FE-4AFF-9BD3-5CCEC5794D60}" ShortID="441577029">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="female-gasp_Gk12moN_" ID="{7EDDE038-0134-4592-AB01-C98DF1ED50A4}" ShortID="364092884" Type="SoundFX">
+											<PropertyList>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="ClockAttenuation" ID="{6D2F5D06-2992-410E-9155-493821113F9B}" WorkUnitID="{B3DA678D-662F-409F-9BA1-D4DEF05BE7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="female-gasp_Gk12moN_" ID="{E8AE124F-40ED-42A7-9858-881959463650}" ShortID="183383933">
+													<Language>SFX</Language>
+													<AudioFile>female-gasp_Gk12moN_.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="female-gasp_Gk12moN_" ID="{E8AE124F-40ED-42A7-9858-881959463650}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -3430,25 +3467,6 @@
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>
-				<Sound Name="knife-zing_MJfZBME_" ID="{B7BF75FA-7488-4E34-B296-DD5614B898FE}" ShortID="438501975" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="knife-zing_MJfZBME_" ID="{3E040FC5-5FE9-4BD2-8B3A-6873007C5859}" ShortID="90640484">
-							<Language>SFX</Language>
-							<AudioFile>knife-zing_MJfZBME_.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="knife-zing_MJfZBME_" ID="{3E040FC5-5FE9-4BD2-8B3A-6873007C5859}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="wood-floor-creak_fkJHb_Nu" ID="{61368082-9BFF-4792-B9BD-738B7B40FAFE}" ShortID="272797566" Type="SoundFX">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -3525,6 +3543,92 @@
 						<ActiveSource Name="wood-floor-creak-slow_Gy7N-_EO" ID="{8343D249-37CB-408A-93B8-828E86082840}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<ActorMixer Name="KnifeZing" ID="{7B5B8B57-C2E3-4223-B5E9-F94902F86A3C}" ShortID="671276039">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="knife-zing_MJfZBME_" ID="{B7BF75FA-7488-4E34-B296-DD5614B898FE}" ShortID="438501975" Type="SoundFX">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="knife-zing_MJfZBME_" ID="{3E040FC5-5FE9-4BD2-8B3A-6873007C5859}" ShortID="90640484">
+									<Language>SFX</Language>
+									<AudioFile>knife-zing_MJfZBME_.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{B918E0CC-08D1-424A-92A9-821E632B4252}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-27.2912423625255"/>
+										<Property Name="PanY" Type="Real64" Value="-5.18358531317495"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="knife-zing_MJfZBME_" ID="{3E040FC5-5FE9-4BD2-8B3A-6873007C5859}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="SnowMovement" ID="{570F1FAD-DB97-41DD-B31D-427AD3B97C8D}" ShortID="297018191">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="snow-movement_G1vtj3VO" ID="{BC28543F-8E45-4E93-B330-041A37D431C9}" ShortID="801709093" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snow-movement_G1vtj3VO" ID="{2B4DB019-2307-44B3-8E4F-B6E65BBBD53A}" ShortID="840673819">
+									<Language>SFX</Language>
+									<AudioFile>snow-movement_G1vtj3VO.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="snow-movement_G1vtj3VO" ID="{2B4DB019-2307-44B3-8E4F-B6E65BBBD53A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

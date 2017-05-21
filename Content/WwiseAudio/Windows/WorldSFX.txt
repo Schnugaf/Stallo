@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	73648138	StoveDial			\Default Work Unit\Kitchen\StoveDial	
 	193678488	monsterGrowl			\Default Work Unit\Ambience\monsterGrowl	
+	219227275	SnowMovement			\Default Work Unit\Misc\SnowMovement	
 	232506007	ClosetDoorKnock			\Default Work Unit\LivingRoom\ClosetDoor\ClosetDoorKnock	
 	238653005	Breathing			\Default Work Unit\Character\Breathing	
 	325910425	CreepyLow			\Default Work Unit\Ambience\CreepyLow	
@@ -24,8 +25,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	2028047724	faucetOff			\Default Work Unit\Kitchen\faucetOff	
 	2036047442	Screaming			\Default Work Unit\Character\Voice\Screaming	
 	2175424403	DoorHandleSHake			\Default Work Unit\Door\DoorHandleSHake	
+	2209414560	Gasping			\Default Work Unit\Character\Voice\Gasping	
 	2291679880	RoomTone			\Default Work Unit\Ambience\RoomTone	
 	2747278834	DoorHandleTurn			\Default Work Unit\Door\DoorHandleTurn	
+	2867701018	KnifeZing			\Default Work Unit\Misc\KnifeZing	
 	2928161104	Curtains			\Default Work Unit\GeneralHouse\Curtains	
 	2934549620	Open_Door			\Default Work Unit\Door\Open_Door	
 	2946944654	StalloBreathing			\Default Work Unit\Stallo\Voice\StalloBreathing	
@@ -34,6 +37,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3178299198	DoorSlam			\Default Work Unit\Entrance\Door\DoorSlam	
 	3328495488	Dying			\Default Work Unit\Character\Voice\Dying	
 	3414304297	WindStart			\Default Work Unit\Ambience\WindStart	
+	3988113707	SnowMovementStop			\Default Work Unit\Misc\SnowMovementStop	
 	3991942870	Music			\Default Work Unit\Menu\Music	
 	4031051492	StalloAmbienceStop			\Default Work Unit\Stallo\StalloAmbienceStop	
 	4033139392	LockingDoor			\Default Work Unit\Door\LockingDoor	
@@ -96,6 +100,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	25587780	Curtain6	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\Curtain6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain6		137964
 	49387479	wind_indoors	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\wind_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Wind\Wind_Loc\wind_indoors		5760064
 	80766433	book_Open	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\book_Open_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Book\BookState\book_Open		183004
+	90640484	knife-zing_MJfZBME_	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\knife-zing_MJfZBME__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\KnifeZing\knife-zing_MJfZBME_		58920
 	103019964	creepy-low-atmosphere-ambiance_MJ5grHE_	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\creepy-low-atmosphere-ambiance_MJ5grHE__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\creepy-low-atmosphere-ambiance_MJ5grHE_		9821124
 	107536125	book-page-turn-1_Mk2iLzVO	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\book-page-turn-1_Mk2iLzVO_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Book\PageTurn\PageTurn\book-page-turn-1_Mk2iLzVO		88352
 	114601963	261419__archeos__womanscream	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\261419__archeos__womanscream_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Screaming\261419__archeos__womanscream		323784
@@ -103,6 +108,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	128755975	door-slam-5_fJGqgMVd	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\door-slam-5_fJGqgMVd_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\DoorSlam\door-slam-5_fJGqgMVd		164868
 	146084082	Curtain5	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\Curtain5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain5		125812
 	155965444	dial-turn-switch-clicks_zJGw724_	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\dial-turn-switch-clicks_zJGw724__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Stove\TempWheels\dial-turn-switch-clicks_zJGw724_		61348
+	183383933	female-gasp_Gk12moN_	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\female-gasp_Gk12moN__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Gasping\female-gasp_Gk12moN_		76152
 	189346210	fridge-sounds_z1jK7SNO	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\fridge-sounds_z1jK7SNO_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Refridgerator\fridge-sounds_z1jK7SNO		13698072
 	223743055	Curtain3	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\Curtain3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain3		122776
 	235046290	closeTap	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\closeTap_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Faucet\CloseTap\closeTap		583180
@@ -140,6 +146,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	780984221	Breathing3-fix	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\Breathing3-fix_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\InsideBreathing\Breathing3-fix		262304
 	804504558	326890__11linda__dying-gasps	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\326890__11linda__dying-gasps_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Dying\326890__11linda__dying-gasps		1921288
 	837046008	woodsteps3	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\woodsteps3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps3		70256
+	840673819	snow-movement_G1vtj3VO	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\snow-movement_G1vtj3VO_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SnowMovement\snow-movement_G1vtj3VO		1175056
 	872577408	door-handle-shake_MyxBy2NO	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\door-handle-shake_MyxBy2NO_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\DoorHandle\DoorHandleShake\door-handle-shake_MyxBy2NO		267656
 	898806508	book-page-turn-2_fkA98fVd	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\book-page-turn-2_fkA98fVd_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Book\PageTurn\PageTurn\book-page-turn-2_fkA98fVd		94232
 	907007178	woodsteps2	D:\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\woodsteps2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wood\woodsteps2		77276
