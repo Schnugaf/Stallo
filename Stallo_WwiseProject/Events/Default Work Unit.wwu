@@ -88,6 +88,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Gasping" ID="{E9A102CC-DE20-4500-8567-0E1D634E311C}">
+									<ChildrenList>
+										<Action Name="Play" ID="{57463F71-F6A5-4C21-9279-B146C6614C00}" ShortID="798566023" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{91246CA8-9FAB-48EE-A4B8-962B546D6332}" Global="false">
+													<ObjectRef Name="female-gasp_Gk12moN_" ID="{7EDDE038-0134-4592-AB01-C98DF1ED50A4}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Event Name="Breathing" ID="{4C73B4C3-3605-4144-85A3-682E6E5D55AC}">
@@ -577,6 +588,43 @@
 									<ElementList>
 										<Element ID="{ABF56E31-A1D2-4F55-92B0-16F555210342}" Global="false">
 											<ObjectRef Name="PageTurn" ID="{C5A38AFB-B1D7-4922-AC9D-7241416AAC19}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Misc" ID="{B6C9DDB4-A057-4C5E-BC97-F022CB28156F}" ShortID="718661953">
+					<ChildrenList>
+						<Event Name="SnowMovement" ID="{521354F9-B2C5-4C2C-BFE3-4ECADDCE4714}">
+							<ChildrenList>
+								<Action Name="Play" ID="{85C70242-FA48-491B-984A-675CFA55BFE8}" ShortID="912967627" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{274AE65B-BE5E-45E3-8C09-34F7984CA361}" Global="false">
+											<ObjectRef Name="snow-movement_G1vtj3VO" ID="{BC28543F-8E45-4E93-B330-041A37D431C9}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="KnifeZing" ID="{EFE18F9C-267B-4712-8A6D-E323B7638DE2}">
+							<ChildrenList>
+								<Action Name="Play" ID="{38593DCD-4607-496A-B8CD-61C06EFE3C74}" ShortID="928818791" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{4DB377CF-F9CC-4602-B1DC-AACEA5F7BDE5}" Global="false">
+											<ObjectRef Name="knife-zing_MJfZBME_" ID="{B7BF75FA-7488-4E34-B296-DD5614B898FE}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SnowMovementStop" ID="{98D09639-9EA8-4CAF-870A-542A421FB20A}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{C805A155-4FD0-436D-A70F-8A0CB02DA277}" ShortID="723600934" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{6A789F01-9651-419D-BE03-FFDBA944EB09}" Global="true">
+											<ObjectRef Name="snow-movement_G1vtj3VO" ID="{BC28543F-8E45-4E93-B330-041A37D431C9}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
 										</Element>
 									</ElementList>
 								</Action>
