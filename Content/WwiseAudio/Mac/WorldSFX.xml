@@ -35,6 +35,8 @@
 				<Event Id="505351430" Name="faucetOn" ObjectPath="\Events\Default Work Unit\Kitchen\faucetOn" MaxAttenuation="2000.000000" DurationType="Infinite"/>
 				<Event Id="1404152342" Name="FirePlace" ObjectPath="\Events\Default Work Unit\DiningRoom\FirePlace" MaxAttenuation="1000.000000" DurationType="Infinite"/>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Character\Footstep" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="0.307418" DurationMax="0.630404"/>
+				<Event Id="2209414560" Name="Gasping" ObjectPath="\Events\Default Work Unit\Character\Voice\Gasping" DurationType="OneShot" DurationMin="0.431338" DurationMax="0.431338"/>
+				<Event Id="2867701018" Name="KnifeZing" ObjectPath="\Events\Default Work Unit\Misc\KnifeZing" DurationType="OneShot" DurationMin="0.333651" DurationMax="0.333651"/>
 				<Event Id="4033139392" Name="LockingDoor" ObjectPath="\Events\Default Work Unit\Door\LockingDoor" DurationType="OneShot" DurationMin="0.950204" DurationMax="0.950204"/>
 				<Event Id="477783203" Name="MirrorFrame" ObjectPath="\Events\Default Work Unit\LivingRoom\MirrorFrame" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="2.048000" DurationMax="2.048000"/>
 				<Event Id="193678488" Name="monsterGrowl" ObjectPath="\Events\Default Work Unit\Ambience\monsterGrowl" DurationType="OneShot" DurationMin="26.864513" DurationMax="26.864513"/>
@@ -43,6 +45,8 @@
 				<Event Id="1549599785" Name="Refridgerator" ObjectPath="\Events\Default Work Unit\Kitchen\Refridgerator" MaxAttenuation="705.000000" DurationType="OneShot" DurationMin="77.653107" DurationMax="77.653107"/>
 				<Event Id="2291679880" Name="RoomTone" ObjectPath="\Events\Default Work Unit\Ambience\RoomTone" DurationType="Infinite"/>
 				<Event Id="2036047442" Name="Screaming" ObjectPath="\Events\Default Work Unit\Character\Voice\Screaming" DurationType="OneShot" DurationMin="1.835147" DurationMax="1.835147"/>
+				<Event Id="219227275" Name="SnowMovement" ObjectPath="\Events\Default Work Unit\Misc\SnowMovement" DurationType="OneShot" DurationMin="6.660953" DurationMax="6.660953"/>
+				<Event Id="3988113707" Name="SnowMovementStop" ObjectPath="\Events\Default Work Unit\Misc\SnowMovementStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1231189491" Name="Stallo_Croak" ObjectPath="\Events\Default Work Unit\Stallo\Voice\Stallo_Croak" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="3.211443" DurationMax="4.541666"/>
 				<Event Id="3041118060" Name="StalloAmbience" ObjectPath="\Events\Default Work Unit\Stallo\StalloAmbience" DurationType="Infinite"/>
 				<Event Id="4031051492" Name="StalloAmbienceStop" ObjectPath="\Events\Default Work Unit\Stallo\StalloAmbienceStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -74,6 +78,10 @@
 					<ShortName>book_Open.wav</ShortName>
 					<Path>SFX\book_Open_9E69E797.wem</Path>
 				</File>
+				<File Id="90640484" Language="SFX">
+					<ShortName>knife-zing_MJfZBME_.wav</ShortName>
+					<Path>SFX\knife-zing_MJfZBME__9E69E797.wem</Path>
+				</File>
 				<File Id="103019964" Language="SFX">
 					<ShortName>creepy-low-atmosphere-ambiance_MJ5grHE_.wav</ShortName>
 					<Path>SFX\creepy-low-atmosphere-ambiance_MJ5grHE__9E69E797.wem</Path>
@@ -101,6 +109,10 @@
 				<File Id="155965444" Language="SFX">
 					<ShortName>dial-turn-switch-clicks_zJGw724_.wav</ShortName>
 					<Path>SFX\dial-turn-switch-clicks_zJGw724__9E69E797.wem</Path>
+				</File>
+				<File Id="183383933" Language="SFX">
+					<ShortName>female-gasp_Gk12moN_.wav</ShortName>
+					<Path>SFX\female-gasp_Gk12moN__9E69E797.wem</Path>
 				</File>
 				<File Id="189346210" Language="SFX">
 					<ShortName>fridge-sounds_z1jK7SNO.wav</ShortName>
@@ -249,6 +261,10 @@
 				<File Id="837046008" Language="SFX">
 					<ShortName>woodsteps3.wav</ShortName>
 					<Path>SFX\woodsteps3_9E69E797.wem</Path>
+				</File>
+				<File Id="840673819" Language="SFX">
+					<ShortName>snow-movement_G1vtj3VO.wav</ShortName>
+					<Path>SFX\snow-movement_G1vtj3VO_9E69E797.wem</Path>
 				</File>
 				<File Id="872577408" Language="SFX">
 					<ShortName>door-handle-shake_MyxBy2NO.wav</ShortName>

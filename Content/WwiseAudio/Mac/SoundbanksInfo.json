@@ -205,6 +205,22 @@
       "DurationMax": "0.630404"
      },
      {
+      "Id": "2209414560",
+      "Name": "Gasping",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Voice\\Gasping",
+      "DurationType": "OneShot",
+      "DurationMin": "0.431338",
+      "DurationMax": "0.431338"
+     },
+     {
+      "Id": "2867701018",
+      "Name": "KnifeZing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Misc\\KnifeZing",
+      "DurationType": "OneShot",
+      "DurationMin": "0.333651",
+      "DurationMax": "0.333651"
+     },
+     {
       "Id": "4033139392",
       "Name": "LockingDoor",
       "ObjectPath": "\\Events\\Default Work Unit\\Door\\LockingDoor",
@@ -267,6 +283,23 @@
       "DurationType": "OneShot",
       "DurationMin": "1.835147",
       "DurationMax": "1.835147"
+     },
+     {
+      "Id": "219227275",
+      "Name": "SnowMovement",
+      "ObjectPath": "\\Events\\Default Work Unit\\Misc\\SnowMovement",
+      "DurationType": "OneShot",
+      "DurationMin": "6.660953",
+      "DurationMax": "6.660953"
+     },
+     {
+      "Id": "3988113707",
+      "Name": "SnowMovementStop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Misc\\SnowMovementStop",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "1231189491",
@@ -371,6 +404,12 @@
       "Path": "SFX\\book_Open_9E69E797.wem"
      },
      {
+      "Id": "90640484",
+      "Language": "SFX",
+      "ShortName": "knife-zing_MJfZBME_.wav",
+      "Path": "SFX\\knife-zing_MJfZBME__9E69E797.wem"
+     },
+     {
       "Id": "103019964",
       "Language": "SFX",
       "ShortName": "creepy-low-atmosphere-ambiance_MJ5grHE_.wav",
@@ -411,6 +450,12 @@
       "Language": "SFX",
       "ShortName": "dial-turn-switch-clicks_zJGw724_.wav",
       "Path": "SFX\\dial-turn-switch-clicks_zJGw724__9E69E797.wem"
+     },
+     {
+      "Id": "183383933",
+      "Language": "SFX",
+      "ShortName": "female-gasp_Gk12moN_.wav",
+      "Path": "SFX\\female-gasp_Gk12moN__9E69E797.wem"
      },
      {
       "Id": "189346210",
@@ -633,6 +678,12 @@
       "Language": "SFX",
       "ShortName": "woodsteps3.wav",
       "Path": "SFX\\woodsteps3_9E69E797.wem"
+     },
+     {
+      "Id": "840673819",
+      "Language": "SFX",
+      "ShortName": "snow-movement_G1vtj3VO.wav",
+      "Path": "SFX\\snow-movement_G1vtj3VO_9E69E797.wem"
      },
      {
       "Id": "872577408",
