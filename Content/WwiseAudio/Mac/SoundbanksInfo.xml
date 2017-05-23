@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>D:\Stallo\Stallo_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Stallo\Stallo_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Stallo\Content\WwiseAudio\Mac\</SoundBanksRoot>
+		<ProjectRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Skole\Pilot\Stallo\Content\WwiseAudio\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Skole\Pilot\Stallo\Stallo_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>

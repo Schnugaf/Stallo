@@ -44,6 +44,7 @@ State	ID	Name	State Group			Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	825564394	RoomToneLoc			\Default Work Unit\RoomToneLoc	
 	955462783	CornerAngle			\Default Work Unit\CornerAngle	
+	1065543644	SoundLevel			\Default Work Unit\SoundLevel	
 	2255331094	playerDist			\Default Work Unit\playerDist	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes

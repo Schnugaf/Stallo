@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "120",
   "RootPaths": {
-   "ProjectRoot": "D:\\Stallo\\Stallo_WwiseProject\\",
-   "SourceFilesRoot": "D:\\Stallo\\Stallo_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "D:\\Stallo\\Content\\WwiseAudio\\Mac\\",
+   "ProjectRoot": "D:\\Skole\\Pilot\\Stallo\\Stallo_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Skole\\Pilot\\Stallo\\Stallo_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Skole\\Pilot\\Stallo\\Content\\WwiseAudio\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Stallo\\Stallo_WwiseProject\\GeneratedSoundBanks\\Mac\\"
+   "ExternalSourcesOutputRoot": "D:\\Skole\\Pilot\\Stallo\\Stallo_WwiseProject\\GeneratedSoundBanks\\Mac\\"
   },
   "SoundBanks": [
    {

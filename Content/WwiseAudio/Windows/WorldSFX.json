@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "120",
   "RootPaths": {
-   "ProjectRoot": "D:\\Stallo\\Stallo_WwiseProject\\",
-   "SourceFilesRoot": "D:\\Stallo\\Stallo_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Stallo\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "D:\\Skole\\Pilot\\Stallo\\Stallo_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Skole\\Pilot\\Stallo\\Stallo_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Skole\\Pilot\\Stallo\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Stallo\\Stallo_WwiseProject\\GeneratedSoundBanks\\Windows\\"
+   "ExternalSourcesOutputRoot": "D:\\Skole\\Pilot\\Stallo\\Stallo_WwiseProject\\GeneratedSoundBanks\\Windows\\"
   },
   "SoundBanks": [
    {

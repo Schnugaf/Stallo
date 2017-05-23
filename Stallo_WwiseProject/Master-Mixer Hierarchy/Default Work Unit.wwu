@@ -4,6 +4,36 @@
 		<WorkUnit Name="Default Work Unit" ID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{3DC06640-CF1E-4E70-A2A6-A4AEC31ADE44}" ShortID="208996825">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SoundLevel" ID="{6AC51CE1-FF09-4C12-A19E-4F45A71E5FA7}" WorkUnitID="{109EE652-7FB7-44FC-83CB-2F325F2C24F1}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{03E9804C-D9D2-49CB-9F2F-2EE6E4E8F4AA}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ChildrenList>
 						<Bus Name="Unreal Project" ID="{CAB24F32-210C-46B2-9E59-BD9423899516}">
 							<ChildrenList>

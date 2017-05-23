@@ -28,6 +28,7 @@
 				</GameParameter>
 				<GameParameter Name="CornerAngle" ID="{874B476A-F262-4102-99D0-72E0B312C6F0}"/>
 				<GameParameter Name="RoomToneLoc" ID="{729729CB-DBFD-4210-AA9B-AF140058B18E}"/>
+				<GameParameter Name="SoundLevel" ID="{6AC51CE1-FF09-4C12-A19E-4F45A71E5FA7}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
