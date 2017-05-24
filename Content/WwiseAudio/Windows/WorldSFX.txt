@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	232506007	ClosetDoorKnock			\Default Work Unit\LivingRoom\ClosetDoor\ClosetDoorKnock	
 	238653005	Breathing			\Default Work Unit\Character\Breathing	
 	325910425	CreepyLow			\Default Work Unit\Ambience\CreepyLow	
+	435872092	MusicCredits			\Default Work Unit\Menu\MusicCredits	
 	477783203	MirrorFrame			\Default Work Unit\LivingRoom\MirrorFrame	
 	505351430	faucetOn			\Default Work Unit\Kitchen\faucetOn	
 	519841063	StonedraggingStop			\Default Work Unit\Stone\StonedraggingStop	
@@ -34,6 +35,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2946944654	StalloBreathing			\Default Work Unit\Stallo\Voice\StalloBreathing	
 	3041118060	StalloAmbience			\Default Work Unit\Stallo\StalloAmbience	
 	3086540886	StopAll			\Default Work Unit\StopAll	
+	3114083317	EndMusicCredits			\Default Work Unit\Menu\EndMusicCredits	
 	3178299198	DoorSlam			\Default Work Unit\Entrance\Door\DoorSlam	
 	3328495488	Dying			\Default Work Unit\Character\Voice\Dying	
 	3414304297	WindStart			\Default Work Unit\Ambience\WindStart	
@@ -112,6 +114,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	183383933	female-gasp_Gk12moN_	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\female-gasp_Gk12moN__9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Gasping\female-gasp_Gk12moN_		76152
 	189346210	fridge-sounds_z1jK7SNO	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\fridge-sounds_z1jK7SNO_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Refridgerator\fridge-sounds_z1jK7SNO		13698072
 	223743055	Curtain3	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\Curtain3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GeneralHouse\Curtains\CurtainsRandom\Curtain3		122776
+	224775150	the-long-awakening_z1ei7LBd	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\the-long-awakening_z1ei7LBd_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\the-long-awakening_z1ei7LBd		21196864
 	235046290	closeTap	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\closeTap_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Faucet\CloseTap\closeTap		583180
 	242060973	outside breathing	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\outside breathing_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breathing\outside breathing		9212464
 	257825557	jg-032316-sfx-sink-faucet-running	D:\Skole\Pilot\Stallo\Stallo_WwiseProject\.cache\Windows\SFX\jg-032316-sfx-sink-faucet-running_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kitchen\Faucet\jg-032316-sfx-sink-faucet-running		3911204

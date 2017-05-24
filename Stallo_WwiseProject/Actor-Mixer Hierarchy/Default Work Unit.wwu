@@ -345,6 +345,10 @@
 									<Language>SFX</Language>
 									<AudioFile>monster-growl-deep-slow-drone_fktugnE_.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="the-long-awakening_z1ei7LBd" ID="{97FC3823-D7F1-46E8-9E31-92B40BC19EDE}" ShortID="224775150">
+									<Language>SFX</Language>
+									<AudioFile>the-long-awakening_z1ei7LBd.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="monster-growl-deep-slow-drone_fktugnE_" ID="{72013777-39AE-49F2-91CB-8D38E0EA1F7A}" Platform="Linked"/>
@@ -1301,7 +1305,6 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -3629,6 +3632,35 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="the-long-awakening_z1ei7LBd" ID="{DBFFA54A-8CC5-4AD3-892E-4CBB831025AC}" ShortID="902535779" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{58B85252-487B-42E5-8D49-32772DE8A610}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{18DBC89B-FBD7-441F-98CF-71657DBA1413}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="the-long-awakening_z1ei7LBd" ID="{05B739F6-844A-4A23-BB45-6E795F7F3CFD}" ShortID="1028881130">
+							<Language>SFX</Language>
+							<AudioFile>the-long-awakening_z1ei7LBd.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="224775150"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="the-long-awakening_z1ei7LBd" ID="{05B739F6-844A-4A23-BB45-6E795F7F3CFD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

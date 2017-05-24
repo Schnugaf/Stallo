@@ -6,25 +6,25 @@
 				<File Name="Init" Hash="80996153" Timestamp="131400036701594286"/>
 				<File Name="TEst2" Hash="3712047672" Timestamp="131324993676447473"/>
 				<File Name="TestBank" Hash="4248554886" Timestamp="131356822692328291"/>
-				<File Name="WorldSFX" Hash="3445039763" Timestamp="131400036701559265"/>
+				<File Name="WorldSFX" Hash="3583913390" Timestamp="131401011956946024"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="0">
 				<File Name="Init" Hash="2259370767" Timestamp="131400036701694358"/>
-				<File Name="WorldSFX" Hash="460396370" Timestamp="131400036701689351"/>
+				<File Name="WorldSFX" Hash="210070277" Timestamp="131401011957071109"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="3635835047" Timestamp="131400036701674340"/>
+				<File Name="" Hash="3823157942" Timestamp="131401011957051094"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
 			<Language ID="0">
 				<File Name="Init" Hash="2366581039" Timestamp="131400036701739551"/>
-				<File Name="WorldSFX" Hash="1723566153" Timestamp="131400036701734394"/>
+				<File Name="WorldSFX" Hash="586594213" Timestamp="131401011957121144"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="2017181393" Timestamp="131400036701714376"/>
+				<File Name="" Hash="337426497" Timestamp="131401011957096126"/>
 			</Language>
 		</JSONInfo>
 	</Platform>
@@ -35,25 +35,25 @@
 				<File Name="MainBank" Hash="774819796" Timestamp="131356847346777442"/>
 				<File Name="TEst2" Hash="3712047672" Timestamp="131324993676990860"/>
 				<File Name="TestBank" Hash="4248554886" Timestamp="131356822704193409"/>
-				<File Name="WorldSFX" Hash="3445039763" Timestamp="131400036718015945"/>
+				<File Name="WorldSFX" Hash="3583913390" Timestamp="131401011964149050"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="0">
 				<File Name="Init" Hash="1568808473" Timestamp="131400036718106020"/>
-				<File Name="WorldSFX" Hash="900356984" Timestamp="131400036718096013"/>
+				<File Name="WorldSFX" Hash="4092545067" Timestamp="131401011965028786"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="1020795661" Timestamp="131400036718075995"/>
+				<File Name="" Hash="1212665804" Timestamp="131401011965013779"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
 			<Language ID="0">
 				<File Name="Init" Hash="2924039065" Timestamp="131400036718181235"/>
-				<File Name="WorldSFX" Hash="1387877755" Timestamp="131400036718166202"/>
+				<File Name="WorldSFX" Hash="1124624411" Timestamp="131401011965068913"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="2237055243" Timestamp="131400036718131034"/>
+				<File Name="" Hash="3996076591" Timestamp="131401011965053924"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

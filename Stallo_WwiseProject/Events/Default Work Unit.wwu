@@ -236,6 +236,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="MusicCredits" ID="{38205AD5-42D6-4264-9293-1121C8D02F01}">
+							<ChildrenList>
+								<Action Name="Play" ID="{300B9234-E40B-4FB7-A36E-10775B059DA7}" ShortID="5038800" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{C4329355-77FF-406F-89C1-7E2874569934}" Global="false">
+											<ObjectRef Name="the-long-awakening_z1ei7LBd" ID="{DBFFA54A-8CC5-4AD3-892E-4CBB831025AC}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EndMusicCredits" ID="{D2424A03-6812-415A-A14F-2F419119CDDB}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{46357442-F49D-4436-B7AA-CD087DD89F00}" ShortID="153081457" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{719761A7-C8B0-4838-BCCC-DB69F6B7274D}" Global="false">
+											<ObjectRef Name="the-long-awakening_z1ei7LBd" ID="{DBFFA54A-8CC5-4AD3-892E-4CBB831025AC}" WorkUnitID="{15174707-01D1-4428-AEAD-624502BBF931}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="LivingRoom" ID="{7511A471-F795-457E-8159-27554E9DA09B}" ShortID="77879827">

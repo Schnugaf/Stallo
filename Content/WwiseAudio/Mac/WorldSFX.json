@@ -170,6 +170,15 @@
       "DurationMax": "21.782585"
      },
      {
+      "Id": "3114083317",
+      "Name": "EndMusicCredits",
+      "ObjectPath": "\\Events\\Default Work Unit\\Menu\\EndMusicCredits",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
       "Id": "2028047724",
       "Name": "faucetOff",
       "ObjectPath": "\\Events\\Default Work Unit\\Kitchen\\faucetOff",
@@ -246,8 +255,15 @@
       "Id": "3991942870",
       "Name": "Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Menu\\Music",
-      "MaxAttenuation": "2000.000000",
       "DurationType": "Infinite"
+     },
+     {
+      "Id": "435872092",
+      "Name": "MusicCredits",
+      "ObjectPath": "\\Events\\Default Work Unit\\Menu\\MusicCredits",
+      "DurationType": "OneShot",
+      "DurationMin": "120.163269",
+      "DurationMax": "120.163269"
      },
      {
       "Id": "2934549620",
@@ -465,6 +481,12 @@
       "Language": "SFX",
       "ShortName": "Curtain3.wav",
       "Path": "SFX\\Curtain3_9E69E797.wem"
+     },
+     {
+      "Id": "224775150",
+      "Language": "SFX",
+      "ShortName": "the-long-awakening_z1ei7LBd.wav",
+      "Path": "SFX\\the-long-awakening_z1ei7LBd_9E69E797.wem"
      },
      {
       "Id": "235046290",
